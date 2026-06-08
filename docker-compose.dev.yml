@@ -1,0 +1,48 @@
+services:
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    environment:
+      - ENVIRONMENT=development
+      - LOG_LEVEL=DEBUG
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./api/src:/app/src
+      - ./api/data:/app/data
+    command: uvicorn src.backend.main:app --host 0.0.0.0 --port 8000 --reload
+    deploy:
+      resources:
+        limits:
+          cpus: "2"
+          memory: 3G
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - GENERATE_SOURCEMAP=false
+    volumes:
+      - ./client/src:/app/src
+      - ./client/public:/app/public
+    ports:
+      - "3000:80"
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 512M
+
+  postgres:
+    environment:
+      - POSTGRES_PASSWORD=dev_password
+      - POSTGRES_INITDB_ARGS=-c shared_preload_libraries=pg_stat_statements
+
+  redis:
+    deploy:
+      resources:
+        limits:
+          cpus: "1"
+          memory: 256M

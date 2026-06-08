@@ -1,0 +1,59 @@
+Name
+Status
+Description
+Created At
+Timezone
+
+TTL
+
+user_document_embeddings
+Loaded
+--
+Apr 1, 2026 7:46 PM
+Use Default Timezone (UTC)
+off
+Shards
+
+Loaded Entities
+
+Consistency Level
+
+Dynamic Field
+
+Allow Insert Auto ID
+
+1
+265
+Strong
+Schema
+Field Name	Field Type	Default Value	Description	Actions
+primary_key
+PK
+Auto ID
+INT64
+
+--
+The Primary Key
+vector
+Index
+FLOAT_VECTOR (768)
+
+--
+--
+file_id
+VARCHAR (256)
+
+--
+--
+chunk_index
+INT32
+
+--
+--
+text
+VARCHAR (65535)
+
+--
+--
+Dynamic Field
+

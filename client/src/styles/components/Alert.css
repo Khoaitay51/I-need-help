@@ -1,0 +1,134 @@
+/* Alert Component */
+.alert {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--space-3);
+  padding: var(--space-4);
+  border-radius: var(--radius-lg);
+  border-left: 4px solid;
+  margin-bottom: var(--space-4);
+  animation: slide-up 300ms ease-out;
+}
+
+.alert-content {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  flex: 1;
+}
+
+.alert-icon {
+  width: 20px;
+  height: 20px;
+  margin-top: 2px;
+  flex-shrink: 0;
+}
+
+.alert-text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.alert-title {
+  font-weight: var(--font-weight-semibold);
+  font-size: var(--font-size-sm);
+}
+
+.alert-message {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+}
+
+.alert-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  color: currentColor;
+  cursor: pointer;
+  border-radius: var(--radius-md);
+  transition: all var(--transition-base);
+  flex-shrink: 0;
+}
+
+.alert-close:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/* Info Alert */
+.alert-info {
+  background-color: #eff6ff;
+  border-left-color: #3b82f6;
+  color: #1e40af;
+}
+
+.alert-info .alert-icon {
+  color: #3b82f6;
+}
+
+/* Success Alert */
+.alert-success {
+  background-color: #ecfdf5;
+  border-left-color: #10b981;
+  color: #065f46;
+}
+
+.alert-success .alert-icon {
+  color: #10b981;
+}
+
+/* Warning Alert */
+.alert-warning {
+  background-color: #fffbeb;
+  border-left-color: #f59e0b;
+  color: #b45309;
+}
+
+.alert-warning .alert-icon {
+  color: #f59e0b;
+}
+
+/* Error Alert */
+.alert-error {
+  background-color: #fef2f2;
+  border-left-color: var(--error);
+  color: #991b1b;
+}
+
+.alert-error .alert-icon {
+  color: var(--error);
+}
+
+/* Dark mode */
+html.dark .alert-info {
+  background-color: rgba(59, 130, 246, 0.1);
+}
+
+html.dark .alert-success {
+  background-color: rgba(16, 185, 129, 0.1);
+}
+
+html.dark .alert-warning {
+  background-color: rgba(245, 158, 11, 0.1);
+}
+
+html.dark .alert-error {
+  background-color: rgba(239, 68, 68, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 640px) {
+  .alert {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .alert-close {
+    align-self: flex-end;
+  }
+}

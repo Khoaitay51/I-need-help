@@ -1,0 +1,251 @@
+/* ============================================================
+   ACTVN-AGENT — AppBar (TopNavBar)
+   Reference-matching: blur bg, nav tabs, icon actions
+   ============================================================ */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap");
+
+.app-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 50;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  height: 64px;
+  background: rgba(248, 249, 251, 0.8);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+html.dark .app-bar {
+  background: rgba(15, 17, 21, 0.8);
+  border-bottom-color: rgba(255, 255, 255, 0.04);
+}
+
+.app-bar-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 100%;
+}
+
+/* Logo */
+.logo-section {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.logo-section .logo {
+  width: 44px;
+  height: 44px;
+  object-fit: contain;
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  flex-shrink: 0;
+}
+
+.title-section {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.main-title {
+  font-family: "Manrope", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #bb0013;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+html.dark .main-title {
+  color: #ed1c24;
+}
+
+.sub-title {
+  display: none;
+}
+
+/* Nav Tabs */
+.mode-switcher {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin-left: 32px;
+  font-family: "Manrope", sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+}
+
+.mode-btn {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 4px 0;
+  border: none;
+  background: none;
+  font-family: "Manrope", sans-serif;
+  font-size: 0.88rem;
+  font-weight: 600;
+  color: #64748b;
+  cursor: pointer;
+  transition: color 0.2s;
+  border-bottom: 2px solid transparent;
+  border-radius: 0;
+}
+
+.mode-btn:hover {
+  color: #bb0013;
+}
+
+.mode-btn.active {
+  color: #bb0013;
+  border-bottom-color: #bb0013;
+  background: none;
+  box-shadow: none;
+}
+
+.mode-btn svg {
+  display: none; /* hide icons, text-only nav like reference */
+}
+
+/* Right actions */
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.app-bar-controls {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  margin: 0;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.welcome-text {
+  display: none;
+}
+
+.admin-link,
+.logout-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  color: #64748b;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-size: 0;
+  text-decoration: none;
+}
+
+.admin-link svg,
+.logout-btn svg,
+.admin-link .react-icon,
+.logout-btn .react-icon {
+  display: block;
+}
+
+.admin-link:hover,
+.logout-btn:hover {
+  background: rgba(0, 0, 0, 0.04);
+  color: #bb0013;
+}
+
+html.dark .admin-link:hover,
+html.dark .logout-btn:hover {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ed1c24;
+}
+
+.guest-text {
+  display: none;
+}
+
+/* Model Info Badge */
+.model-info-badge {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 12px;
+  background: rgba(187, 0, 19, 0.06);
+  border: 1px solid rgba(187, 0, 19, 0.12);
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #bb0013;
+  white-space: nowrap;
+  margin-right: 8px;
+}
+
+.model-info-badge .model-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #22c55e;
+  animation: model-pulse 2s ease-in-out infinite;
+}
+
+@keyframes model-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
+  }
+}
+
+html.dark .model-info-badge {
+  background: rgba(237, 28, 36, 0.08);
+  border-color: rgba(237, 28, 36, 0.15);
+  color: #ed1c24;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .app-bar {
+    padding: 0 12px;
+    height: 56px;
+  }
+  .mode-switcher {
+    gap: 16px;
+    margin-left: 16px;
+  }
+  .mode-btn {
+    font-size: 0.8rem;
+  }
+  .model-info-badge {
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .mode-switcher {
+    display: none;
+  }
+  .main-title {
+    font-size: 1rem;
+  }
+}

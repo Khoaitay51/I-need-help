@@ -1,0 +1,160 @@
+/* ============================================================
+   ACTVN-AGENT — Typing Indicator
+   LibreChat-inspired Animated Indicator
+   ============================================================ */
+
+.typing-container {
+  display: flex;
+  width: 100%;
+  animation: msg-fade-in 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+  padding: 12px 0;
+}
+
+.typing-wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 28px;
+  font-family: var(--font-body);
+}
+
+/* Avatar */
+.typing-avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #7c4dff, #5e35b1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  flex-shrink: 0;
+  box-shadow: var(--shadow-sm);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+/* Content */
+.typing-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  background: var(--surface-secondary);
+  border: 1px solid var(--outline-variant);
+  border-radius: 4px var(--radius-lg) var(--radius-lg) var(--radius-lg);
+  padding: 12px 16px;
+  max-width: 600px;
+}
+
+.typing-label {
+  font-family: var(--font-body);
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--on-surface-variant);
+  animation: typing-fade 1.5s ease-in-out infinite;
+}
+
+@keyframes typing-fade {
+  0%,
+  100% {
+    opacity: 0.6;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Typing dots animation */
+.typing-shimmer {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  height: 20px;
+}
+
+.typing-shimmer-bar {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--on-surface-variant);
+  animation: typing-bounce 1.4s ease-in-out infinite;
+}
+
+.typing-shimmer-bar:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.typing-shimmer-bar:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-shimmer-bar:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes typing-bounce {
+  0%,
+  60%,
+  100% {
+    opacity: 0.5;
+    transform: translateY(0);
+  }
+  30% {
+    opacity: 1;
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes msg-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 768px) {
+  .typing-wrapper {
+    padding: 4px 10px;
+    gap: 8px;
+  }
+  .typing-avatar {
+    width: 30px;
+    height: 30px;
+    font-size: 12px;
+  }
+  .typing-content {
+    padding: 10px 12px;
+    max-width: 240px;
+    border-radius: 4px 14px 14px 14px;
+  }
+  .typing-label {
+    font-size: 0.8rem;
+  }
+  .typing-shimmer-bar {
+    width: 7px;
+    height: 7px;
+  }
+}
+
+@media (max-width: 480px) {
+  .typing-wrapper {
+    padding: 4px 8px;
+  }
+  .typing-avatar {
+    width: 26px;
+    height: 26px;
+    font-size: 11px;
+  }
+  .typing-content {
+    max-width: 200px;
+    padding: 8px 10px;
+  }
+}

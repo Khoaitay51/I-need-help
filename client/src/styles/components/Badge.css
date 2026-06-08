@@ -1,0 +1,109 @@
+/* Badge Component */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1) var(--space-2);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+  border-radius: var(--radius-full);
+  white-space: nowrap;
+  transition: all var(--transition-base);
+}
+
+.badge-icon {
+  width: 12px;
+  height: 12px;
+}
+
+/* Primary - KMA Red */
+.badge-primary {
+  background-color: var(--kma-red-100);
+  color: var(--kma-red-700);
+  border: 1px solid var(--kma-red-200);
+}
+
+.badge-primary:hover {
+  background-color: var(--kma-red-200);
+}
+
+/* Success */
+.badge-success {
+  background-color: #ecfdf5;
+  color: #065f46;
+  border: 1px solid #a7f3d0;
+}
+
+.badge-success:hover {
+  background-color: #d1fae5;
+}
+
+/* Warning */
+.badge-warning {
+  background-color: #fffbeb;
+  color: #b45309;
+  border: 1px solid #fcd34d;
+}
+
+.badge-warning:hover {
+  background-color: #fef3c7;
+}
+
+/* Error */
+.badge-error {
+  background-color: #fef2f2;
+  color: #991b1b;
+  border: 1px solid #fecaca;
+}
+
+.badge-error:hover {
+  background-color: #fee2e2;
+}
+
+/* Info */
+.badge-info {
+  background-color: #eff6ff;
+  color: #1e40af;
+  border: 1px solid #bfdbfe;
+}
+
+.badge-info:hover {
+  background-color: #dbeafe;
+}
+
+/* Secondary */
+.badge-secondary {
+  background-color: var(--bg-tertiary);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.badge-secondary:hover {
+  background-color: var(--border);
+}
+
+/* Neutral */
+.badge-neutral {
+  background-color: var(--gray-200);
+  color: var(--gray-700);
+  border: 1px solid var(--gray-300);
+}
+
+.badge-neutral:hover {
+  background-color: var(--gray-300);
+}
+
+/* Outline variant not filled */
+.badge-outline {
+  background-color: transparent;
+  border: 1px solid var(--border);
+}
+
+.badge-outline-primary {
+  color: var(--kma-red-600);
+  border-color: var(--kma-red-300);
+}
+
+.badge-outline-primary:hover {
+  background-color: rgba(220, 38, 38, 0.05);
+}

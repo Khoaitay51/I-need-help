@@ -1,0 +1,15 @@
+{
+  "short_name": "KMA Chatbot",
+  "name": "KMA Chatbot - Học viện Kỹ thuật Mật mã",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64",
+      "type": "image/svg+xml"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

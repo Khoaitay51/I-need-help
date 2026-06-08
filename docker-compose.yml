@@ -1,0 +1,203 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: lma_postgres
+    environment:
+      POSTGRES_DB: ${DB_NAME:-lma_chatbot}
+      POSTGRES_USER: ${DB_USER:-lma_user}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:-pass123}
+    ports:
+      - "${DB_PORT:-5432}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lma_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${DB_USER:-lma_user}"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  mongodb:
+    image: mongo:7
+    container_name: lma_mongodb
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: ${MONGO_USER:-admin}
+      MONGO_INITDB_ROOT_PASSWORD: ${MONGO_PASSWORD:-password123}
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_configdb:/data/configdb
+    networks:
+      - lma_network
+    healthcheck:
+      test: ["CMD", "mongosh", "--eval", "db.runCommand('ping')"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    restart: unless-stopped
+
+  etcd:
+    image: quay.io/coreos/etcd:v3.5.5
+    container_name: lma_milvus_etcd
+    environment:
+      ETCD_AUTO_COMPACTION_MODE: revision
+      ETCD_AUTO_COMPACTION_RETENTION: "1000"
+      ETCD_QUOTA_BACKEND_BYTES: "4294967296"
+      ETCD_SNAPSHOT_COUNT: "50000"
+    volumes:
+      - milvus_etcd_data:/etcd
+    command: etcd -advertise-client-urls=http://127.0.0.1:2379 -listen-client-urls http://0.0.0.0:2379 --data-dir /etcd
+    networks:
+      - lma_network
+    healthcheck:
+      test: ["CMD", "etcdctl", "endpoint", "health"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  minio:
+    image: minio/minio:RELEASE.2023-03-20T20-16-18Z
+    container_name: lma_milvus_minio
+    environment:
+      MINIO_ROOT_USER: minioadmin
+      MINIO_ROOT_PASSWORD: minioadmin
+    volumes:
+      - milvus_minio_data:/minio_data
+    command: minio server /minio_data
+    networks:
+      - lma_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+
+  milvus:
+    image: milvusdb/milvus:v2.4.15
+    container_name: lma_milvus
+    command: ["milvus", "run", "standalone"]
+    environment:
+      ETCD_ENDPOINTS: etcd:2379
+      MINIO_ADDRESS: minio:9000
+    ports:
+      - "19530:19530"
+      - "9091:9091"
+    volumes:
+      - milvus_data:/var/lib/milvus
+    networks:
+      - lma_network
+    depends_on:
+      etcd:
+        condition: service_healthy
+      minio:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9091/healthz"]
+      interval: 10s
+      timeout: 5s
+      retries: 20
+      start_period: 60s
+    restart: unless-stopped
+
+
+  ollama:
+    image: ollama/ollama:latest
+    container_name: lma_ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    networks:
+      - lma_network
+    restart: unless-stopped
+    gpus: all    
+
+  ollama-pull-qwen3-06b:
+    image: ollama/ollama:latest
+    container_name: lma_ollama_pull_qwen3_06b
+    depends_on:
+      - ollama
+    environment:
+      OLLAMA_HOST: http://ollama:11434
+    entrypoint: ["/bin/sh", "-c"]
+    command: >
+      "until ollama list; do
+        echo 'Waiting for Ollama...';
+        sleep 2;
+      done;
+      ollama pull qwen3:0.6b"
+    networks:
+      - lma_network
+    profiles:
+      - pull-models
+    restart: "no"
+
+
+  api:
+    build:
+      context: ./api
+      dockerfile: Dockerfile
+    container_name: lma_api
+    depends_on:
+      postgres:
+        condition: service_healthy
+      mongodb:
+        condition: service_healthy
+      milvus:
+        condition: service_healthy
+    environment:
+      POSTGRES_URI: postgresql://${DB_USER:-lma_user}:${DB_PASSWORD:-pass123}@postgres:5432/${DB_NAME:-lma_chatbot}
+      MONGODB_URL: mongodb://${MONGO_USER:-admin}:${MONGO_PASSWORD:-password123}@mongodb:27017/lma_agent?authSource=admin
+      MILVUS_HOST: milvus
+      MILVUS_PORT: 19530
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      GOOGLE_API_KEY: ${GOOGLE_API_KEY}
+      PYTHONUNBUFFERED: 1
+      ACTIVE_MODEL_TYPE: ollama
+      DEFAULT_MODEL_TYPE: ollama
+      ACTIVE_OLLAMA_MODEL: qwen3:0.6b
+      OLLAMA_MODEL: qwen3:0.6b
+      RAG_MODEL: qwen3:0.6b
+      OLLAMA_BASE_URL: http://ollama:11434
+      OLLAMA_EMBEDDING_MODEL: nomic-embed-text:latest
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./api/src:/app/src
+      - ./api/data:/app/data
+      - ./api/graphs:/app/graphs
+      - ./api/mermaid:/app/mermaid
+    networks:
+      - lma_network
+    restart: unless-stopped
+
+  client:
+    build:
+      context: ./client
+      dockerfile: Dockerfile
+    container_name: lma_client
+    depends_on:
+      - api
+    environment:
+      REACT_APP_API_URL: http://api:8000
+    ports:
+      - "3000:3000"
+    networks:
+      - lma_network
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  mongodb_data:
+  mongodb_configdb:
+  milvus_data:
+  milvus_etcd_data:
+  milvus_minio_data:
+  ollama_data:
+
+networks:
+  lma_network:
+    driver: bridge

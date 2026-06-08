@@ -1,0 +1,378 @@
+/* ============================================================
+   ACTVN-AGENT — Welcome Screen
+   Modern Premium Design — Mobile First
+   ============================================================ */
+
+.welcome-screen {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 28px 48px;
+  max-width: 860px;
+  margin: 0 auto;
+  width: 100%;
+  gap: 36px;
+  min-height: 0;
+  font-family: var(--font-body);
+}
+
+/* ---- Hero ---- */
+.welcome-hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.welcome-brand {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.welcome-brand-circle {
+  width: 64px;
+  height: 64px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--kma-primary), var(--accent));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 8px 28px rgba(194, 24, 91, 0.25);
+}
+
+html.dark .welcome-brand-circle {
+  box-shadow: 0 8px 28px rgba(233, 30, 99, 0.3);
+}
+
+.welcome-brand-circle img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+}
+
+.welcome-heading {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--on-surface);
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+html.dark .welcome-heading {
+  color: var(--on-surface);
+}
+
+.welcome-subheading {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--on-surface-variant);
+  line-height: 1.65;
+  max-width: 540px;
+  margin: 0;
+  font-weight: 400;
+  letter-spacing: -0.01em;
+}
+
+html.dark .welcome-subheading {
+  color: var(--on-surface-variant);
+}
+
+/* ---- Quick Action Cards ---- */
+.welcome-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+.welcome-grid-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 22px;
+  background: var(--surface-secondary);
+  border: 1px solid var(--outline-variant);
+  border-radius: 14px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: left;
+  font-family: var(--font-body);
+  overflow: hidden;
+}
+
+.welcome-grid-card:hover {
+  border-color: var(--kma-primary-20);
+  box-shadow: 0 8px 32px var(--kma-primary-10);
+  transform: translateY(-2px);
+}
+
+.welcome-grid-card:active {
+  transform: translateY(0) scale(0.98);
+}
+
+html.dark .welcome-grid-card {
+  background: var(--surface-bright);
+  border-color: var(--outline-variant);
+}
+
+html.dark .welcome-grid-card:hover {
+  border-color: var(--kma-primary-20);
+  box-shadow: 0 8px 32px rgba(233, 30, 99, 0.08);
+}
+
+.welcome-grid-card-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--kma-primary-10);
+  color: var(--kma-primary);
+  flex-shrink: 0;
+}
+
+html.dark .welcome-grid-card-icon {
+  background: var(--kma-primary-10);
+  color: var(--kma-primary-light);
+}
+
+.welcome-grid-card-title {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--on-surface);
+  margin: 0;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+}
+
+html.dark .welcome-grid-card-title {
+  color: var(--on-surface);
+}
+
+.welcome-grid-card-desc {
+  font-size: 0.78rem;
+  color: var(--on-surface-variant);
+  margin: 0;
+  line-height: 1.45;
+}
+
+html.dark .welcome-grid-card-desc {
+  color: var(--on-surface-variant);
+}
+
+.welcome-grid-card-arrow {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: var(--outline-variant);
+  transition: all 0.2s ease;
+}
+
+.welcome-grid-card:hover .welcome-grid-card-arrow {
+  color: var(--kma-primary);
+  transform: translateX(3px);
+}
+
+html.dark .welcome-grid-card-arrow {
+  color: var(--outline-variant);
+}
+
+html.dark .welcome-grid-card:hover .welcome-grid-card-arrow {
+  color: var(--kma-primary-light);
+}
+
+/* ---- Suggestion Pills ---- */
+.welcome-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.welcome-suggestion-pill {
+  padding: 9px 18px;
+  background: transparent;
+  border: 1px solid var(--outline-variant);
+  border-radius: 999px;
+  color: var(--on-surface-variant);
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  letter-spacing: -0.01em;
+}
+
+.welcome-suggestion-pill:hover {
+  background: var(--kma-primary-10);
+  border-color: var(--kma-primary-20);
+  color: var(--kma-primary);
+}
+
+.welcome-suggestion-pill:active {
+  transform: scale(0.97);
+}
+
+html.dark .welcome-suggestion-pill {
+  border-color: var(--outline-variant);
+  color: var(--on-surface-variant);
+}
+
+html.dark .welcome-suggestion-pill:hover {
+  background: var(--kma-primary-10);
+  border-color: var(--kma-primary-20);
+  color: var(--kma-primary-light);
+}
+
+/* ============================================================
+   MOBILE RESPONSIVE — Welcome Screen
+   ============================================================ */
+
+@media (max-width: 768px) {
+  .welcome-screen {
+    padding: 20px 14px 24px;
+    gap: 24px;
+    justify-content: flex-start;
+    padding-top: 10vh;
+  }
+
+  .welcome-hero {
+    gap: 12px;
+  }
+
+  .welcome-brand-circle {
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+  }
+
+  .welcome-brand-circle img {
+    width: 28px;
+    height: 28px;
+  }
+
+  .welcome-heading {
+    font-size: 1.4rem;
+    line-height: 1.25;
+  }
+
+  .welcome-subheading {
+    font-size: 0.86rem;
+    line-height: 1.55;
+    max-width: 100%;
+  }
+
+  /* 2-column grid preserved on tablet, 1-col on small */
+  .welcome-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+  }
+
+  .welcome-grid-card {
+    padding: 14px;
+    border-radius: 12px;
+    gap: 6px;
+  }
+
+  .welcome-grid-card-icon {
+    width: 34px;
+    height: 34px;
+    border-radius: 10px;
+  }
+
+  .welcome-grid-card-title {
+    font-size: 0.82rem;
+  }
+
+  .welcome-grid-card-desc {
+    font-size: 0.72rem;
+    line-height: 1.4;
+  }
+
+  .welcome-grid-card-arrow {
+    top: 14px;
+    right: 14px;
+  }
+
+  /* Scrollable pills on mobile */
+  .welcome-suggestions {
+    gap: 6px;
+    justify-content: flex-start;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding: 0 4px;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .welcome-suggestions::-webkit-scrollbar {
+    display: none;
+  }
+
+  .welcome-suggestion-pill {
+    white-space: nowrap;
+    flex-shrink: 0;
+    padding: 8px 14px;
+    font-size: 0.78rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-screen {
+    padding: 16px 10px 20px;
+    gap: 20px;
+    padding-top: 6vh;
+  }
+
+  .welcome-heading {
+    font-size: 1.2rem;
+  }
+
+  .welcome-subheading {
+    font-size: 0.82rem;
+  }
+
+  /* Single column on very small screens */
+  .welcome-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .welcome-grid-card {
+    padding: 12px;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .welcome-grid-card-icon {
+    width: 36px;
+    height: 36px;
+  }
+
+  .welcome-grid-card-title {
+    font-size: 0.84rem;
+  }
+
+  .welcome-grid-card-desc {
+    display: none;
+  }
+
+  .welcome-grid-card-arrow {
+    position: static;
+    margin-left: auto;
+    flex-shrink: 0;
+  }
+
+  .welcome-suggestion-pill {
+    font-size: 0.75rem;
+    padding: 7px 12px;
+  }
+}

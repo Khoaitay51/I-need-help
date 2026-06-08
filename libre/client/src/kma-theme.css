@@ -1,0 +1,250 @@
+/**
+ * KMA Academy (Học viện Kỹ thuật Mật mã) Theme
+ * Custom branding for LibreChat
+ */
+
+/* KMA Brand Colors - Red Primary Theme */
+:root {
+  /* Primary Colors - KMA Red */
+  --kma-red-50: #fef2f2;
+  --kma-red-100: #fee2e2;
+  --kma-red-200: #fecaca;
+  --kma-red-300: #fca5a5;
+  --kma-red-400: #f87171;
+  --kma-red-500: #ef4444;
+  --kma-red-600: #dc2626;
+  --kma-red-700: #b91c1c;
+  --kma-red-800: #991b1b;
+  --kma-red-900: #7f1d1d;
+  
+  /* Accent Colors */
+  --kma-blue-500: #3b82f6;
+  --kma-blue-600: #2563eb;
+  --kma-blue-700: #1d4ed8;
+  
+  /* Override brand color to KMA red */
+  --brand-purple: #dc2626;
+}
+
+/* Light mode KMA theme */
+html {
+  --brand-purple: #dc2626;
+  
+  /* Submit buttons - KMA Red */
+  --surface-submit: #dc2626;
+  --surface-submit-hover: #b91c1c;
+  
+  /* Keep destructive as darker red */
+  --surface-destructive: #991b1b;
+  --surface-destructive-hover: #7f1d1d;
+}
+
+/* Dark mode KMA theme */
+html.dark {
+  --brand-purple: #ef4444;
+  
+  /* Submit buttons - KMA Red */
+  --surface-submit: #dc2626;
+  --surface-submit-hover: #b91c1c;
+  
+  /* Destructive actions */
+  --surface-destructive: #991b1b;
+  --surface-destructive-hover: #7f1d1d;
+}
+
+/* Header with KMA gradient */
+.custom-kma-header {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+/* Sidebar with KMA branding */
+[data-testid="nav-toggle-button"],
+.nav-link-active,
+.active-nav-link {
+  color: #dc2626 !important;
+}
+
+/* Primary buttons */
+button[type="submit"],
+.btn-primary,
+.primary-button {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
+  border: none !important;
+}
+
+button[type="submit"]:hover,
+.btn-primary:hover,
+.primary-button:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%) !important;
+}
+
+/* Focus states */
+button:focus,
+input:focus,
+textarea:focus {
+  outline-color: #dc2626;
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.2);
+}
+
+/* Links */
+a.text-primary,
+.text-brand {
+  color: #dc2626 !important;
+}
+
+a.text-primary:hover,
+.text-brand:hover {
+  color: #b91c1c !important;
+}
+
+/* Avatar ring for active users */
+.avatar-ring-active {
+  ring-color: #dc2626 !important;
+}
+
+/* Progress bars */
+.progress-bar,
+.progress-indicator {
+  background: linear-gradient(90deg, #dc2626, #ef4444) !important;
+}
+
+/* Tags and badges */
+.badge-primary,
+.tag-primary {
+  background-color: #fef2f2 !important;
+  color: #dc2626 !important;
+  border-color: #fecaca !important;
+}
+
+/* Switch/Toggle when active */
+.switch-active,
+input[type="checkbox"]:checked + span {
+  background-color: #dc2626 !important;
+}
+
+/* Chat message styling */
+.message-user {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+}
+
+/* Selection highlight */
+::selection {
+  background-color: rgba(220, 38, 38, 0.2);
+}
+
+/* Scrollbar styling - optional */
+::-webkit-scrollbar-thumb {
+  background-color: #dc2626;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #b91c1c;
+}
+
+/* Logo styling */
+.kma-logo {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Login page branding */
+.login-container {
+  position: relative;
+}
+
+.login-header {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%);
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.login-header::before {
+  content: "Học viện Kỹ thuật Mật mã";
+  display: block;
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.login-header::after {
+  content: "KMA Academy";
+  display: block;
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+/* Sidebar logo area */
+.sidebar-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 1rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.sidebar-logo-text {
+  font-weight: 600;
+  color: #dc2626;
+  font-size: 1rem;
+}
+
+.sidebar-logo-subtext {
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+
+/* New chat button */
+.new-chat-button {
+  background: linear-gradient(135deg, #dc2626 0%, #b91c1c 100%) !important;
+  color: white !important;
+}
+
+.new-chat-button:hover {
+  background: linear-gradient(135deg, #b91c1c 0%, #991b1b 100%) !important;
+}
+
+/* Tool/Model indicators */
+.model-indicator,
+.tool-indicator {
+  border-left: 3px solid #dc2626;
+}
+
+/* Loading states */
+.loading-spinner {
+  border-top-color: #dc2626 !important;
+}
+
+@keyframes kma-pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.kma-loading {
+  animation: kma-pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .kma-logo {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .sidebar-logo-text {
+    font-size: 0.875rem;
+  }
+}
+
+/* Print styling */
+@media print {
+  .custom-kma-header {
+    background: #dc2626 !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}

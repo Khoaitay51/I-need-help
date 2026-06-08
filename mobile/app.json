@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "ACTVN AI",
+    "slug": "actvn-ai-mobile",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.actvn.ai.mobile",
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "android": {
+      "package": "com.actvn.ai.mobile",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "extra": {
+      "apiBaseUrl": "http://192.168.0.102:8000"
+    }
+  }
+}

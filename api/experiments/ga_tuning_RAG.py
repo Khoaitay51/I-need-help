@@ -2,6 +2,7 @@ import csv
 import json
 import math
 import argparse
+import logging
 import random
 import sys
 import time
@@ -50,6 +51,72 @@ SIMILARITY_THRESHOLD = 0.65
 
 RESULT_DIR.mkdir(parents=True, exist_ok=True) 
 RUN_DIR.mkdir(parents=True, exist_ok=True)
+
+GA_LOGGER_NAME = "ga_graph_rag"
+logger = logging.getLogger(GA_LOGGER_NAME)
+
+
+def setup_ga_logging():
+    logger.setLevel(logging.INFO)
+    logger.propagate = False
+
+    if any(getattr(handler, "_ga_console_handler", False) for handler in logger.handlers):
+        return
+
+    handler = logging.StreamHandler(sys.stdout)
+    handler._ga_console_handler = True
+    handler.setFormatter(logging.Formatter(
+        "%(asctime)s | %(levelname)s | %(message)s",
+        datefmt="%Y-%m-%d %H:%M:%S",
+    ))
+    logger.addHandler(handler)
+
+
+def summarize_doc(doc, rank):
+    metadata = getattr(doc, "metadata", {}) or {}
+    content = " ".join(getattr(doc, "page_content", str(doc)).split())
+    source = (
+        metadata.get("source_path")
+        or metadata.get("full_path")
+        or metadata.get("source")
+        or metadata.get("filename")
+        or "unknown"
+    )
+
+    return {
+        "rank": rank,
+        "source": str(source),
+        "department": metadata.get("query_department") or metadata.get("department", ""),
+        "chunk_index": metadata.get("chunk_index", ""),
+        "score": metadata.get("relevance_score", ""),
+        "preview": content[:240],
+    }
+
+
+def log_graph_stats(config, manager, loaded_from_cache):
+    stats = manager.get_department_stats()
+    total_nodes = sum(stat.get("nodes", 0) for stat in stats.values())
+    total_edges = sum(stat.get("edges", 0) for stat in stats.values())
+    total_communities = sum(stat.get("communities", 0) for stat in stats.values())
+
+    logger.info(
+        "[GRAPH_BUILD] config=%s source=%s total_nodes=%s total_edges=%s total_communities=%s",
+        config,
+        "cache" if loaded_from_cache else "built",
+        total_nodes,
+        total_edges,
+        total_communities,
+    )
+
+    for dept, stat in stats.items():
+        logger.info(
+            "[GRAPH_BUILD][%s] nodes=%s edges=%s communities=%s available=%s",
+            dept,
+            stat.get("nodes", 0),
+            stat.get("edges", 0),
+            stat.get("communities", 0),
+            stat.get("available", False),
+        )
 
 
 @dataclass
@@ -222,7 +289,7 @@ def extract_llm_text(response):
     return str(response)
 
 
-def generate_answer_with_llm(question, retrieved_docs, llm):
+def generate_answer_with_llm(question, retrieved_docs, llm, config=None):
     context = "\n\n".join(
         f"[Chunk {idx + 1}]\n{doc.page_content}"
         for idx, doc in enumerate(retrieved_docs)
@@ -244,7 +311,14 @@ Trả lời ngắn gọn, đúng trọng tâm:
 """.strip()
 
     response = llm.invoke([HumanMessage(content=prompt)])
-    return extract_llm_text(response)
+    answer = extract_llm_text(response)
+    logger.info(
+        "[LLM_RESPONSE] config=%s question=%s response=%s",
+        config,
+        question,
+        " ".join(answer.split()),
+    )
+    return answer
 
 
 def score_generated_answer(generated_answer, expected_answer, embeddings, embedding_cache):
@@ -295,7 +369,7 @@ def deduplicate_docs(docs):
     return unique_docs
 
 
-def retrieve_for_evaluation(manager, question, top_k):
+def retrieve_for_evaluation(manager, question, top_k, config=None):
     if not manager.department_retrievers:
         manager.load_existing_graphs()
 
@@ -341,7 +415,24 @@ def retrieve_for_evaluation(manager, question, top_k):
         if len(deduplicate_docs(retrieved_docs)) >= top_k:
             break
 
-    return deduplicate_docs(retrieved_docs)[:top_k]
+    top_docs = deduplicate_docs(retrieved_docs)[:top_k]
+    top_doc_summaries = [
+        summarize_doc(doc, rank)
+        for rank, doc in enumerate(top_docs, start=1)
+    ]
+
+    logger.info(
+        "[RETRIEVE] config=%s top_k=%s question=%s departments=%s returned=%s",
+        config,
+        top_k,
+        question,
+        candidate_departments,
+        len(top_docs),
+    )
+    for summary in top_doc_summaries:
+        logger.info("[RETRIEVE][TOP_%s] %s", summary["rank"], summary)
+
+    return top_docs
 
 
 def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None):
@@ -360,8 +451,10 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
         retriever_internal_k=max(cfg["top_k"] * 3, 10),
     )
 
-    if not manager.load_existing_graphs():
+    loaded_from_cache = manager.load_existing_graphs()
+    if not loaded_from_cache:
         manager.build_department_graphs(documents)
+    log_graph_stats(cfg, manager, loaded_from_cache)
 
     query_metrics = []
     retrieval_times = []
@@ -373,6 +466,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
             manager,
             item["question"],
             cfg["top_k"],
+            config=cfg,
         )
         retrieval_times.append((time.time() - start) * 1000)
 
@@ -396,6 +490,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
                 item["question"],
                 docs_only,
                 llm,
+                config=cfg,
             )
             answer_similarities.append(
                 score_generated_answer(
@@ -676,11 +771,18 @@ def save_ranked_csv(all_rows, path):
 
 
 def main():
+    setup_ga_logging()
+
     parser = argparse.ArgumentParser(description="GA tuning for KMA GraphRAG")
     parser.add_argument(
         "--baseline",
         action="store_true",
         help="Only evaluate the current baseline: threshold=0.7, max_edges=7, top_k=10",
+    )
+    parser.add_argument(
+        "--llm-eval",
+        action="store_true",
+        help="Generate answers with the active LLM and log each LLM response during evaluation",
     )
     args = parser.parse_args()
 
@@ -700,7 +802,14 @@ def main():
     embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
     embedding_cache = {}
     evaluation_cache = {}
-    llm = get_llm() if USE_LLM_EVAL else None
+    llm = get_llm() if (USE_LLM_EVAL or args.llm_eval) else None
+    logger.info(
+        "[GA_START] generations=%s population=%s dataset_size=%s llm_eval=%s",
+        GENERATIONS,
+        POPULATION_SIZE,
+        len(dataset),
+        llm is not None,
+    )
 
     if args.baseline:
         run_baseline(dataset, documents, embeddings, embedding_cache, llm=llm)

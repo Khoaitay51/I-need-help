@@ -56,22 +56,31 @@ RUN_DIR.mkdir(parents=True, exist_ok=True)
 
 GA_LOGGER_NAME = "ga_graph_rag"
 logger = logging.getLogger(GA_LOGGER_NAME)
+GA_LOG_FILE = RESULT_DIR / f"ga_tuning_{time.strftime('%Y%m%d_%H%M%S')}.log"
 
 
 def setup_ga_logging():
     logger.setLevel(logging.INFO)
     logger.propagate = False
 
-    if any(getattr(handler, "_ga_console_handler", False) for handler in logger.handlers):
-        return
-
-    handler = logging.StreamHandler(sys.stdout)
-    handler._ga_console_handler = True
-    handler.setFormatter(logging.Formatter(
+    formatter = logging.Formatter(
         "%(asctime)s | %(levelname)s | %(message)s",
         datefmt="%Y-%m-%d %H:%M:%S",
-    ))
-    logger.addHandler(handler)
+    )
+
+    if not any(getattr(handler, "_ga_console_handler", False) for handler in logger.handlers):
+        console_handler = logging.StreamHandler(sys.stdout)
+        console_handler._ga_console_handler = True
+        console_handler.setFormatter(formatter)
+        logger.addHandler(console_handler)
+
+    if not any(getattr(handler, "_ga_file_handler", False) for handler in logger.handlers):
+        file_handler = logging.FileHandler(GA_LOG_FILE, encoding="utf-8")
+        file_handler._ga_file_handler = True
+        file_handler.setFormatter(formatter)
+        logger.addHandler(file_handler)
+
+    logger.info("[LOG_FILE] %s", GA_LOG_FILE)
 
 
 def summarize_doc(doc, rank):

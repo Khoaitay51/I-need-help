@@ -20,9 +20,11 @@ for path in (API_DIR, SRC_DIR):
     if str(path) not in sys.path:
         sys.path.insert(0, str(path))
 
-from src.graph_rag.department_graph_manager import DepartmentGraphManager
+from src.graph_rag.graph_builder import DocumentGraph
+from src.graph_rag.graph_retriever import GraphRoutedRetriever
+from src.graph_rag.subgraph_partitioner import SubgraphPartitioner
 from src.rag.table_aware_chunking import load_documents_from_folder
-from llm.config import get_llm
+from src.llm.config import get_llm
 
 THRESHOLD_VALUES = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 MAX_EDGES_VALUES = list(range(3, 11))
@@ -93,30 +95,15 @@ def summarize_doc(doc, rank):
     }
 
 
-def log_graph_stats(config, manager, loaded_from_cache):
-    stats = manager.get_department_stats()
-    total_nodes = sum(stat.get("nodes", 0) for stat in stats.values())
-    total_edges = sum(stat.get("edges", 0) for stat in stats.values())
-    total_communities = sum(stat.get("communities", 0) for stat in stats.values())
-
+def log_graph_stats(config, graph, partitioner, loaded_from_cache):
     logger.info(
         "[GRAPH_BUILD] config=%s source=%s total_nodes=%s total_edges=%s total_communities=%s",
         config,
         "cache" if loaded_from_cache else "built",
-        total_nodes,
-        total_edges,
-        total_communities,
+        graph.number_of_nodes(),
+        graph.number_of_edges(),
+        len(getattr(partitioner, "communities", {}) or {}),
     )
-
-    for dept, stat in stats.items():
-        logger.info(
-            "[GRAPH_BUILD][%s] nodes=%s edges=%s communities=%s available=%s",
-            dept,
-            stat.get("nodes", 0),
-            stat.get("edges", 0),
-            stat.get("communities", 0),
-            stat.get("available", False),
-        )
 
 
 @dataclass
@@ -369,51 +356,46 @@ def deduplicate_docs(docs):
     return unique_docs
 
 
-def retrieve_for_evaluation(manager, question, top_k, config=None):
-    if not manager.department_retrievers:
-        manager.load_existing_graphs()
+def get_shared_graph_retriever(cfg, documents):
+    graph_cache_dir = RUN_DIR / f"t{cfg['threshold']}_e{cfg['max_edges_per_node']}" / "document_graph"
+    graph_cache_dir.mkdir(parents=True, exist_ok=True)
+    graph_path = graph_cache_dir / "document_graph.pkl"
 
-    preferred_departments = []
+    graph_builder = DocumentGraph(
+        semantic_threshold=cfg["threshold"],
+        max_semantic_edges_per_node=cfg["max_edges_per_node"],
+        embeddings_model=EMBEDDING_MODEL,
+    )
 
+    loaded_from_cache = graph_path.exists()
+    if loaded_from_cache:
+        graph_builder.load_graph(str(graph_path))
+    else:
+        graph_builder.build_graph(documents)
+        graph_builder.save_graph(str(graph_path))
+
+    partitioner = SubgraphPartitioner(graph_builder.graph)
+    partitioner.partition_by_community_detection(generate_summaries=False)
+
+    retriever = GraphRoutedRetriever(
+        graph=graph_builder.graph,
+        partitioner=partitioner,
+        embeddings_model=EMBEDDING_MODEL,
+        k=cfg["top_k"],
+        internal_k=max(cfg["top_k"] * 3, 10),
+        hop_depth=3,
+        expansion_factor=2.5,
+    )
+
+    log_graph_stats(cfg, graph_builder.graph, partitioner, loaded_from_cache)
+    return retriever, graph_builder.graph
+
+
+def retrieve_for_evaluation(retriever, question, top_k, config=None):
     try:
-        decision = manager.detect_department_smart(
-            question,
-            user_metadata={"role": "admin"},
-        )
-        preferred_departments.append(decision.chosen_department)
-
-        for signal in getattr(decision, "signals", []):
-            if signal.department not in preferred_departments:
-                preferred_departments.append(signal.department)
+        retrieved_docs = retriever._get_relevant_documents(question)
     except Exception:
-        preferred_departments = []
-
-    candidate_departments = [
-        dept for dept in preferred_departments
-        if dept in manager.department_retrievers
-    ]
-
-    for dept in manager.department_retrievers:
-        if dept not in candidate_departments:
-            candidate_departments.append(dept)
-
-    retrieved_docs = []
-    for dept in candidate_departments:
-        retriever = manager.department_retrievers[dept]
-
-        try:
-            dept_docs = retriever._get_relevant_documents(question)
-        except Exception:
-            continue
-
-        for doc in dept_docs:
-            if hasattr(doc, "metadata"):
-                doc.metadata["query_department"] = dept
-
-        retrieved_docs.extend(dept_docs)
-
-        if len(deduplicate_docs(retrieved_docs)) >= top_k:
-            break
+        retrieved_docs = []
 
     top_docs = deduplicate_docs(retrieved_docs)[:top_k]
     top_doc_summaries = [
@@ -422,11 +404,10 @@ def retrieve_for_evaluation(manager, question, top_k, config=None):
     ]
 
     logger.info(
-        "[RETRIEVE] config=%s top_k=%s question=%s departments=%s returned=%s",
+        "[RETRIEVE] config=%s top_k=%s question=%s graph=document_graph returned=%s",
         config,
         top_k,
         question,
-        candidate_departments,
         len(top_docs),
     )
     for summary in top_doc_summaries:
@@ -437,24 +418,7 @@ def retrieve_for_evaluation(manager, question, top_k, config=None):
 
 def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None):
     cfg = decode(individual.chromosome)
-    graph_cache_dir = (
-        RUN_DIR
-        / f"t{cfg['threshold']}_e{cfg['max_edges_per_node']}"
-        / "department_graphs"
-    )
-
-    manager = DepartmentGraphManager(
-        base_output_dir=str(graph_cache_dir),
-        semantic_threshold=cfg["threshold"],
-        max_edges_per_node=cfg["max_edges_per_node"],
-        retriever_top_k=cfg["top_k"],
-        retriever_internal_k=max(cfg["top_k"] * 3, 10),
-    )
-
-    loaded_from_cache = manager.load_existing_graphs()
-    if not loaded_from_cache:
-        manager.build_department_graphs(documents)
-    log_graph_stats(cfg, manager, loaded_from_cache)
+    retriever, graph = get_shared_graph_retriever(cfg, documents)
 
     query_metrics = []
     retrieval_times = []
@@ -463,7 +427,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
     for item in dataset:
         start = time.time()
         retrieved_docs = retrieve_for_evaluation(
-            manager,
+            retriever,
             item["question"],
             cfg["top_k"],
             config=cfg,
@@ -501,9 +465,8 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
                 )
             )
 
-    stats = manager.get_department_stats()
-    total_nodes = sum(stat.get("nodes", 0) for stat in stats.values())
-    total_edges = sum(stat.get("edges", 0) for stat in stats.values())
+    total_nodes = graph.number_of_nodes()
+    total_edges = graph.number_of_edges()
     avg_degree = (2 * total_edges / total_nodes) if total_nodes else 0.0
 
     metrics = {

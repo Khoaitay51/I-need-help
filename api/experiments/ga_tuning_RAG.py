@@ -28,16 +28,16 @@ from src.llm.config import get_llm
 
 THRESHOLD_VALUES = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 MAX_EDGES_VALUES = list(range(3, 11))
-TOP_K_VALUES = list(range(3, 11))
+TOP_K_VALUES = list(range(5, 20))
 
-POPULATION_SIZE = 24
-GENERATIONS = 12
+POPULATION_SIZE = 8
+GENERATIONS = 5
 ELITE_SIZE = 2
 MUTATION_RATE = 0.2
 RANDOM_SEED = 42
 GRAPH_CACHE_NAMESPACE = "rag_ga_runs_deterministic_v1"
 USE_LLM_EVAL = False
-MAX_EVAL_QUESTIONS = None
+MAX_EVAL_QUESTIONS = 30
 SEED_BEST_CONFIG = {
     "threshold": 0.3,
     "max_edges_per_node": 6,
@@ -50,8 +50,11 @@ DATASET_PATH = ROOT / "dataset chatbot update.csv"
 DATA_FOLDER = ROOT / "api" / "data"
 EMBEDDING_MODEL = "nomic-embed-text:latest"
 SIMILARITY_THRESHOLD = 0.65
+RELATIVE_RELEVANCE_MARGIN = 0.02
+CALIBRATED_THRESHOLD_MIN = 0.55
+CALIBRATED_THRESHOLD_MAX = 0.80
 
-RESULT_DIR.mkdir(parents=True, exist_ok=True) 
+RESULT_DIR.mkdir(parents=True, exist_ok=True)
 RUN_DIR.mkdir(parents=True, exist_ok=True)
 
 GA_LOGGER_NAME = "ga_graph_rag"
@@ -228,19 +231,75 @@ def embed_text(text, embeddings, embedding_cache):
     return embedding_cache[text]
 
 
-def score_retrieved_docs(retrieved_docs, expected_answer, embeddings, embedding_cache, top_k):
+def calibrate_threshold(population, dataset, documents, embeddings, embedding_cache):
+    """Chạy retrieval trên toàn bộ Gen 0, thu thập scores để tính threshold.
+    Dùng percentile 67 (top ~33% docs được coi là relevant), sau đó clip vào [0.55, 0.80]
+    để tránh threshold quá thấp hoặc quá cao khi phân phối score lệch.
+    """
+    all_scores = []
+
+    for individual in population:
+        cfg = decode(individual.chromosome)
+        try:
+            retriever, _ = get_shared_graph_retriever(cfg, documents)
+        except Exception as exc:
+            logger.warning("[CALIBRATE][ERROR] config=%s error=%s", cfg, exc)
+            continue
+
+        for item in dataset:
+            try:
+                retrieved_docs = retriever._get_relevant_documents(item["question"])
+            except Exception as exc:
+                logger.warning("[CALIBRATE][RETRIEVE_ERROR] question=%s error=%s", item["question"], exc)
+                continue
+
+            expected_embedding = embed_text(item["answer_expected"], embeddings, embedding_cache)
+            for doc in deduplicate_docs(retrieved_docs):
+                if not hasattr(doc, "page_content"):
+                    continue
+                doc_embedding = embed_text(doc.page_content, embeddings, embedding_cache)
+                all_scores.append(cosine_sim(doc_embedding, expected_embedding))
+
+    if not all_scores:
+        logger.warning("[CALIBRATE] Không thu thập được score nào, dùng SIMILARITY_THRESHOLD mặc định=%.2f", SIMILARITY_THRESHOLD)
+        return SIMILARITY_THRESHOLD
+
+    scores_arr = np.array(all_scores)
+    raw = float(np.percentile(scores_arr, 67))
+    calibrated = float(np.clip(raw, CALIBRATED_THRESHOLD_MIN, CALIBRATED_THRESHOLD_MAX))
+
+    logger.info(
+        "[CALIBRATE] n_scores=%s mean=%.4f std=%.4f p67=%.4f clipped_threshold=%.4f",
+        len(scores_arr),
+        scores_arr.mean(),
+        scores_arr.std(),
+        raw,
+        calibrated,
+    )
+    return calibrated
+
+
+def score_retrieved_docs(retrieved_docs, question, expected_answer, embeddings, embedding_cache, top_k, global_threshold=None):
     expected_embedding = embed_text(expected_answer, embeddings, embedding_cache)
-    relevance = []
+    relevance_scores = []
 
     for doc in retrieved_docs[:top_k]:
         doc_embedding = embed_text(doc.page_content, embeddings, embedding_cache)
-        sim = cosine_sim(doc_embedding, expected_embedding)
-        relevance.append(1 if sim >= SIMILARITY_THRESHOLD else 0)
+        relevance_scores.append(cosine_sim(doc_embedding, expected_embedding))
+
+    if not relevance_scores:
+        return {
+            "precision_at_k": 0.0,
+            "map": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+        }
+
+    threshold = global_threshold if global_threshold is not None else SIMILARITY_THRESHOLD
+    relevance = [1 if score >= threshold else 0 for score in relevance_scores]
 
     relevant_count = sum(relevance)
     precision_at_k = relevant_count / top_k if top_k else 0.0
-
-    recall_at_k = 1.0 if relevant_count > 0 else 0.0
 
     mrr = 0.0
     for idx, is_relevant in enumerate(relevance):
@@ -266,9 +325,16 @@ def score_retrieved_docs(retrieved_docs, expected_answer, embeddings, embedding_
         idcg += 1.0 / math.log2(idx + 2)
     ndcg = dcg / idcg if idcg else 0.0
 
+    logger.info(
+        "[SCORE] q=%s threshold=%.4f scores=%s relevance=%s",
+        question,
+        threshold,
+        [round(score, 4) for score in relevance_scores[:top_k]],
+        relevance,
+    )
+
     return {
         "precision_at_k": precision_at_k,
-        "recall_at_k": recall_at_k,
         "map": map_score,
         "mrr": mrr,
         "ndcg": ndcg,
@@ -333,18 +399,16 @@ def calculate_fitness(metrics):
             + 0.20 * metrics["ndcg"]
             + 0.15 * metrics["map"]
             + 0.10 * metrics["mrr"]
-            + 0.05 * metrics["precision_at_k"]
-            + 0.05 * metrics["recall_at_k"]
+            + 0.10 * metrics["precision_at_k"]
             - latency_penalty
             - graph_density_penalty
         )
 
     return (
-        0.35 * metrics["ndcg"]
-        + 0.25 * metrics["map"]
+        0.45 * metrics["ndcg"]
+        + 0.30 * metrics["map"]
         + 0.20 * metrics["mrr"]
-        + 0.15 * metrics["precision_at_k"]
-        + 0.05 * metrics["recall_at_k"]
+        + 0.05 * metrics["precision_at_k"]
         - latency_penalty
         - graph_density_penalty
     )
@@ -403,7 +467,8 @@ def get_shared_graph_retriever(cfg, documents):
 def retrieve_for_evaluation(retriever, question, top_k, config=None):
     try:
         retrieved_docs = retriever._get_relevant_documents(question)
-    except Exception:
+    except Exception as exc:
+        logger.warning("[RETRIEVE][ERROR] config=%s question=%s error=%s", config, question, exc)
         retrieved_docs = []
 
     top_docs = deduplicate_docs(retrieved_docs)[:top_k]
@@ -425,7 +490,7 @@ def retrieve_for_evaluation(retriever, question, top_k, config=None):
     return top_docs
 
 
-def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None):
+def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None):
     cfg = decode(individual.chromosome)
     retriever, graph = get_shared_graph_retriever(cfg, documents)
 
@@ -451,10 +516,12 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
         query_metrics.append(
             score_retrieved_docs(
                 docs_only,
+                item["question"],
                 item["answer_expected"],
                 embeddings,
                 embedding_cache,
                 cfg["top_k"],
+                global_threshold=global_threshold,
             )
         )
 
@@ -480,7 +547,6 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
 
     metrics = {
         "precision_at_k": float(np.mean([m["precision_at_k"] for m in query_metrics])),
-        "recall_at_k": float(np.mean([m["recall_at_k"] for m in query_metrics])),
         "map": float(np.mean([m["map"] for m in query_metrics])),
         "mrr": float(np.mean([m["mrr"] for m in query_metrics])),
         "ndcg": float(np.mean([m["ndcg"] for m in query_metrics])),
@@ -497,7 +563,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
     return individual
 
 
-def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_cache, evaluation_cache, llm=None):
+def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_cache, evaluation_cache, llm=None, global_threshold=None):
     key = (tuple(individual.chromosome), bool(llm))
 
     if key in evaluation_cache:
@@ -513,6 +579,7 @@ def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_ca
         embeddings,
         embedding_cache,
         llm=llm,
+        global_threshold=global_threshold,
     )
     evaluation_cache[key] = {
         "fitness": evaluated.fitness,
@@ -537,7 +604,6 @@ def result_row_from_individual(individual, generation=0, individual_index=0, ind
             4,
         ),
         "precision_at_k": round(individual.metrics["precision_at_k"], 4),
-        "recall_at_k": round(individual.metrics["recall_at_k"], 4),
         "map": round(individual.metrics["map"], 4),
         "mrr": round(individual.metrics["mrr"], 4),
         "ndcg": round(individual.metrics["ndcg"], 4),
@@ -547,7 +613,7 @@ def result_row_from_individual(individual, generation=0, individual_index=0, ind
     }
 
 
-def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None):
+def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None):
     baseline = Individual(chromosome=[
         THRESHOLD_VALUES.index(0.7),
         MAX_EDGES_VALUES.index(7),
@@ -561,6 +627,7 @@ def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None):
         embeddings,
         embedding_cache,
         llm=llm,
+        global_threshold=global_threshold,
     )
 
     result = result_row_from_individual(evaluated)
@@ -606,13 +673,13 @@ def save_wide_csv(all_rows, path):
         [
             "2",
             "Max edges per node",
-            "[3, 4, 5, 6, 7, 8, 9, 10]",
+            str(MAX_EDGES_VALUES),
             *[row["max_edges_per_node"] for row in ordered_rows],
         ],
         [
             "3",
             "Top K",
-            "[3, 4, 5, 6, 7, 8, 9, 10]",
+            str(TOP_K_VALUES),
             *[row["top_k"] for row in ordered_rows],
         ],
         [],
@@ -648,15 +715,9 @@ def save_wide_csv(all_rows, path):
         ],
         [
             "",
-            "w4 = 0.05",
+            "w4 = 0.10",
             "f4 (Precision@K)",
             *[row["precision_at_k"] for row in ordered_rows],
-        ],
-        [
-            "",
-            "w5 = 0.05",
-            "f5 (Recall@K)",
-            *[row["recall_at_k"] for row in ordered_rows],
         ],
         [
             "Global fitness function",
@@ -709,7 +770,6 @@ def save_ranked_csv(all_rows, path):
         "map",
         "mrr",
         "precision_at_k",
-        "recall_at_k",
         "avg_retrieval_time_ms",
         "avg_degree",
         "total_edges",
@@ -734,7 +794,6 @@ def save_ranked_csv(all_rows, path):
                 "map": row["map"],
                 "mrr": row["mrr"],
                 "precision_at_k": row["precision_at_k"],
-                "recall_at_k": row["recall_at_k"],
                 "avg_retrieval_time_ms": row["avg_retrieval_time_ms"],
                 "avg_degree": row["avg_degree"],
                 "total_edges": row["total_edges"],
@@ -783,11 +842,18 @@ def main():
         llm is not None,
     )
 
+    population = init_population()
+
+    print("Calibrating relevance threshold from generation 0 population...")
+    global_threshold = calibrate_threshold(
+        population, dataset, documents, embeddings, embedding_cache
+    )
+    print(f"Calibrated threshold: {global_threshold:.4f}")
+
     if args.baseline:
-        run_baseline(dataset, documents, embeddings, embedding_cache, llm=llm)
+        run_baseline(dataset, documents, embeddings, embedding_cache, llm=llm, global_threshold=global_threshold)
         return
 
-    population = init_population()
     all_rows = []
 
     for generation in range(GENERATIONS):
@@ -801,6 +867,7 @@ def main():
                 embedding_cache,
                 evaluation_cache,
                 llm=llm,
+                global_threshold=global_threshold,
             )
             for ind in population
         ]

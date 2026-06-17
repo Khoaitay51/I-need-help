@@ -103,39 +103,6 @@ services:
     restart: unless-stopped
 
 
-  ollama:
-    image: ollama/ollama:latest
-    container_name: lma_ollama
-    ports:
-      - "11434:11434"
-    volumes:
-      - ollama_data:/root/.ollama
-    networks:
-      - lma_network
-    restart: unless-stopped
-    gpus: all    
-
-  ollama-pull-qwen3-06b:
-    image: ollama/ollama:latest
-    container_name: lma_ollama_pull_qwen3_06b
-    depends_on:
-      - ollama
-    environment:
-      OLLAMA_HOST: http://ollama:11434
-    entrypoint: ["/bin/sh", "-c"]
-    command: >
-      "until ollama list; do
-        echo 'Waiting for Ollama...';
-        sleep 2;
-      done;
-      ollama pull qwen3:0.6b"
-    networks:
-      - lma_network
-    profiles:
-      - pull-models
-    restart: "no"
-
-
   api:
     build:
       context: ./api
@@ -158,13 +125,15 @@ services:
       PYTHONUNBUFFERED: 1
       ACTIVE_MODEL_TYPE: ollama
       DEFAULT_MODEL_TYPE: ollama
-      ACTIVE_OLLAMA_MODEL: qwen3:0.6b
-      OLLAMA_MODEL: qwen3:0.6b
-      RAG_MODEL: qwen3:0.6b
-      OLLAMA_BASE_URL: http://ollama:11434
-      OLLAMA_EMBEDDING_MODEL: nomic-embed-text:latest
+      ACTIVE_OLLAMA_MODEL: ${ACTIVE_OLLAMA_MODEL:-qwen3.5:2b-q4_K_M}
+      OLLAMA_MODEL: ${OLLAMA_MODEL:-qwen3.5:2b-q4_K_M}
+      RAG_MODEL: ${RAG_MODEL:-qwen3.5:2b-q4_K_M}
+      OLLAMA_BASE_URL: ${DOCKER_OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      OLLAMA_EMBEDDING_MODEL: ${OLLAMA_EMBEDDING_MODEL:-nomic-embed-text:latest}
     ports:
       - "8000:8000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
     volumes:
       - ./api/src:/app/src
       - ./api/data:/app/data

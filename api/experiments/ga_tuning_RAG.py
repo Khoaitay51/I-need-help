@@ -37,7 +37,7 @@ MUTATION_RATE = 0.2
 RANDOM_SEED = 42
 GRAPH_CACHE_NAMESPACE = "rag_ga_runs_deterministic_v1"
 USE_LLM_EVAL = False
-MAX_EVAL_QUESTIONS = 30
+MAX_EVAL_QUESTIONS = None
 SEED_BEST_CONFIG = {
     "threshold": 0.3,
     "max_edges_per_node": 6,
@@ -296,41 +296,71 @@ def score_retrieved_docs(retrieved_docs, question, expected_answer, embeddings, 
         }
 
     threshold = global_threshold if global_threshold is not None else SIMILARITY_THRESHOLD
-    relevance = [1 if score >= threshold else 0 for score in relevance_scores]
 
-    relevant_count = sum(relevance)
+    # Binary relevance cho Precision@K và MRR
+    binary_relevance = [
+        1 if score >= threshold else 0
+        for score in relevance_scores
+    ]
+
+    relevant_count = sum(binary_relevance)
     precision_at_k = relevant_count / top_k if top_k else 0.0
 
+    # MRR giữ dạng binary
     mrr = 0.0
-    for idx, is_relevant in enumerate(relevance):
-        if is_relevant:
+    for idx, rel in enumerate(binary_relevance):
+        if rel:
             mrr = 1.0 / (idx + 1)
             break
 
-    average_precision = 0.0
-    found = 0
-    for idx, is_relevant in enumerate(relevance):
-        if is_relevant:
-            found += 1
-            average_precision += found / (idx + 1)
-    map_score = average_precision / relevant_count if relevant_count else 0.0
+    # Graded MAP
+    total_rel = sum(relevance_scores)
 
-    dcg = 0.0
-    for idx, is_relevant in enumerate(relevance):
-        if is_relevant:
-            dcg += 1.0 / math.log2(idx + 2)
+    if total_rel > 0:
+        cumulative_rel = 0.0
+        weighted_ap = 0.0
 
-    idcg = 0.0
-    for idx in range(relevant_count):
-        idcg += 1.0 / math.log2(idx + 2)
-    ndcg = dcg / idcg if idcg else 0.0
+        for idx, rel in enumerate(relevance_scores):
+            cumulative_rel += rel
+            weighted_precision = cumulative_rel / (idx + 1)
+            weighted_ap += weighted_precision * rel
+
+        map_score = weighted_ap / total_rel
+    else:
+        map_score = 0.0
+
+    # Graded NDCG
+    scaled_scores = [
+        max(
+            0.0,
+            (score - threshold) / (1.0 - threshold)
+        )
+        for score in relevance_scores
+    ]
+
+    dcg = sum(
+        rel / math.log2(idx + 2)
+        for idx, rel in enumerate(scaled_scores)
+    )
+
+    ideal_scores = sorted(
+        scaled_scores,
+        reverse=True
+    )
+
+    idcg = sum(
+        rel / math.log2(idx + 2)
+        for idx, rel in enumerate(ideal_scores)
+    )
+
+    ndcg = dcg / idcg if idcg > 0 else 0.0
 
     logger.info(
-        "[SCORE] q=%s threshold=%.4f scores=%s relevance=%s",
+        "[SCORE] q=%s threshold=%.4f scores=%s binary=%s",
         question,
         threshold,
         [round(score, 4) for score in relevance_scores[:top_k]],
-        relevance,
+        binary_relevance,
     )
 
     return {

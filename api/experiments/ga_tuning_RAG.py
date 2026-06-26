@@ -73,7 +73,7 @@ logger = logging.getLogger(GA_LOGGER_NAME)
 def setup_ga_logging(fitness_mode="hybrid"):
     log_suffix = "" if fitness_mode == "hybrid" else f"_{fitness_mode}"
     ga_log_file = RESULT_DIR / f"ga_tuning{log_suffix}_{time.strftime('%Y%m%d_%H%M%S')}.log"
-    logger.setLevel(logging.INFO)
+    logger.setLevel(logging.DEBUG)
     logger.propagate = False
     logging.getLogger("src.graph_rag").setLevel(logging.WARNING)
 
@@ -86,12 +86,14 @@ def setup_ga_logging(fitness_mode="hybrid"):
         console_handler = logging.StreamHandler(sys.stdout)
         console_handler._ga_console_handler = True
         console_handler.setFormatter(formatter)
+        console_handler.setLevel(logging.INFO)
         logger.addHandler(console_handler)
 
     if not any(getattr(handler, "_ga_file_handler", False) for handler in logger.handlers):
         file_handler = logging.FileHandler(ga_log_file, encoding="utf-8")
         file_handler._ga_file_handler = True
         file_handler.setFormatter(formatter)
+        file_handler.setLevel(logging.DEBUG)
         logger.addHandler(file_handler)
 
     logger.info("[LOG_FILE] %s", ga_log_file)

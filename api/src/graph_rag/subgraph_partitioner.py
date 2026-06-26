@@ -33,7 +33,7 @@ class SubgraphPartitioner:
         """Alias for subgraphs for backward compatibility"""
         return self.subgraphs
         
-    def partition_by_metadata(self, metadata_key: str = 'category') -> Dict[str, Set[int]]:
+    def partition_by_metadata(self, metadata_key: str = 'department') -> Dict[str, Set[int]]:
         """
         Partition graph by metadata category (hierarchical)
         
@@ -158,8 +158,8 @@ class SubgraphPartitioner:
         for node_id in self.graph.nodes():
             metadata = self.graph.nodes[node_id]['metadata']
             
-            # Build hierarchical key from category
-            category = metadata.get('category', 'unknown')
+            # Build hierarchical key from department
+            category = metadata.get('department', 'unknown')
             
             # Normalize category to hierarchical path
             if '/' in category:
@@ -238,6 +238,8 @@ Nội dung:
         try:
             response = self.llm.invoke(prompt)
             summary = response.content.strip()
+            import re
+            summary = re.sub(r"<think(?:ing)?>[\s\S]*?(?:</think(?:ing)?>|$)", "", summary, flags=re.IGNORECASE).strip()
             logger.info(f"✅ Generated LLM summary for Community {community_id}: {summary[:100]}...")
             return summary
         except Exception as e:
@@ -269,8 +271,8 @@ Nội dung:
                 if content.strip():
                     node_contents.append(content)
                 
-                # Collect category info
-                category = metadata.get('category', '')
+                # Collect department/category info
+                category = metadata.get('department', '')
                 if category and category not in categories:
                     categories.append(category)
                 
@@ -348,7 +350,7 @@ Nội dung:
 
                 node = self.graph.nodes[node_id]
                 metadata = node.get('metadata', {})
-                category = metadata.get('category', '')
+                category = metadata.get('department', '')
                 if category and category not in categories:
                     categories.append(category)
 

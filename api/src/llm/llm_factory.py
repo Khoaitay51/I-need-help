@@ -89,6 +89,7 @@ class LLMFactory:
                 base_url=ollama_info["url"],
                 temperature=temperature,
                 num_predict=max_tokens,
+                reasoning=False,
                 callback_manager=callback_manager
             )
             logger.critical(f"✅ ChatOllama created successfully: {type(llm).__name__}")

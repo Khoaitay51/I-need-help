@@ -6,12 +6,17 @@ import logging
 import random
 import sys
 import time
+import os
+import dotenv
 from dataclasses import dataclass
 from pathlib import Path
+
 
 import numpy as np
 from langchain_core.messages import HumanMessage
 from langchain_ollama import OllamaEmbeddings
+
+dotenv.load_dotenv()
 
 ROOT = Path(__file__).resolve().parents[2]
 API_DIR = ROOT / "api"
@@ -30,41 +35,47 @@ THRESHOLD_VALUES = [0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 MAX_EDGES_VALUES = list(range(3, 11))
 TOP_K_VALUES = list(range(5, 20))
 
-POPULATION_SIZE = 8
-GENERATIONS = 5
+POPULATION_SIZE = 12
+GENERATIONS = 8
 ELITE_SIZE = 2
-MUTATION_RATE = 0.2
+MUTATION_RATE = 0.3
+RANDOM_IMMIGRANTS = 2
 RANDOM_SEED = 42
 GRAPH_CACHE_NAMESPACE = "rag_ga_runs_deterministic_v1"
 USE_LLM_EVAL = False
 MAX_EVAL_QUESTIONS = None
 SEED_BEST_CONFIG = {
     "threshold": 0.3,
-    "max_edges_per_node": 6,
-    "top_k": 6,
+    "max_edges_per_node": 4,
+    "top_k": 8,
 }
 
 RESULT_DIR = ROOT / "api" / "experiments" / "rag_ga_results"
 RUN_DIR = ROOT / "api" / "experiments" / GRAPH_CACHE_NAMESPACE
 DATASET_PATH = ROOT / "dataset chatbot update.csv"
+GLOBAL_THRESHOLD_PATH = RESULT_DIR / "global_relevance_threshold.json"
+
+
 DATA_FOLDER = ROOT / "api" / "data"
 EMBEDDING_MODEL = "nomic-embed-text:latest"
 SIMILARITY_THRESHOLD = 0.65
 RELATIVE_RELEVANCE_MARGIN = 0.02
 CALIBRATED_THRESHOLD_MIN = 0.55
-CALIBRATED_THRESHOLD_MAX = 0.80
+CALIBRATED_THRESHOLD_MAX = 0.78
 
 RESULT_DIR.mkdir(parents=True, exist_ok=True)
 RUN_DIR.mkdir(parents=True, exist_ok=True)
 
 GA_LOGGER_NAME = "ga_graph_rag"
 logger = logging.getLogger(GA_LOGGER_NAME)
-GA_LOG_FILE = RESULT_DIR / f"ga_tuning_{time.strftime('%Y%m%d_%H%M%S')}.log"
 
 
-def setup_ga_logging():
+def setup_ga_logging(fitness_mode="hybrid"):
+    log_suffix = "" if fitness_mode == "hybrid" else f"_{fitness_mode}"
+    ga_log_file = RESULT_DIR / f"ga_tuning{log_suffix}_{time.strftime('%Y%m%d_%H%M%S')}.log"
     logger.setLevel(logging.INFO)
     logger.propagate = False
+    logging.getLogger("src.graph_rag").setLevel(logging.WARNING)
 
     formatter = logging.Formatter(
         "%(asctime)s | %(levelname)s | %(message)s",
@@ -78,12 +89,12 @@ def setup_ga_logging():
         logger.addHandler(console_handler)
 
     if not any(getattr(handler, "_ga_file_handler", False) for handler in logger.handlers):
-        file_handler = logging.FileHandler(GA_LOG_FILE, encoding="utf-8")
+        file_handler = logging.FileHandler(ga_log_file, encoding="utf-8")
         file_handler._ga_file_handler = True
         file_handler.setFormatter(formatter)
         logger.addHandler(file_handler)
 
-    logger.info("[LOG_FILE] %s", GA_LOG_FILE)
+    logger.info("[LOG_FILE] %s", ga_log_file)
 
 
 def summarize_doc(doc, rank):
@@ -174,6 +185,7 @@ def mutate(individual):
     if random.random() >= MUTATION_RATE:
         return individual
 
+    new_chromosome = individual.chromosome[:]  # clone
     gene_idx = random.randrange(3)
     max_indices = [
         len(THRESHOLD_VALUES) - 1,
@@ -181,10 +193,10 @@ def mutate(individual):
         len(TOP_K_VALUES) - 1,
     ]
 
-    current = individual.chromosome[gene_idx]
+    current = new_chromosome[gene_idx]
     step = random.choice([-1, 1])
-    individual.chromosome[gene_idx] = max(0, min(max_indices[gene_idx], current + step))
-    return individual
+    new_chromosome[gene_idx] = max(0, min(max_indices[gene_idx], current + step))
+    return Individual(new_chromosome)
 
 
 def load_eval_dataset():
@@ -195,11 +207,17 @@ def load_eval_dataset():
         for row in reader:
             question = row.get("question", "").strip()
             answer_expected = row.get("answer_expected", "").strip()
+            ground_truth = row.get("ground_truth", "").strip()
+            doc_file = row.get("doc_file", "").strip()
+            department = row.get("department", "").strip()
 
             if question and answer_expected:
                 dataset.append({
                     "question": question,
                     "answer_expected": answer_expected,
+                    "ground_truth": ground_truth,
+                    "doc_file": doc_file,
+                    "department": department,
                 })
 
     return dataset
@@ -232,10 +250,6 @@ def embed_text(text, embeddings, embedding_cache):
 
 
 def calibrate_threshold(population, dataset, documents, embeddings, embedding_cache):
-    """Chạy retrieval trên toàn bộ Gen 0, thu thập scores để tính threshold.
-    Dùng percentile 67 (top ~33% docs được coi là relevant), sau đó clip vào [0.55, 0.80]
-    để tránh threshold quá thấp hoặc quá cao khi phân phối score lệch.
-    """
     all_scores = []
 
     for individual in population:
@@ -253,7 +267,8 @@ def calibrate_threshold(population, dataset, documents, embeddings, embedding_ca
                 logger.warning("[CALIBRATE][RETRIEVE_ERROR] question=%s error=%s", item["question"], exc)
                 continue
 
-            expected_embedding = embed_text(item["answer_expected"], embeddings, embedding_cache)
+            truth_text = item.get("ground_truth") or item["answer_expected"]
+            expected_embedding = embed_text(truth_text, embeddings, embedding_cache)
             for doc in deduplicate_docs(retrieved_docs):
                 if not hasattr(doc, "page_content"):
                     continue
@@ -279,13 +294,68 @@ def calibrate_threshold(population, dataset, documents, embeddings, embedding_ca
     return calibrated
 
 
-def score_retrieved_docs(retrieved_docs, question, expected_answer, embeddings, embedding_cache, top_k, global_threshold=None):
-    expected_embedding = embed_text(expected_answer, embeddings, embedding_cache)
-    relevance_scores = []
+def load_or_create_global_threshold(population, dataset, documents, embeddings, embedding_cache):
+    if GLOBAL_THRESHOLD_PATH.exists():
+        with open(GLOBAL_THRESHOLD_PATH, "r", encoding="utf-8") as f:
+            payload = json.load(f)
 
+        threshold = float(payload["threshold"])
+        logger.info(
+            "[GLOBAL_THRESHOLD][LOAD] path=%s threshold=%.4f",
+            GLOBAL_THRESHOLD_PATH,
+            threshold,
+        )
+        return threshold
+
+    logger.info("[GLOBAL_THRESHOLD][CREATE] path=%s", GLOBAL_THRESHOLD_PATH)
+    threshold = calibrate_threshold(
+        population,
+        dataset,
+        documents,
+        embeddings,
+        embedding_cache,
+    )
+    payload = {
+        "threshold": threshold,
+        "created_at": time.strftime("%Y-%m-%d %H:%M:%S"),
+        "dataset_path": str(DATASET_PATH),
+        "embedding_model": EMBEDDING_MODEL,
+        "calibrated_threshold_min": CALIBRATED_THRESHOLD_MIN,
+        "calibrated_threshold_max": CALIBRATED_THRESHOLD_MAX,
+        "note": "Delete this file to force recalibration.",
+    }
+    with open(GLOBAL_THRESHOLD_PATH, "w", encoding="utf-8") as f:
+        json.dump(payload, f, indent=2, ensure_ascii=False)
+
+    logger.info(
+        "[GLOBAL_THRESHOLD][SAVE] path=%s threshold=%.4f",
+        GLOBAL_THRESHOLD_PATH,
+        threshold,
+    )
+    return threshold
+
+
+def score_retrieved_docs(
+    retrieved_docs,
+    question,
+    expected_answer,
+    ground_truth,
+    doc_file,
+    department,
+    embeddings,
+    embedding_cache,
+    top_k,
+    global_threshold=None,
+):
+    truth_text = ground_truth or expected_answer
+    truth_embedding = embed_text(truth_text, embeddings, embedding_cache)
+
+    relevance_scores = []
     for doc in retrieved_docs[:top_k]:
         doc_embedding = embed_text(doc.page_content, embeddings, embedding_cache)
-        relevance_scores.append(cosine_sim(doc_embedding, expected_embedding))
+        relevance_scores.append(
+            cosine_sim(doc_embedding, truth_embedding)
+        )
 
     if not relevance_scores:
         return {
@@ -295,72 +365,284 @@ def score_retrieved_docs(retrieved_docs, question, expected_answer, embeddings, 
             "ndcg": 0.0,
         }
 
-    threshold = global_threshold if global_threshold is not None else SIMILARITY_THRESHOLD
+    threshold = (
+        global_threshold * 0.95
+        if global_threshold is not None
+        else SIMILARITY_THRESHOLD
+    )
 
-    # Binary relevance cho Precision@K và MRR
-    binary_relevance = [
-        1 if score >= threshold else 0
-        for score in relevance_scores
-    ]
+    expected_file = os.path.basename(doc_file or "").lower().strip()
+    expected_department = (department or "").lower().strip()
+    normalized_truth = (truth_text or "").lower().strip()
+
+    logger.debug("=" * 100)
+    logger.debug("[QUESTION] %s", question)
+    logger.debug("[EXPECTED_FILE] %s", expected_file)
+    logger.debug("[EXPECTED_DEPARTMENT] %s", expected_department)
+    logger.debug("[THRESHOLD] %.4f", threshold)
+
+    binary_relevance = []
+
+    for idx, doc in enumerate(retrieved_docs[:top_k]):
+
+        score = relevance_scores[idx]
+
+        metadata = getattr(doc, "metadata", {}) or {}
+
+        source_candidates = [
+            metadata.get("source", ""),
+            metadata.get("source_path", ""),
+            metadata.get("full_path", ""),
+            metadata.get("filename", ""),
+        ]
+
+        normalized_sources = [
+            str(s).lower().strip()
+            for s in source_candidates
+            if s
+        ]
+
+        source_basenames = {
+            os.path.basename(s)
+            for s in normalized_sources
+        }
+
+        metadata_department = (
+            str(
+                metadata.get("department", "")
+                or metadata.get("query_department", "")
+            )
+            .lower()
+            .strip()
+        )
+
+        department_candidates = [
+            metadata_department,
+            *normalized_sources,
+        ]
+
+        has_department_signal = any(department_candidates)
+
+        department_matched = (
+            True
+            if not expected_department or not has_department_signal
+            else any(
+                expected_department in s
+                for s in department_candidates
+            )
+        )
+
+        file_matched = (
+            True
+            if not expected_file
+            else expected_file in source_basenames
+        )
+
+        text_matched = (
+            normalized_truth in doc.page_content.lower()
+            if normalized_truth
+            else False
+        )
+
+        sim_matched = score >= threshold
+
+        binary = (
+            department_matched
+            and file_matched
+            and (
+                text_matched
+                or sim_matched
+            )
+        )
+
+        binary_relevance.append(int(binary))
+
+        logger.debug(
+            "[DOC %02d]"
+            "\nscore          : %.4f"
+            "\ndepartment     : %s"
+            "\nfile           : %s"
+            "\ntext           : %s"
+            "\nsim            : %s"
+            "\nbinary         : %d"
+            "\nexpected dep   : %s"
+            "\nactual dep     : %s"
+            "\nexpected file  : %s"
+            "\nactual file(s) : %s"
+            "\nsource         : %s"
+            "\npreview        : %s"
+            "\n----------------------------------------------------",
+            idx + 1,
+            score,
+            department_matched,
+            file_matched,
+            text_matched,
+            sim_matched,
+            int(binary),
+            expected_department,
+            metadata_department,
+            expected_file,
+            list(source_basenames),
+            source_candidates,
+            doc.page_content[:120].replace("\n", " "),
+        )
 
     relevant_count = sum(binary_relevance)
-    precision_at_k = relevant_count / top_k if top_k else 0.0
 
-    # MRR giữ dạng binary
+    precision_at_k = (
+        relevant_count / top_k
+        if top_k
+        else 0.0
+    )
+
     mrr = 0.0
     for idx, rel in enumerate(binary_relevance):
         if rel:
             mrr = 1.0 / (idx + 1)
             break
 
-    # Graded MAP
-    total_rel = sum(relevance_scores)
+    hits = 0
+    precision_sum = 0.0
 
-    if total_rel > 0:
-        cumulative_rel = 0.0
-        weighted_ap = 0.0
+    for idx, rel in enumerate(binary_relevance, start=1):
+        if rel:
+            hits += 1
+            precision_sum += hits / idx
 
-        for idx, rel in enumerate(relevance_scores):
-            cumulative_rel += rel
-            weighted_precision = cumulative_rel / (idx + 1)
-            weighted_ap += weighted_precision * rel
-
-        map_score = weighted_ap / total_rel
-    else:
-        map_score = 0.0
-
-    # Graded NDCG
-    scaled_scores = [
-        max(
-            0.0,
-            (score - threshold) / (1.0 - threshold)
-        )
-        for score in relevance_scores
-    ]
+    map_score = precision_sum / hits if hits else 0.0
 
     dcg = sum(
         rel / math.log2(idx + 2)
-        for idx, rel in enumerate(scaled_scores)
+        for idx, rel in enumerate(binary_relevance)
     )
 
-    ideal_scores = sorted(
-        scaled_scores,
-        reverse=True
-    )
+    ideal = sorted(binary_relevance, reverse=True)
 
     idcg = sum(
         rel / math.log2(idx + 2)
-        for idx, rel in enumerate(ideal_scores)
+        for idx, rel in enumerate(ideal)
     )
 
+    ndcg = dcg / idcg if idcg else 0.0
+
+    logger.debug("[truth_scores] %s",
+                 [round(s, 4) for s in relevance_scores])
+
+    logger.debug("[binary] %s", binary_relevance)
+
+    logger.debug(
+        "[RESULT] P@K=%.4f MAP=%.4f MRR=%.4f NDCG=%.4f",
+        precision_at_k,
+        map_score,
+        mrr,
+        ndcg,
+    )
+
+    return {
+        "precision_at_k": precision_at_k,
+        "map": map_score,
+        "mrr": mrr,
+        "ndcg": ndcg,
+    }
+    truth_text = ground_truth or expected_answer
+    truth_embedding = embed_text(truth_text, embeddings, embedding_cache)
+    relevance_scores = []
+
+    for doc in retrieved_docs[:top_k]:
+        doc_embedding = embed_text(doc.page_content, embeddings, embedding_cache)
+        relevance_scores.append(cosine_sim(doc_embedding, truth_embedding))
+
+    if not relevance_scores:
+        return {
+            "precision_at_k": 0.0,
+            "map": 0.0,
+            "mrr": 0.0,
+            "ndcg": 0.0,
+        }
+
+    threshold = global_threshold * 0.95 if global_threshold is not None else SIMILARITY_THRESHOLD
+
+    # Binary relevance from the new ground-truth fields.
+    # A chunk is relevant when it matches the expected source file (if provided)
+    # AND its content matches the ground_truth passage by substring or cosine score.
+    binary_relevance = []
+    expected_file = os.path.basename(doc_file or "").lower().strip()
+    expected_department = (department or "").lower().strip()
+    normalized_truth = (truth_text or "").lower().strip()
+
+    for idx, doc in enumerate(retrieved_docs[:top_k]):
+        score = relevance_scores[idx]
+        metadata = getattr(doc, "metadata", {}) or {}
+        source_candidates = [
+            metadata.get("source", ""),
+            metadata.get("source_path", ""),
+            metadata.get("full_path", ""),
+            metadata.get("filename", ""),
+        ]
+        normalized_sources = [
+            str(source).lower().strip()
+            for source in source_candidates
+            if source
+        ]
+        source_basenames = {
+            os.path.basename(source)
+            for source in normalized_sources
+        }
+
+        metadata_department = str(metadata.get("department", "") or metadata.get("query_department", "")).lower().strip()
+        department_candidates = [metadata_department, *normalized_sources]
+        has_department_signal = any(candidate for candidate in department_candidates)
+        department_matched = (
+            True
+            if not expected_department or not has_department_signal
+            else any(expected_department in candidate for candidate in department_candidates)
+        )
+
+        file_matched = True if not expected_file else expected_file in source_basenames
+        text_matched = normalized_truth in doc.page_content.lower().strip() if normalized_truth else False
+        sim_matched = score >= threshold
+        binary_relevance.append(1 if department_matched and file_matched and (text_matched or sim_matched) else 0)
+
+    relevant_count = sum(binary_relevance)
+    precision_at_k = relevant_count / top_k if top_k else 0.0
+
+    # MRR: reciprocal rank of the first binary-relevant chunk.
+    mrr = 0.0
+    for idx, rel in enumerate(binary_relevance):
+        if rel:
+            mrr = 1.0 / (idx + 1)
+            break
+
+    # Standard binary AP/MAP, not graded AP.
+    # AP@K = average of Precision@rank over binary-relevant hits.
+    hits = 0
+    precision_sum = 0.0
+    for idx, rel in enumerate(binary_relevance, start=1):
+        if rel:
+            hits += 1
+            precision_sum += hits / idx
+    map_score = precision_sum / hits if hits else 0.0
+
+    # Standard binary NDCG@K, not graded NDCG.
+    dcg = sum(
+        rel / math.log2(idx + 2)
+        for idx, rel in enumerate(binary_relevance)
+    )
+    ideal_relevance = sorted(binary_relevance, reverse=True)
+    idcg = sum(
+        rel / math.log2(idx + 2)
+        for idx, rel in enumerate(ideal_relevance)
+    )
     ndcg = dcg / idcg if idcg > 0 else 0.0
 
     logger.info(
-        "[SCORE] q=%s threshold=%.4f scores=%s binary=%s",
+        "[SCORE] q=%s threshold=%.4f truth_scores=%s binary=%s expected_file=%s expected_department=%s",
         question,
         threshold,
         [round(score, 4) for score in relevance_scores[:top_k]],
         binary_relevance,
+        expected_file,
+        expected_department,
     )
 
     return {
@@ -370,15 +652,55 @@ def score_retrieved_docs(retrieved_docs, question, expected_answer, embeddings, 
         "ndcg": ndcg,
     }
 
+def normalize_llm_content(value):
+    import re
+    def strip_thinking_content(text: str) -> str:
+        return re.sub(r"<think(?:ing)?>[\s\S]*?(?:</think(?:ing)?>|$)", "", str(text), flags=re.IGNORECASE).strip()
+
+    if value is None:
+        return ""
+
+    if isinstance(value, str):
+        return strip_thinking_content(value)
+
+    if isinstance(value, list):
+        parts = []
+        for item in value:
+            text = normalize_llm_content(item)
+            if text:
+                parts.append(text)
+        return "\n".join(parts).strip()
+
+    if isinstance(value, dict):
+        for key in ("text", "content", "answer", "output"):
+            if key in value:
+                text = normalize_llm_content(value[key])
+                if text:
+                    return text
+        return json.dumps(value, ensure_ascii=False)
+
+    return strip_thinking_content(str(value))
+
 
 def extract_llm_text(response):
     if hasattr(response, "content"):
-        return response.content
+        return normalize_llm_content(response.content)
 
-    if isinstance(response, str):
-        return response
+    return normalize_llm_content(response)
 
-    return str(response)
+
+def get_llm_cache_key(llm):
+    if llm is None:
+        return None
+
+    model_name = (
+        getattr(llm, "model", None)
+        or getattr(llm, "model_name", None)
+        or getattr(llm, "model_id", None)
+        or getattr(llm, "_llm_type", None)
+        or "unknown"
+    )
+    return f"{type(llm).__name__}:{model_name}"
 
 
 def generate_answer_with_llm(question, retrieved_docs, llm, config=None):
@@ -402,47 +724,69 @@ Câu hỏi:
 Trả lời ngắn gọn, đúng trọng tâm:
 """.strip()
 
-    response = llm.invoke([HumanMessage(content=prompt)])
+    try:
+        response = llm.invoke([HumanMessage(content=prompt)])
+    except Exception as exc:
+        answer = f"LLM_ERROR: {type(exc).__name__}: {exc}"
+        logger.exception(
+            "[LLM_ERROR] config=%s question=%s response=%s",
+            config,
+            question,
+            answer,
+        )
+        return answer
+
     answer = extract_llm_text(response)
     logger.info(
         "[LLM_RESPONSE] config=%s question=%s response=%s",
         config,
         question,
-        " ".join(answer.split()),
+        " ".join(answer.split()) if answer else "",
     )
     return answer
 
 
 def score_generated_answer(generated_answer, expected_answer, embeddings, embedding_cache):
+    generated_answer = normalize_llm_content(generated_answer)
+    expected_answer = normalize_llm_content(expected_answer)
+
+    if not expected_answer:
+        return 0.0
+
     generated_embedding = embed_text(generated_answer, embeddings, embedding_cache)
     expected_embedding = embed_text(expected_answer, embeddings, embedding_cache)
     return cosine_sim(generated_embedding, expected_embedding)
 
 
-def calculate_fitness(metrics):
-    latency_penalty = min(metrics["avg_retrieval_time_ms"] / 5000, 1.0) * 0.05
-    graph_density_penalty = min(metrics["avg_degree"] / 50, 1.0) * 0.03
+def calculate_fitness(metrics, fitness_mode="hybrid"):
+    latency_penalty = min(metrics["avg_retrieval_time_ms"] / 5000.0, 1.0) * 0.05
+    graph_density_penalty = min(metrics["avg_degree"] / 50.0, 1.0) * 0.03
 
-    if "answer_cosine_similarity" in metrics:
-        return (
-            0.45 * metrics["answer_cosine_similarity"]
-            + 0.20 * metrics["ndcg"]
+    if fitness_mode == "mrr":
+        fitness = metrics["mrr"]
+
+    elif fitness_mode == "map":
+        fitness = metrics["map"]
+
+    elif fitness_mode == "ndcg":
+        fitness = metrics["ndcg"]
+
+    elif "answer_cosine_similarity" in metrics:
+        fitness = (
+            0.55 * metrics["answer_cosine_similarity"]
+            + 0.15 * metrics["ndcg"]
             + 0.15 * metrics["map"]
-            + 0.10 * metrics["mrr"]
-            + 0.10 * metrics["precision_at_k"]
-            - latency_penalty
-            - graph_density_penalty
+            + 0.15 * metrics["mrr"]
         )
 
-    return (
-        0.45 * metrics["ndcg"]
-        + 0.30 * metrics["map"]
-        + 0.20 * metrics["mrr"]
-        + 0.05 * metrics["precision_at_k"]
-        - latency_penalty
-        - graph_density_penalty
-    )
+    else:
+        fitness = (
+            0.34 * metrics["ndcg"]
+            + 0.33 * metrics["map"]
+            + 0.33 * metrics["mrr"]
+        )
 
+    return max(fitness, 0.0)
 
 def deduplicate_docs(docs):
     unique_docs = []
@@ -478,7 +822,8 @@ def get_shared_graph_retriever(cfg, documents):
         graph_builder.save_graph(str(graph_path))
 
     partitioner = SubgraphPartitioner(graph_builder.graph)
-    partitioner.partition_by_community_detection(generate_summaries=False)
+    partitioner.partition_by_community_detection(generate_summaries=True)
+    partitioner.generate_centroids_from_embeddings()
 
     retriever = GraphRoutedRetriever(
         graph=graph_builder.graph,
@@ -507,7 +852,7 @@ def retrieve_for_evaluation(retriever, question, top_k, config=None):
         for rank, doc in enumerate(top_docs, start=1)
     ]
 
-    logger.info(
+    logger.debug(
         "[RETRIEVE] config=%s top_k=%s question=%s graph=document_graph returned=%s",
         config,
         top_k,
@@ -515,12 +860,12 @@ def retrieve_for_evaluation(retriever, question, top_k, config=None):
         len(top_docs),
     )
     for summary in top_doc_summaries:
-        logger.info("[RETRIEVE][TOP_%s] %s", summary["rank"], summary)
+        logger.debug("[RETRIEVE][TOP_%s] %s", summary["rank"], summary)
 
     return top_docs
 
 
-def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None):
+def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None, fitness_mode="hybrid"):
     cfg = decode(individual.chromosome)
     retriever, graph = get_shared_graph_retriever(cfg, documents)
 
@@ -548,6 +893,9 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
                 docs_only,
                 item["question"],
                 item["answer_expected"],
+                item.get("ground_truth", ""),
+                item.get("doc_file", ""),
+                item.get("department", ""),
                 embeddings,
                 embedding_cache,
                 cfg["top_k"],
@@ -573,6 +921,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
 
     total_nodes = graph.number_of_nodes()
     total_edges = graph.number_of_edges()
+    total_communities = len(retriever.partitioner.communities) if hasattr(retriever, "partitioner") and hasattr(retriever.partitioner, "communities") else 0
     avg_degree = (2 * total_edges / total_nodes) if total_nodes else 0.0
 
     metrics = {
@@ -582,19 +931,21 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
         "ndcg": float(np.mean([m["ndcg"] for m in query_metrics])),
         "avg_retrieval_time_ms": float(np.mean(retrieval_times)) if retrieval_times else 0.0,
         "avg_degree": avg_degree,
+        "total_nodes": total_nodes,
         "total_edges": total_edges,
+        "total_communities": total_communities,
     }
 
     if answer_similarities:
         metrics["answer_cosine_similarity"] = float(np.mean(answer_similarities))
 
-    individual.fitness = calculate_fitness(metrics)
+    individual.fitness = calculate_fitness(metrics, fitness_mode=fitness_mode)
     individual.metrics = metrics
     return individual
 
 
-def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_cache, evaluation_cache, llm=None, global_threshold=None):
-    key = (tuple(individual.chromosome), bool(llm))
+def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_cache, evaluation_cache, llm=None, global_threshold=None, fitness_mode="hybrid"):
+    key = (tuple(individual.chromosome), get_llm_cache_key(llm), fitness_mode)
 
     if key in evaluation_cache:
         cached = evaluation_cache[key]
@@ -610,6 +961,7 @@ def evaluate_with_cache(individual, dataset, documents, embeddings, embedding_ca
         embedding_cache,
         llm=llm,
         global_threshold=global_threshold,
+        fitness_mode=fitness_mode,
     )
     evaluation_cache[key] = {
         "fitness": evaluated.fitness,
@@ -633,19 +985,20 @@ def result_row_from_individual(individual, generation=0, individual_index=0, ind
             individual.metrics.get("answer_cosine_similarity", 0.0),
             4,
         ),
-        "precision_at_k": round(individual.metrics["precision_at_k"], 4),
         "map": round(individual.metrics["map"], 4),
         "mrr": round(individual.metrics["mrr"], 4),
         "ndcg": round(individual.metrics["ndcg"], 4),
         "avg_retrieval_time_ms": round(individual.metrics["avg_retrieval_time_ms"], 2),
         "avg_degree": round(individual.metrics["avg_degree"], 2),
+        "total_nodes": individual.metrics.get("total_nodes", 0),
         "total_edges": individual.metrics["total_edges"],
+        "total_communities": individual.metrics.get("total_communities", 0),
     }
 
 
-def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None):
+def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None, fitness_mode="hybrid"):
     baseline = Individual(chromosome=[
-        THRESHOLD_VALUES.index(0.7),
+        THRESHOLD_VALUES.index(0.4),
         MAX_EDGES_VALUES.index(7),
         TOP_K_VALUES.index(10),
     ])
@@ -658,10 +1011,12 @@ def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None, glob
         embedding_cache,
         llm=llm,
         global_threshold=global_threshold,
+        fitness_mode=fitness_mode,
     )
 
     result = result_row_from_individual(evaluated)
-    baseline_path = RESULT_DIR / "baseline_config.json"
+    baseline_suffix = "" if fitness_mode == "hybrid" else f"_{fitness_mode}"
+    baseline_path = RESULT_DIR / f"baseline_config{baseline_suffix}.json"
 
     with open(baseline_path, "w", encoding="utf-8") as f:
         json.dump(result, f, indent=2, ensure_ascii=False)
@@ -721,13 +1076,13 @@ def save_wide_csv(all_rows, path):
         ],
         [
             "",
-            "w0 = 0.45",
+            "w0 = 0.55",
             "f0 (Answer cosine)",
             *[row.get("answer_cosine_similarity", 0.0) for row in ordered_rows],
         ],
         [
             "",
-            "w1 = 0.20",
+            "w1 = 0.15",
             "f1 (NDCG)",
             *[row["ndcg"] for row in ordered_rows],
         ],
@@ -739,15 +1094,9 @@ def save_wide_csv(all_rows, path):
         ],
         [
             "",
-            "w3 = 0.10",
+            "w3 = 0.10/0.15",
             "f3 (MRR)",
             *[row["mrr"] for row in ordered_rows],
-        ],
-        [
-            "",
-            "w4 = 0.10",
-            "f4 (Precision@K)",
-            *[row["precision_at_k"] for row in ordered_rows],
         ],
         [
             "Global fitness function",
@@ -768,10 +1117,22 @@ def save_wide_csv(all_rows, path):
             *[row["avg_degree"] for row in ordered_rows],
         ],
         [
+            "Total nodes",
+            "",
+            "",
+            *[row.get("total_nodes", 0) for row in ordered_rows],
+        ],
+        [
             "Total edges",
             "",
             "",
             *[row["total_edges"] for row in ordered_rows],
+        ],
+        [
+            "Total communities",
+            "",
+            "",
+            *[row.get("total_communities", 0) for row in ordered_rows],
         ],
     ]
 
@@ -799,10 +1160,11 @@ def save_ranked_csv(all_rows, path):
         "ndcg",
         "map",
         "mrr",
-        "precision_at_k",
         "avg_retrieval_time_ms",
         "avg_degree",
+        "total_nodes",
         "total_edges",
+        "total_communities",
         "chromosome",
     ]
 
@@ -823,29 +1185,51 @@ def save_ranked_csv(all_rows, path):
                 "ndcg": row["ndcg"],
                 "map": row["map"],
                 "mrr": row["mrr"],
-                "precision_at_k": row["precision_at_k"],
                 "avg_retrieval_time_ms": row["avg_retrieval_time_ms"],
                 "avg_degree": row["avg_degree"],
+                "total_nodes": row.get("total_nodes", 0),
                 "total_edges": row["total_edges"],
+                "total_communities": row.get("total_communities", 0),
                 "chromosome": row["chromosome"],
             })
 
 
 def main():
-    setup_ga_logging()
-
     parser = argparse.ArgumentParser(description="GA tuning for KMA GraphRAG")
     parser.add_argument(
         "--baseline",
         action="store_true",
-        help="Only evaluate the current baseline: threshold=0.7, max_edges=7, top_k=10",
+        help="Only evaluate the current baseline: threshold=0.4, max_edges=7, top_k=10",
     )
     parser.add_argument(
         "--llm-eval",
         action="store_true",
         help="Generate answers with the active LLM and log each LLM response during evaluation",
     )
+    parser.add_argument(
+        "--mrr",
+        dest="fitness_mode",
+        action="store_const",
+        const="mrr",
+        help="Use MRR as the GA fitness objective; MAP and NDCG are still calculated and exported.",
+    )
+    parser.add_argument(
+        "--map",
+        dest="fitness_mode",
+        action="store_const",
+        const="map",
+        help="Use MAP as the GA fitness objective; MRR and NDCG are still calculated and exported.",
+    )
+    parser.add_argument(
+        "--ndcg",
+        dest="fitness_mode",
+        action="store_const",
+        const="ndcg",
+        help="Use NDCG as the GA fitness objective; MRR and MAP are still calculated and exported.",
+    )
+    parser.set_defaults(fitness_mode="hybrid")
     args = parser.parse_args()
+    setup_ga_logging(args.fitness_mode)
 
     random.seed(RANDOM_SEED)
     np.random.seed(RANDOM_SEED)
@@ -860,28 +1244,28 @@ def main():
     documents = load_rag_documents()
     print(f"Loaded {len(documents)} document chunks")
 
-    embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL)
+    embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL, base_url=os.getenv("OLLAMA_BASE_URL"))
     embedding_cache = {}
     evaluation_cache = {}
     llm = get_llm() if (USE_LLM_EVAL or args.llm_eval) else None
     logger.info(
-        "[GA_START] generations=%s population=%s dataset_size=%s llm_eval=%s",
+        "[GA_START] generations=%s population=%s dataset_size=%s llm_eval=%s fitness_mode=%s",
         GENERATIONS,
         POPULATION_SIZE,
         len(dataset),
         llm is not None,
+        args.fitness_mode,
     )
 
     population = init_population()
 
-    print("Calibrating relevance threshold from generation 0 population...")
-    global_threshold = calibrate_threshold(
+    global_threshold = load_or_create_global_threshold(
         population, dataset, documents, embeddings, embedding_cache
     )
-    print(f"Calibrated threshold: {global_threshold:.4f}")
+    print(f"Global relevance threshold: {global_threshold:.4f}")
 
     if args.baseline:
-        run_baseline(dataset, documents, embeddings, embedding_cache, llm=llm, global_threshold=global_threshold)
+        run_baseline(dataset, documents, embeddings, embedding_cache, llm=llm, global_threshold=global_threshold, fitness_mode=args.fitness_mode)
         return
 
     all_rows = []
@@ -898,10 +1282,23 @@ def main():
                 evaluation_cache,
                 llm=llm,
                 global_threshold=global_threshold,
+                fitness_mode=args.fitness_mode,
             )
             for ind in population
         ]
         evaluated.sort(key=lambda x: x.fitness, reverse=True)
+        best_ind = evaluated[0]
+        best_cfg = decode(best_ind.chromosome)
+        logger.info(
+            "[GENERATION] Gen %s/%s | Best Fitness: %.4f | Config: %s | Metrics: MAP=%.4f, MRR=%.4f, NDCG=%.4f",
+            generation + 1,
+            GENERATIONS,
+            best_ind.fitness,
+            best_cfg,
+            best_ind.metrics["map"],
+            best_ind.metrics["mrr"],
+            best_ind.metrics["ndcg"],
+        )
 
         for idx, ind in enumerate(evaluated):
             all_rows.append(
@@ -915,19 +1312,25 @@ def main():
 
         elites = evaluated[:ELITE_SIZE]
         children = []
+        num_children = POPULATION_SIZE - ELITE_SIZE - RANDOM_IMMIGRANTS
 
-        while len(children) < POPULATION_SIZE - ELITE_SIZE:
+        while len(children) < num_children:
             p1 = tournament_select(evaluated)
             p2 = tournament_select(evaluated)
             child = crossover(p1, p2)
             child = mutate(child)
             children.append(child)
 
-        population = elites + children
+        immigrants = [
+            Individual(random_chromosome())
+            for _ in range(RANDOM_IMMIGRANTS)
+        ]
+        population = elites + children + immigrants
 
     timestamp = time.strftime("%Y%m%d_%H%M%S")
-    csv_path = RESULT_DIR / f"ga_run_{timestamp}.csv"
-    ranked_csv_path = RESULT_DIR / f"ga_run_{timestamp}_ranked.csv"
+    output_suffix = "" if args.fitness_mode == "hybrid" else f"_{args.fitness_mode}"
+    csv_path = RESULT_DIR / f"ga_run{output_suffix}_{timestamp}.csv"
+    ranked_csv_path = RESULT_DIR / f"ga_run{output_suffix}_{timestamp}_ranked.csv"
     save_wide_csv(all_rows, csv_path)
     save_ranked_csv(all_rows, ranked_csv_path)
 

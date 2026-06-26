@@ -632,7 +632,9 @@ Mỗi individual cần lưu:
     "ndcg": 0.82,
     "avg_retrieval_time_ms": 430.2,
     "avg_degree": 12.4,
-    "total_edges": 1234
+    "total_nodes": 500,
+    "total_edges": 1234,
+    "total_communities": 12
   }
 }
 ```

@@ -823,6 +823,13 @@ def get_shared_graph_retriever(cfg, documents):
 
     partitioner = SubgraphPartitioner(graph_builder.graph)
     partitioner.partition_by_community_detection(generate_summaries=True)
+    
+    # Write community summaries to ga_tuning log
+    logger.info("[COMMUNITY_SUMMARIES_START] Listing all generated community summaries:")
+    for comm_id, summary in partitioner.community_summaries.items():
+        logger.info("[COMMUNITY_SUMMARY] Community %s:\n%s", comm_id, summary)
+    logger.info("[COMMUNITY_SUMMARIES_END]")
+
     partitioner.generate_centroids_from_embeddings()
 
     retriever = GraphRoutedRetriever(

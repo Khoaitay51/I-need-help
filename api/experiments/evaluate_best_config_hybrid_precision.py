@@ -1,3 +1,4 @@
+import argparse
 import csv
 import json
 import math
@@ -152,27 +153,69 @@ def get_shared_graph_retriever(cfg, documents):
     return retriever, graph_builder.graph
 
 def main():
+    global DATASET_PATH
+
+    # Thiết lập parse argument để người dùng có thể tự truyền tham số và dataset
+    parser = argparse.ArgumentParser(description="Đánh giá chất lượng RAG với cấu hình tùy chỉnh hoặc best config.")
+    parser.add_argument("-d", "--dataset", type=str, default=None, help="Tên hoặc đường dẫn file dataset (mặc định: 'dataset chatbot update.csv')")
+    parser.add_argument("-t", "--threshold", type=float, default=None, help="Giá trị threshold tùy chỉnh cho đồ thị (ví dụ: 0.4)")
+    parser.add_argument("-e", "--max-edges-per-node", type=int, default=None, help="Giá trị max_edges_per_node tùy chỉnh (ví dụ: 9)")
+    parser.add_argument("-k", "--top-k", type=int, default=None, help="Giá trị top_k truy xuất tài liệu (ví dụ: 11)")
+    parser.add_argument("-o", "--output", type=str, default=None, help="Tên hoặc đường dẫn file kết quả xuất Excel tùy chỉnh")
+    args = parser.parse_args()
+
     print("="*60)
-    print("🚀 BẮT ĐẦU ĐÁNH GIÁ CHẤT LƯỢNG RAG VỚI BEST CONFIG")
+    print("🚀 BẮT ĐẦU ĐÁNH GIÁ CHẤT LƯỢNG RAG VỚI HỆ THỐNG")
     print("="*60)
+
+    # Cập nhật dataset_path nếu được truyền vào
+    if args.dataset:
+        custom_dataset = Path(args.dataset)
+        if custom_dataset.exists():
+            DATASET_PATH = custom_dataset
+        elif (ROOT / args.dataset).exists():
+            DATASET_PATH = ROOT / args.dataset
+        elif (API_DIR / args.dataset).exists():
+            DATASET_PATH = API_DIR / args.dataset
+        else:
+            print(f"Cảnh báo: Không tìm thấy file dataset '{args.dataset}', thử dùng làm đường dẫn trực tiếp.")
+            DATASET_PATH = custom_dataset
+        print(f"Sử dụng file dataset: {DATASET_PATH}")
+    else:
+        print(f"Sử dụng file dataset mặc định: {DATASET_PATH}")
     
-    # 1. Đọc cấu hình tốt nhất từ best_config.json
+    # 1. Đọc cấu hình gốc từ best_config.json làm cấu hình mặc định
     best_config_path = RESULT_DIR / "best_config.json"
+    base_threshold = 0.4
+    base_max_edges = 9
+    base_top_k = 11
+
     if best_config_path.exists():
         with open(best_config_path, "r", encoding="utf-8") as f:
             best_cfg = json.load(f)
-        threshold = best_cfg.get("threshold", 0.4)
-        max_edges_per_node = best_cfg.get("max_edges_per_node", 9)
-        top_k = best_cfg.get("top_k", 11)
-        print(f"Tải thành công cấu hình tốt nhất từ {best_config_path}:")
-        print(f"  - Threshold: {threshold}")
-        print(f"  - Max edges per node: {max_edges_per_node}")
-        print(f"  - Top K: {top_k}")
+        cfg_threshold = best_cfg.get("threshold", base_threshold)
+        cfg_max_edges = best_cfg.get("max_edges_per_node", base_max_edges)
+        cfg_top_k = best_cfg.get("top_k", base_top_k)
+        print(f"Tải thành công cấu hình từ {best_config_path}:")
+        print(f"  - Threshold: {cfg_threshold}")
+        print(f"  - Max edges per node: {cfg_max_edges}")
+        print(f"  - Top K: {cfg_top_k}")
     else:
-        threshold = 0.4
-        max_edges_per_node = 9
-        top_k = 11
-        print(f"Không tìm thấy best_config.json, sử dụng cấu hình mặc định:")
+        cfg_threshold = base_threshold
+        cfg_max_edges = base_max_edges
+        cfg_top_k = base_top_k
+        print(f"Không tìm thấy best_config.json, sử dụng cấu hình mặc định nền:")
+        print(f"  - Threshold: {cfg_threshold}")
+        print(f"  - Max edges per node: {cfg_max_edges}")
+        print(f"  - Top K: {cfg_top_k}")
+
+    # Áp dụng tham số truyền vào từ dòng lệnh nếu có, ngược lại giữ nguyên cấu hình đã đọc
+    threshold = args.threshold if args.threshold is not None else cfg_threshold
+    max_edges_per_node = args.max_edges_per_node if args.max_edges_per_node is not None else cfg_max_edges
+    top_k = args.top_k if args.top_k is not None else cfg_top_k
+
+    if args.threshold is not None or args.max_edges_per_node is not None or args.top_k is not None:
+        print("\n--> Áp dụng cấu hình tùy chỉnh từ dòng lệnh:")
         print(f"  - Threshold: {threshold}")
         print(f"  - Max edges per node: {max_edges_per_node}")
         print(f"  - Top K: {top_k}")
@@ -212,7 +255,7 @@ def main():
     corpus_texts = [doc.page_content for doc in documents]
     bm25_scorer = BM25Scorer(corpus_texts)
 
-    # 4. Khởi tạo retriever với best config
+    # 4. Khởi tạo retriever với cấu hình cuối cùng
     cfg = {
         "threshold": threshold,
         "max_edges_per_node": max_edges_per_node,
@@ -231,6 +274,7 @@ def main():
         ground_truth = item.get("ground_truth") or expected_answer
         expected_file = os.path.basename(item.get("doc_file") or "").lower().strip()
         expected_department = (item.get("department") or "").lower().strip()
+        normalized_truth = ground_truth.lower().strip() if ground_truth else ""
         
         # Lấy embedding của câu trả lời mong đợi làm mốc so sánh
         truth_embedding = embed_text(ground_truth, embeddings, embedding_cache)
@@ -345,7 +389,16 @@ def main():
     
     # Đường dẫn xuất file excel
     timestamp = time.strftime("%Y%m%d_%H%M%S")
-    excel_path = RESULT_DIR / f"hybrid_precision_evaluation_{timestamp}.xlsx"
+    if args.output:
+        custom_out = Path(args.output)
+        if custom_out.suffix != ".xlsx":
+            custom_out = custom_out.with_suffix(".xlsx")
+        if not custom_out.is_absolute():
+            excel_path = RESULT_DIR / custom_out
+        else:
+            excel_path = custom_out
+    else:
+        excel_path = RESULT_DIR / f"hybrid_precision_evaluation_{timestamp}.xlsx"
     
     # Lưu file excel
     df_final.to_excel(excel_path, index=False)

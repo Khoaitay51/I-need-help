@@ -38,9 +38,9 @@ TOP_K_VALUES = list(range(5, 20))
 POPULATION_SIZE = 12
 GENERATIONS = 8
 ELITE_SIZE = 2
-MUTATION_RATE = 0.3
-RANDOM_IMMIGRANTS = 2
-RANDOM_SEED = 42
+MUTATION_RATE = 0.4
+RANDOM_IMMIGRANTS = 5
+RANDOM_SEED = 60
 GRAPH_CACHE_NAMESPACE = "rag_ga_runs_deterministic_v1"
 USE_LLM_EVAL = False
 MAX_EVAL_QUESTIONS = None
@@ -1007,8 +1007,8 @@ def result_row_from_individual(individual, generation=0, individual_index=0, ind
 
 def run_baseline(dataset, documents, embeddings, embedding_cache, llm=None, global_threshold=None, fitness_mode="hybrid"):
     baseline = Individual(chromosome=[
-        THRESHOLD_VALUES.index(0.4),
-        MAX_EDGES_VALUES.index(7),
+        THRESHOLD_VALUES.index(0.7),
+        MAX_EDGES_VALUES.index(5),
         TOP_K_VALUES.index(10),
     ])
 
@@ -1208,7 +1208,7 @@ def main():
     parser.add_argument(
         "--baseline",
         action="store_true",
-        help="Only evaluate the current baseline: threshold=0.4, max_edges=7, top_k=10",
+        help="Only evaluate the current baseline: threshold=0.7, max_edges=5, top_k=10",
     )
     parser.add_argument(
         "--llm-eval",

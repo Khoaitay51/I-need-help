@@ -132,7 +132,7 @@ class ModelManager:
             "modelType": model_type_enum,
             "isActive": True,
             "parameters": {
-                "temperature": float(os.environ.get("DEFAULT_TEMPERATURE", "0.7")),
+                "temperature": float(os.environ.get("DEFAULT_TEMPERATURE", "0.1")),
                 "top_p": float(os.environ.get("DEFAULT_TOP_P", "0.9")),
                 "top_k": int(os.environ.get("DEFAULT_TOP_K", "40")),
                 "max_tokens": int(os.environ.get("DEFAULT_MAX_TOKENS", "2048")),
@@ -340,7 +340,7 @@ class ModelManager:
         Returns:
             float: Giá trị temperature.
         """
-        return self.get_model_parameter("temperature", 0.7)
+        return self.get_model_parameter("temperature", 0.1)
     
     def get_max_tokens(self) -> int:
         """

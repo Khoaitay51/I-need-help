@@ -1,7 +1,6 @@
 import argparse
 import csv
 import json
-import math
 import os
 import sys
 import time
@@ -10,6 +9,8 @@ import numpy as np
 import pandas as pd
 from dotenv import load_dotenv
 from langchain_ollama import OllamaEmbeddings
+from langchain_core.messages import HumanMessage
+from rouge_score import rouge_scorer as rouge_scorer_lib
 
 # Thiết lập đường dẫn import cho hệ thống
 ROOT = Path(__file__).resolve().parents[2]
@@ -23,6 +24,8 @@ from src.graph_rag.graph_builder import DocumentGraph
 from src.graph_rag.graph_retriever import GraphRoutedRetriever
 from src.graph_rag.subgraph_partitioner import SubgraphPartitioner
 from src.rag.table_aware_chunking import load_documents_from_folder
+from src.llm.config import get_llm
+import re
 
 load_dotenv(dotenv_path=ROOT / ".env")
 
@@ -32,50 +35,7 @@ EMBEDDING_MODEL = "nomic-embed-text:latest"
 DATASET_PATH = ROOT / "dataset chatbot update.csv"
 DATA_FOLDER = ROOT / "api" / "data"
 RESULT_DIR = API_DIR / "experiments" / "rag_ga_results"
-GLOBAL_THRESHOLD_PATH = RESULT_DIR / "global_relevance_threshold.json"
 
-# Lớp tính toán BM25 cục bộ dựa trên corpus của RAG
-class BM25Scorer:
-    def __init__(self, corpus_docs):
-        from collections import Counter
-        self.N = len(corpus_docs)
-        self.doc_lens = [len(doc.split()) for doc in corpus_docs]
-        self.avg_len = sum(self.doc_lens) / self.N if self.N > 0 else 1.0
-        
-        # Đếm tần suất xuất hiện của từ trong các văn bản
-        self.doc_freqs = Counter()
-        for doc in corpus_docs:
-            unique_tokens = set(doc.lower().split())
-            for token in unique_tokens:
-                self.doc_freqs[token] += 1
-                
-    def get_idf(self, token):
-        freq = self.doc_freqs.get(token, 0)
-        # Công thức tính IDF tiêu chuẩn BM25
-        return math.log((self.N - freq + 0.5) / (freq + 0.5) + 1.0)
-
-    def score(self, query, doc_text):
-        from collections import Counter
-        query_tokens = query.lower().split()
-        if not query_tokens:
-            return 0.0
-            
-        doc_tokens = doc_text.lower().split()
-        doc_len = len(doc_tokens)
-        token_freqs = Counter(doc_tokens)
-        
-        k1, b = 1.5, 0.75
-        score = 0.0
-        query_unique_tokens = set(query_tokens)
-        for token in query_unique_tokens:
-            if token in token_freqs:
-                tf = token_freqs[token]
-                idf = self.get_idf(token)
-                score += idf * (tf * (k1 + 1)) / (
-                    tf + k1 * (1 - b + b * doc_len / self.avg_len)
-                )
-        # Chuẩn hóa về [0, 1]
-        return score / (len(query_unique_tokens) + 1)
 
 def cosine_sim(a, b):
     a = np.array(a)
@@ -85,14 +45,88 @@ def cosine_sim(a, b):
         return 0.0
     return float(np.dot(a, b) / denom)
 
+
+def rouge_similarity(expected, llm_answer):
+    """Tính ROUGE-1, ROUGE-2, ROUGE-L giữa expected và llm_answer."""
+    scorer = rouge_scorer_lib.RougeScorer(
+        ["rouge1", "rouge2", "rougeL"], use_stemmer=False
+    )
+    scores = scorer.score(expected, llm_answer)
+    return {
+        "rouge1": scores["rouge1"].fmeasure,
+        "rouge2": scores["rouge2"].fmeasure,
+        "rougeL": scores["rougeL"].fmeasure,
+    }
+
+
 def embed_text(text, embeddings, embedding_cache):
     if text not in embedding_cache:
         try:
             embedding_cache[text] = embeddings.embed_query(text)
         except Exception as e:
             print(f"Lỗi tạo embedding cho text: {text[:50]}... - {e}")
-            return [0.0] * 768  # Trả về vector rỗng nếu lỗi
+            return np.zeros(len(embeddings.embed_query("test"))).tolist()
     return embedding_cache[text]
+
+
+def normalize_llm_content(value):
+
+    def strip_thinking(text):
+        return re.sub(
+            r"<think(?:ing)?>[\s\S]*?(?:</think(?:ing)?>|$)",
+            "",
+            str(text),
+            flags=re.IGNORECASE,
+        ).strip()
+
+    if value is None:
+        return ""
+
+    if isinstance(value, str):
+        return strip_thinking(value)
+
+    if isinstance(value, list):
+        return "\n".join(
+            normalize_llm_content(x) for x in value if normalize_llm_content(x)
+        ).strip()
+
+    if isinstance(value, dict):
+        for key in ("text", "content", "answer", "output"):
+            if key in value:
+                txt = normalize_llm_content(value[key])
+                if txt:
+                    return txt
+
+    return strip_thinking(str(value))
+
+
+def generate_answer_with_llm(question, docs, llm):
+    context = "\n\n".join(
+        f"[Chunk {i+1}]\n{doc.page_content}" for i, doc in enumerate(docs)
+    )
+
+    prompt = f"""
+Bạn là công cụ trích xuất thông tin từ văn bản quy định.
+
+Ngữ cảnh:
+{context}
+
+Câu hỏi: {question}
+
+Yêu cầu:
+- Tìm đoạn văn bản trong ngữ cảnh trả lời trực tiếp cho câu hỏi.
+- Chép lại NGUYÊN VĂN hoặc gần nguyên văn đoạn đó, không diễn giải lại.
+- Nếu không tìm thấy, chỉ trả lời: "Không tìm thấy đủ thông tin."
+- Không thêm lời giải thích, không mở đầu, không kết luận.
+
+
+Trả lời:
+""".strip()
+
+    response = llm.invoke([HumanMessage(content=prompt)])
+    content = response.content if hasattr(response, "content") else response
+    return normalize_llm_content(content)
+
 
 def load_eval_dataset():
     dataset = []
@@ -105,20 +139,26 @@ def load_eval_dataset():
             doc_file = row.get("doc_file", "").strip()
             department = row.get("department", "").strip()
             if question and answer_expected:
-                dataset.append({
-                    "index": i + 1,
-                    "question": question,
-                    "answer_expected": answer_expected,
-                    "ground_truth": ground_truth,
-                    "doc_file": doc_file,
-                    "department": department,
-                })
+                dataset.append(
+                    {
+                        "index": i + 1,
+                        "question": question,
+                        "answer_expected": answer_expected,
+                        "ground_truth": ground_truth,
+                        "doc_file": doc_file,
+                        "department": department,
+                    }
+                )
     return dataset
 
+
 def get_shared_graph_retriever(cfg, documents):
-    # Sử dụng cache thư mục như trong ga_tuning_RAG.py
     RUN_DIR = API_DIR / "experiments" / "rag_ga_runs_deterministic_v1"
-    graph_cache_dir = RUN_DIR / f"t{cfg['threshold']}_e{cfg['max_edges_per_node']}" / "document_graph"
+    graph_cache_dir = (
+        RUN_DIR
+        / f"t{cfg['threshold']}_e{cfg['max_edges_per_node']}"
+        / "document_graph"
+    )
     graph_cache_dir.mkdir(parents=True, exist_ok=True)
     graph_path = graph_cache_dir / "document_graph.pkl"
 
@@ -128,8 +168,7 @@ def get_shared_graph_retriever(cfg, documents):
         embeddings_model=EMBEDDING_MODEL,
     )
 
-    loaded_from_cache = graph_path.exists()
-    if loaded_from_cache:
+    if graph_path.exists():
         print(f"Đang tải GraphRAG từ bộ nhớ đệm: {graph_path}")
         graph_builder.load_graph(str(graph_path))
     else:
@@ -138,7 +177,7 @@ def get_shared_graph_retriever(cfg, documents):
         graph_builder.save_graph(str(graph_path))
 
     partitioner = SubgraphPartitioner(graph_builder.graph)
-    partitioner.partition_by_community_detection(generate_summaries=True)
+    partitioner.partition_by_community_detection(generate_summaries=False)
     partitioner.generate_centroids_from_embeddings()
 
     retriever = GraphRoutedRetriever(
@@ -152,23 +191,26 @@ def get_shared_graph_retriever(cfg, documents):
     )
     return retriever, graph_builder.graph
 
+
 def main():
     global DATASET_PATH
 
-    # Thiết lập parse argument để người dùng có thể tự truyền tham số và dataset
-    parser = argparse.ArgumentParser(description="Đánh giá chất lượng RAG với cấu hình tùy chỉnh hoặc best config.")
-    parser.add_argument("-d", "--dataset", type=str, default=None, help="Tên hoặc đường dẫn file dataset (mặc định: 'dataset chatbot update.csv')")
-    parser.add_argument("-t", "--threshold", type=float, default=None, help="Giá trị threshold tùy chỉnh cho đồ thị (ví dụ: 0.4)")
-    parser.add_argument("-e", "--max-edges-per-node", type=int, default=None, help="Giá trị max_edges_per_node tùy chỉnh (ví dụ: 9)")
-    parser.add_argument("-k", "--top-k", type=int, default=None, help="Giá trị top_k truy xuất tài liệu (ví dụ: 11)")
-    parser.add_argument("-o", "--output", type=str, default=None, help="Tên hoặc đường dẫn file kết quả xuất Excel tùy chỉnh")
+    parser = argparse.ArgumentParser(
+        description="Đánh giá chất lượng RAG với cấu hình tùy chỉnh hoặc best config."
+    )
+    parser.add_argument("-d", "--dataset", type=str, default=None)
+    parser.add_argument("-t", "--threshold", type=float, default=None)
+    parser.add_argument("-e", "--max-edges-per-node", type=int, default=None)
+    parser.add_argument("-k", "--top-k", type=int, default=None)
+    parser.add_argument("-o", "--output", type=str, default=None)
+    parser.add_argument("--llm-eval", action="store_true")
+
     args = parser.parse_args()
 
-    print("="*60)
+    print("=" * 60)
     print("🚀 BẮT ĐẦU ĐÁNH GIÁ CHẤT LƯỢNG RAG VỚI HỆ THỐNG")
-    print("="*60)
+    print("=" * 60)
 
-    # Cập nhật dataset_path nếu được truyền vào
     if args.dataset:
         custom_dataset = Path(args.dataset)
         if custom_dataset.exists():
@@ -178,13 +220,13 @@ def main():
         elif (API_DIR / args.dataset).exists():
             DATASET_PATH = API_DIR / args.dataset
         else:
-            print(f"Cảnh báo: Không tìm thấy file dataset '{args.dataset}', thử dùng làm đường dẫn trực tiếp.")
+            print(f"Cảnh báo: Không tìm thấy file dataset '{args.dataset}'.")
             DATASET_PATH = custom_dataset
         print(f"Sử dụng file dataset: {DATASET_PATH}")
     else:
         print(f"Sử dụng file dataset mặc định: {DATASET_PATH}")
-    
-    # 1. Đọc cấu hình gốc từ best_config.json làm cấu hình mặc định
+
+    # 1. Đọc cấu hình từ best_config.json
     best_config_path = RESULT_DIR / "best_config.json"
     base_threshold = 0.4
     base_max_edges = 9
@@ -204,36 +246,19 @@ def main():
         cfg_threshold = base_threshold
         cfg_max_edges = base_max_edges
         cfg_top_k = base_top_k
-        print(f"Không tìm thấy best_config.json, sử dụng cấu hình mặc định nền:")
-        print(f"  - Threshold: {cfg_threshold}")
-        print(f"  - Max edges per node: {cfg_max_edges}")
-        print(f"  - Top K: {cfg_top_k}")
+        print("Không tìm thấy best_config.json, sử dụng cấu hình mặc định.")
 
-    # Áp dụng tham số truyền vào từ dòng lệnh nếu có, ngược lại giữ nguyên cấu hình đã đọc
     threshold = args.threshold if args.threshold is not None else cfg_threshold
-    max_edges_per_node = args.max_edges_per_node if args.max_edges_per_node is not None else cfg_max_edges
+    max_edges_per_node = (
+        args.max_edges_per_node if args.max_edges_per_node is not None else cfg_max_edges
+    )
     top_k = args.top_k if args.top_k is not None else cfg_top_k
 
     if args.threshold is not None or args.max_edges_per_node is not None or args.top_k is not None:
         print("\n--> Áp dụng cấu hình tùy chỉnh từ dòng lệnh:")
-        print(f"  - Threshold: {threshold}")
-        print(f"  - Max edges per node: {max_edges_per_node}")
-        print(f"  - Top K: {top_k}")
+        print(f"  - Threshold: {threshold}, Max edges: {max_edges_per_node}, Top K: {top_k}")
 
-    # 2. Đọc global relevance threshold
-    global_threshold = 0.65
-    if GLOBAL_THRESHOLD_PATH.exists():
-        with open(GLOBAL_THRESHOLD_PATH, "r", encoding="utf-8") as f:
-            payload = json.load(f)
-        global_threshold = float(payload.get("threshold", 0.65))
-        print(f"Tải thành công global relevance threshold: {global_threshold:.4f}")
-    else:
-        print(f"Sử dụng global relevance threshold mặc định: {global_threshold:.4f}")
-
-    relevance_threshold = global_threshold * 0.95
-    print(f"Relevance Similarity Threshold dùng để xét nhãn relevance: {relevance_threshold:.4f}")
-
-    # 3. Tải dataset và tài liệu RAG
+    # 2. Tải dataset và tài liệu RAG
     print("\nĐang tải dataset...")
     dataset = load_eval_dataset()
     print(f"Đã tải {len(dataset)} câu hỏi đánh giá.")
@@ -246,47 +271,44 @@ def main():
     )
     print(f"Đã tải {len(documents)} chunk tài liệu.")
 
-    # Khởi tạo mô hình embeddings và BM25 scorer
     print("Khởi tạo mô hình embeddings Ollama...")
     embeddings = OllamaEmbeddings(model=EMBEDDING_MODEL, base_url=OLLAMA_BASE_URL)
     embedding_cache = {}
-    
-    print("Khởi tạo BM25 scorer với corpus của các chunk...")
-    corpus_texts = [doc.page_content for doc in documents]
-    bm25_scorer = BM25Scorer(corpus_texts)
 
-    # 4. Khởi tạo retriever với cấu hình cuối cùng
+    llm = None
+    if args.llm_eval:
+        print("Loading LLM...")
+        llm = get_llm()
+        print("LLM ready.")
+
+    # 3. Khởi tạo retriever
     cfg = {
         "threshold": threshold,
         "max_edges_per_node": max_edges_per_node,
-        "top_k": top_k
+        "top_k": top_k,
     }
     retriever, graph = get_shared_graph_retriever(cfg, documents)
 
-    # 5. Đánh giá từng câu hỏi trong dataset
+    # 4. Đánh giá từng câu hỏi
     print("\nĐang chạy đánh giá trên toàn bộ dataset...")
     rows = []
-    precision_scores = []
-    
+    cosine_scores = []
+    rouge1_scores = []
+    rouge2_scores = []
+    rougeL_scores = []
+    hybrid_scores = []
+
     for idx, item in enumerate(dataset):
         question = item["question"]
         expected_answer = item["answer_expected"]
-        ground_truth = item.get("ground_truth") or expected_answer
-        expected_file = os.path.basename(item.get("doc_file") or "").lower().strip()
-        expected_department = (item.get("department") or "").lower().strip()
-        normalized_truth = ground_truth.lower().strip() if ground_truth else ""
-        
-        # Lấy embedding của câu trả lời mong đợi làm mốc so sánh
-        truth_embedding = embed_text(ground_truth, embeddings, embedding_cache)
-        
-        # Truy xuất top_k tài liệu
+
         try:
             retrieved = retriever._get_relevant_documents(question)
         except Exception as exc:
-            print(f"Lỗi khi truy xuất cho câu hỏi {idx+1}: {exc}")
+            print(f"Lỗi khi truy xuất cho câu hỏi {idx + 1}: {exc}")
             retrieved = []
-            
-        # Loại bỏ các chunk trùng lặp nội dung
+
+        # Dedup
         unique_retrieved = []
         seen = set()
         for doc in retrieved:
@@ -294,122 +316,117 @@ def main():
             if content and content not in seen:
                 seen.add(content)
                 unique_retrieved.append(doc)
-        
-        top_docs = unique_retrieved[:top_k]
-        
-        # Đánh giá độ phù hợp của từng chunk truy xuất được
-        binary_relevance = []
-        
-        for chunk_rank, doc in enumerate(top_docs, start=1):
-            metadata = getattr(doc, "metadata", {}) or {}
-            page_content = doc.page_content
-            
-            # 1. Cosine similarity giữa chunk và expected answer (ground truth)
-            doc_embedding = embed_text(page_content, embeddings, embedding_cache)
-            cosine_score = cosine_sim(doc_embedding, truth_embedding)
-            
-            # 2. BM25 score giữa chunk và expected answer (ground truth)
-            bm25_score = bm25_scorer.score(ground_truth, page_content)
-            
-            # 3. Điểm tổng hợp hybrid: 30% BM25 + 70% Cosine
-            hybrid_score = 0.70 * cosine_score + 0.30 * bm25_score
-            
-            # Xét bộ lọc phòng ban (department) và file nguồn giống ga_tuning_RAG.py
-            source_candidates = [
-                metadata.get("source", ""),
-                metadata.get("source_path", ""),
-                metadata.get("full_path", ""),
-                metadata.get("filename", ""),
-            ]
-            normalized_sources = [str(s).lower().strip() for s in source_candidates if s]
-            source_basenames = {os.path.basename(s) for s in normalized_sources}
-            
-            metadata_department = str(metadata.get("department", "") or metadata.get("query_department", "")).lower().strip()
-            department_candidates = [metadata_department, *normalized_sources]
-            has_department_signal = any(department_candidates)
-            
-            department_matched = (
-                True
-                if not expected_department or not has_department_signal
-                else any(expected_department in s for s in department_candidates)
-            )
-            
-            file_matched = (
-                True
-                if not expected_file
-                else expected_file in source_basenames
-            )
-            
-            text_matched = (
-                normalized_truth in page_content.lower()
-                if normalized_truth
-                else False
-            )
-            
-            sim_matched = hybrid_score >= relevance_threshold
-            
-            # Nhãn relevance: 1 hoặc 0
-            is_relevant = 1 if department_matched and file_matched and (text_matched or sim_matched) else 0
-            binary_relevance.append(is_relevant)
-            
-            # Thêm dòng dữ liệu vào Excel list
-            rows.append({
-                "Câu số": item["index"],
-                "Câu hỏi": question,
-                "Câu trả lời": page_content,
-                "Điểm Cosine": round(cosine_score, 4),
-                "Điểm BM25": round(bm25_score, 4),
-                "Điểm Tổng": round(hybrid_score, 4),
-                "Relevance": is_relevant
-            })
-            
-        # Tính Precision@K cho câu hỏi này
-        q_precision = sum(binary_relevance) / top_k if top_k > 0 else 0.0
-        precision_scores.append(q_precision)
-        
-        if (idx + 1) % 10 == 0 or (idx + 1) == len(dataset):
-            print(f"Đã xử lý {idx+1}/{len(dataset)} câu hỏi. Precision@K trung bình hiện tại: {np.mean(precision_scores):.4f}")
 
-    # 6. Tạo DataFrame và lưu kết quả ra Excel
+        top_docs = unique_retrieved[:top_k]
+
+        llm_answer = ""
+        cosine_score = 0.0
+        r1 = r2 = rL = rouge_combined = hybrid_score = 0.0
+        is_relevant = 0
+
+        if llm is not None and top_docs:
+            llm_answer = generate_answer_with_llm(question, top_docs, llm)
+
+            # Cosine similarity (semantic)
+            expected_embedding = embed_text(expected_answer, embeddings, embedding_cache)
+            answer_embedding = embed_text(llm_answer, embeddings, embedding_cache)
+            cosine_score = cosine_sim(answer_embedding, expected_embedding)
+
+            # ROUGE scores (lexical)
+            rouge_scores = rouge_similarity(expected_answer, llm_answer)
+            r1 = rouge_scores["rouge1"]
+            r2 = rouge_scores["rouge2"]
+            rL = rouge_scores["rougeL"]
+            rouge_combined = (r1 + r2 + rL) / 3
+
+            hybrid_score = 0.7 * cosine_score + 0.3 * rouge_combined
+            is_relevant = int(hybrid_score >= 0.70)
+
+        cosine_scores.append(cosine_score)
+        rouge1_scores.append(r1)
+        rouge2_scores.append(r2)
+        rougeL_scores.append(rL)
+        hybrid_scores.append(hybrid_score)
+
+        rows.append(
+            {
+                "Question ID": item["index"],
+                "Question": question,
+                "Expected Answer": expected_answer,
+                "LLM Answer": llm_answer,
+                "Cosine Similarity": round(cosine_score, 4),
+                "ROUGE-1": round(r1, 4),
+                "ROUGE-2": round(r2, 4),
+                "ROUGE-L": round(rL, 4),
+                "ROUGE Combined": round(rouge_combined, 4),
+                "Hybrid Score": round(hybrid_score, 4),
+                "Relevant": is_relevant,
+            }
+        )
+
+        if (idx + 1) % 10 == 0 or (idx + 1) == len(dataset):
+            print(
+                f"Đã xử lý {idx + 1}/{len(dataset)}"
+                f" | Cosine={np.mean(cosine_scores):.4f}"
+                f" | R1={np.mean(rouge1_scores):.4f}"
+                f" | R2={np.mean(rouge2_scores):.4f}"
+                f" | RL={np.mean(rougeL_scores):.4f}"
+                f" | Hybrid={np.mean(hybrid_scores):.4f}"
+            )
+
+    # 5. Lưu kết quả ra Excel
     df = pd.DataFrame(rows)
-    
-    # Tính toán tổng hợp ở cuối bảng
+
     total_questions = len(dataset)
-    avg_precision = float(np.mean(precision_scores))
-    
-    # Tạo các dòng tổng hợp bổ sung dưới cùng bảng dữ liệu
+    avg_cosine = float(np.mean(cosine_scores)) if cosine_scores else 0.0
+    avg_r1 = float(np.mean(rouge1_scores)) if rouge1_scores else 0.0
+    avg_r2 = float(np.mean(rouge2_scores)) if rouge2_scores else 0.0
+    avg_rL = float(np.mean(rougeL_scores)) if rougeL_scores else 0.0
+    avg_hybrid = float(np.mean(hybrid_scores)) if hybrid_scores else 0.0
+    relevant_count = sum(row["Relevant"] for row in rows)
+    relevant_rate = relevant_count / total_questions if total_questions > 0 else 0.0
+
     summary_rows = [
-        {"Câu số": "", "Câu hỏi": "", "Câu trả lời": "", "Điểm Cosine": "", "Điểm BM25": "", "Điểm Tổng": "", "Relevance": ""},
-        {"Câu số": "Tổng số câu hỏi", "Câu hỏi": total_questions, "Câu trả lời": "", "Điểm Cosine": "", "Điểm BM25": "", "Điểm Tổng": "", "Relevance": ""},
-        {"Câu số": "Điểm Precision trung bình", "Câu hỏi": f"{avg_precision:.4%}", "Câu trả lời": "", "Điểm Cosine": "", "Điểm BM25": "", "Điểm Tổng": "", "Relevance": ""}
+        {"Question ID": "", "Question": ""},
+        {"Question ID": "Total Questions", "Question": total_questions},
+        {"Question ID": "Average Cosine Similarity", "Question": f"{avg_cosine:.4f}"},
+        {"Question ID": "Average ROUGE-1", "Question": f"{avg_r1:.4f}"},
+        {"Question ID": "Average ROUGE-2", "Question": f"{avg_r2:.4f}"},
+        {"Question ID": "Average ROUGE-L", "Question": f"{avg_rL:.4f}"},
+        {"Question ID": "Average Hybrid Score", "Question": f"{avg_hybrid:.4f}"},
+        {"Question ID": "Relevant Responses", "Question": f"{relevant_count}/{total_questions}"},
+        {"Question ID": "Relevant Rate", "Question": f"{relevant_rate:.2%}"},
     ]
-    
+
     df_summary = pd.DataFrame(summary_rows)
     df_final = pd.concat([df, df_summary], ignore_index=True)
-    
-    # Đường dẫn xuất file excel
+
     timestamp = time.strftime("%Y%m%d_%H%M%S")
     if args.output:
         custom_out = Path(args.output)
         if custom_out.suffix != ".xlsx":
             custom_out = custom_out.with_suffix(".xlsx")
-        if not custom_out.is_absolute():
-            excel_path = RESULT_DIR / custom_out
-        else:
-            excel_path = custom_out
+        excel_path = custom_out if custom_out.is_absolute() else RESULT_DIR / custom_out
     else:
-        excel_path = RESULT_DIR / f"hybrid_precision_evaluation_{timestamp}.xlsx"
-    
-    # Lưu file excel
+        excel_path = RESULT_DIR / f"rouge_cosine_evaluation_{timestamp}.xlsx"
+
+    RESULT_DIR.mkdir(parents=True, exist_ok=True)
     df_final.to_excel(excel_path, index=False)
-    
-    print("\n" + "="*60)
+
+    print("\n" + "=" * 60)
     print("🎉 HOÀN THÀNH ĐÁNH GIÁ CHẤT LƯỢNG")
-    print("="*60)
-    print(f"Tổng số câu hỏi đánh giá: {total_questions}")
-    print(f"Điểm Precision@{top_k} trung bình toàn bộ dataset: {avg_precision:.4%}")
-    print(f"Đường dẫn file kết quả Excel: {excel_path}")
-    print("="*60)
+    print("=" * 60)
+    print(f"Tổng số câu hỏi đánh giá : {total_questions}")
+    print(f"Average Cosine Similarity : {avg_cosine:.4f}")
+    print(f"Average ROUGE-1           : {avg_r1:.4f}")
+    print(f"Average ROUGE-2           : {avg_r2:.4f}")
+    print(f"Average ROUGE-L           : {avg_rL:.4f}")
+    print(f"Average Hybrid Score      : {avg_hybrid:.4f}")
+    print(f"Relevant Responses        : {relevant_count}/{total_questions}")
+    print(f"Relevant Rate             : {relevant_rate:.2%}")
+    print(f"Đường dẫn file kết quả    : {excel_path}")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
     main()

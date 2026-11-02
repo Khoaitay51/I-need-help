@@ -819,13 +819,22 @@ def get_shared_graph_retriever(cfg, documents):
     loaded_from_cache = graph_path.exists()
     if loaded_from_cache:
         graph_builder.load_graph(str(graph_path))
+        partitioner = SubgraphPartitioner(graph_builder.graph)
+        # Restore cached community summaries and centroids
+        partitioner.community_summaries = getattr(graph_builder, 'community_summaries', {}) or {}
+        partitioner.community_centroids = getattr(graph_builder, 'community_centroids', {}) or {}
+        # Partition by community but skip LLM summary generation
+        partitioner.partition_by_community_detection(generate_summaries=False)
     else:
         graph_builder.build_graph(documents)
+        partitioner = SubgraphPartitioner(graph_builder.graph)
+        # Build for first time: generate LLM summaries
+        partitioner.partition_by_community_detection(generate_summaries=True)
+        # Save summaries and centroids to builder so they are serialized
+        graph_builder.community_summaries = partitioner.community_summaries
+        graph_builder.community_centroids = partitioner.community_centroids
         graph_builder.save_graph(str(graph_path))
 
-    partitioner = SubgraphPartitioner(graph_builder.graph)
-    partitioner.partition_by_community_detection(generate_summaries=True)
-    
     # Write community summaries to ga_tuning log
     logger.info("[COMMUNITY_SUMMARIES_START] Listing all generated community summaries:")
     for comm_id, summary in partitioner.community_summaries.items():

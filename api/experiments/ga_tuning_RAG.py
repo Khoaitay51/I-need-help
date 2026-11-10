@@ -187,7 +187,7 @@ def load_eval_dataset(limit=None, llm_eval=False):
     if not any(row["answerable"] for row in rows):
         raise SystemExit("The tuning sample needs at least one query with retrieval labels.")
     RUN_DIR = benchmark.graph_cache_dir(ROOT, dataset, files)
-    print(f"Benchmark: {dataset}, split=tune, cutoff={benchmark.TUNING_CUTOFF}, queries={len(rows)}")
+    print(f"Benchmark: {dataset}, split=tune, queries={len(rows)}")
     return rows
 
 
@@ -364,7 +364,6 @@ def get_shared_graph_retriever(cfg, documents, *, generate_summaries=True):
 def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=None, fitness_mode="hybrid"):
     cfg = decode(individual.chromosome)
     top_k = cfg["top_k"]
-    cutoff = benchmark.TUNING_CUTOFF
     search_cfg = {**cfg, "top_k": top_k * 3}
     retriever, graph = get_shared_graph_retriever(search_cfg, documents, generate_summaries=False)
     query_metrics = []
@@ -379,7 +378,7 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
         ranking = benchmark.ranked_sources(chunks, top_k)
         retrieval_times.append((time.perf_counter() - start) * 1000)
         if row["answerable"]:
-            query_metrics.append(benchmark.retrieval_scores(ranking, row["gold"], cutoff))
+            query_metrics.append(benchmark.retrieval_scores(ranking, row["gold"], top_k))
         if llm is not None:
             answer = benchmark.generate_answer(row["question"], chunks[:top_k], llm, HumanMessage, extract_llm_text)
             logger.info("[LLM_RESPONSE] config=%s question=%s response=%s", cfg, row["question"], answer)
@@ -388,10 +387,10 @@ def evaluate(individual, dataset, documents, embeddings, embedding_cache, llm=No
     total_nodes = graph.number_of_nodes()
     total_edges = graph.number_of_edges()
     metrics = {
-        "precision_at_k": float(np.mean([row[f"precision@{cutoff}"] for row in query_metrics])),
-        "map": float(np.mean([row[f"map@{cutoff}"] for row in query_metrics])),
-        "mrr": float(np.mean([row[f"mrr@{cutoff}"] for row in query_metrics])),
-        "ndcg": float(np.mean([row[f"ndcg@{cutoff}"] for row in query_metrics])),
+        "precision_at_k": float(np.mean([row[f"precision@{top_k}"] for row in query_metrics])),
+        "map": float(np.mean([row[f"map@{top_k}"] for row in query_metrics])),
+        "mrr": float(np.mean([row[f"mrr@{top_k}"] for row in query_metrics])),
+        "ndcg": float(np.mean([row[f"ndcg@{top_k}"] for row in query_metrics])),
         "avg_retrieval_time_ms": float(np.mean(retrieval_times)),
         "avg_degree": 2 * total_edges / total_nodes if total_nodes else 0.0,
         "total_nodes": total_nodes,

@@ -36,7 +36,7 @@ from ga_tuning_RAG import (  # noqa: E402
     encode_config,
     evaluate_with_cache,
     load_eval_dataset,
-    load_or_create_global_threshold,
+    add_benchmark_arguments,
     load_rag_documents,
     result_row_from_individual,
     save_ranked_csv,
@@ -44,7 +44,6 @@ from ga_tuning_RAG import (  # noqa: E402
     get_llm,
     OllamaEmbeddings,
     EMBEDDING_MODEL,
-    MAX_EVAL_QUESTIONS,
     RANDOM_SEED,
     RESULT_DIR,
     SEED_BEST_CONFIG,
@@ -158,6 +157,7 @@ def main():
                         help="Sample without replacement (all sampled configs are distinct)")
     parser.add_argument("--include-seed-config", action="store_true",
                         help="Include SEED_BEST_CONFIG as the first sample (like GA/PSO)")
+    add_benchmark_arguments(parser)
     parser.set_defaults(fitness_mode="hybrid")
     args = parser.parse_args()
 
@@ -171,9 +171,7 @@ def main():
     batch_size = args.batch_size
     num_rounds = (total_samples + batch_size - 1) // batch_size
 
-    dataset = load_eval_dataset()
-    if MAX_EVAL_QUESTIONS:
-        dataset = dataset[:MAX_EVAL_QUESTIONS]
+    dataset = load_eval_dataset(args.limit, USE_LLM_EVAL or args.llm_eval)
     print(f"Loaded {len(dataset)} evaluation questions")
 
     documents = load_rag_documents()
@@ -191,11 +189,6 @@ def main():
         include_seed_config=args.include_seed_config,
     )
 
-    first_batch = [Individual(c) for c in chromosomes[:batch_size]]
-    global_threshold = load_or_create_global_threshold(
-        first_batch, dataset, documents, embeddings, embedding_cache
-    )
-    print(f"Global relevance threshold: {global_threshold:.4f}")
 
     logger.info(
         "[RANDOM_SEARCH_START] total_samples=%s rounds=%s batch_size=%s unique=%s "
@@ -227,7 +220,6 @@ def main():
                 embedding_cache,
                 evaluation_cache,
                 llm=llm,
-                global_threshold=global_threshold,
                 fitness_mode=args.fitness_mode,
             )
             fit = evaluated.fitness

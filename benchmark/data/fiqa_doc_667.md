@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 667  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sure, you're happy to trust Page or Zuckerberg to put money to good use. But sometimes bad managers burn through company resources, desperately trying to save their jobs. Great managers with long term visions deserve a long leash, but companies with bad management can sometimes be helped with outside discipline.

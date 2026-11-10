@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33446  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sigh. You're obviously going to believe what you want to believe.  I meant General Mills. Congratulations. You've made an entirely irrelevant point that adds nothing whatsoever to the conversation.  &gt;Bullshit. they will do whatever they can do that they think will increase the bottom line.  Indeed they will, and deception, or even appearance of deception, hurts their bottom line. I thought I made that clear. It's generally bad for business to piss off your customers.

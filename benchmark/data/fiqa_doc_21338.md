@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21338  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My understanding it that the signature requirement is at the retailer's discretion. If the merchant decides to require a signature it protects them against fraudulent charge-back claims, but increases their administrative costs. In some situations it just isn't practical for a retailer to require a signature. Consider for example mail-order or online purchases, which I've never had to sign a credit card slip for.

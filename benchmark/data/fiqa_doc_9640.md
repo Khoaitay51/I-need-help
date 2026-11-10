@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9640  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I haven't heard of a company allowing you to convert an after-tax 401k to a Roth 401k, though an after-tax 401k to a Roth IRA conversion is common and has basically the same upside. You'll have a taxable event on your gains until the point of the conversion, but that's a small price to pay to make sure all future gains are tax free. I agree, there really is no downside.

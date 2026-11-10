@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9538  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This ""article"" is garbage, it doesn't even say if they will close down. India is pretty loose on copyright im sure these guys will continue to stay open under some sort of rebrand or even just keep using the mcdonalds name. They just presume that because mcdonalds pulled out these guys will just close up shop lol."

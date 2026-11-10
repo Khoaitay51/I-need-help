@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25814  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you are absolutely sure you will need the money in the next year or so I wouldn't do it just because of the hassle.  If you think you might not need to use the money then I would go ahead and fund a Roth IRA for the simple reason that you can get your contributions (NOT earnings on those contributions.) back without paying any penalties if you do end up needing them.  A good summary of the rationale can be found at My Money Blog's Roth IRA Contribution vs. Emergency Fund Savings

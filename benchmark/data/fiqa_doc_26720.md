@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26720  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I didn't quote FDR because he was always right, I quoted him because the minimum wage was created under him and that shows his viewpoint. Specifically, that it wasn't some job training wage or wage for high schoolers which people act like it is today.

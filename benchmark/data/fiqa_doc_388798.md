@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 388798  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You could write a personal check after the final price has been set and you're ready to purchase. Another option would be to get the final price - then walk over to your bank and get a cashier's check.

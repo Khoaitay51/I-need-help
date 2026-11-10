@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 598807  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Pros: Cons: Before the housing bubble the conventional wisdom was to buy as much home as you could afford, thereby borrowing as much you can afford.  Because variable rates lead to lower mortgages, they were preferred by many as you could buy more house.   This of course lead to many people losing their home and many thousands of dollars. A bubble is not necessary to trigger a chain of events that can lead to loss of a home.  If an interest only borrower is late on a payment, this often triggers a rate increase.  Couple that with some other things that can happen negatively, and you are up $hit's creek. IMO it is not wise.

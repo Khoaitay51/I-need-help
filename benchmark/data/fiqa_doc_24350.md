@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24350  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Securitize the mortgages and sell them off to hapless clients.  to expand on that, these loans were being packaged with 100s of others and sold to investors who could not possibly be bothered with examining each of the properties or borrowers.  They were sold for decent fees to the bank, and if the bank sold them all, had no risk, and pocketed fees from both ends.  The banks needed as many loans as possible because they thought they could sell them all.  The significance of this admission isn't so much that it was always ridiculous that the illiterate and unsophisticated were taking advantage of banks generosity, but that they can no longer say the ridiculous with a straight face.

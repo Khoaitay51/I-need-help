@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7403  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This will have no effect on your credit score.  Even though your credit card account number is changing, it is still the same account, so your history of payments and age of accounts will remain unchanged.

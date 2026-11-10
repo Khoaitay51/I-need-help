@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 590489  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you're sinking 1k/year into it, and the value is rising by $100k in 15 years, or $6k/year, you have a fine investment. Ignore the wife, she just wants something even better.

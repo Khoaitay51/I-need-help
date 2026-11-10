@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6526  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Already did yesterday, to avoid the rush and holiday downtime. Received my email confirmations this morning, transfers in progress. I had just purchased this last one a wee bit over 2 months ago, so it was basically brand new. Also spread the word to other sites and web developers to make more people aware. As soon as transfers are complete, will send my email as to why they lost my business. Didnt want them to spit in my soup, so to speak.

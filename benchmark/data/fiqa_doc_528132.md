@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 528132  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Credit Unions turn a profit by lending money at a higher interest rate than their savings do, just like banks do. It is an amoral feat, completely parallel to any moral weights you have assigned to ""the system"". If the most favorable circumstance is you receiving access to capital, then you can easily achieve that with zero reservations about the system that granted it to you."

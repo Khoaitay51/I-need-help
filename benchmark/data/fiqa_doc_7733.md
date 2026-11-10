@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7733  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Options that are not worth exercising just expire. Options that are worth exercising are typically exercised automatically as they expire, resulting in a transfer of stock between the entity that issued the option and the entity that holds it. OCC options automatically exercise when they expire if the value of the option exceeds the transaction cost for the stock transfer (1/4 point to 3/4 point depending).

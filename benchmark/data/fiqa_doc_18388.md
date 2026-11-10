@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18388  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You should pull your credit report from all the credit reporting agencies annually to make sure only the accounts you know of are being reported.

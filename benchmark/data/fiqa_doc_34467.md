@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34467  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You could just commingle your funds.  That way, she also learns how to keep track of things and how to figure things out, rather just learning to have the guy at the brokerage hand her an account statement which she blindly accepts. It might cause some tax problems though if the money grows to be substantial.

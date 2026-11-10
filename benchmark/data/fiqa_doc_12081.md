@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12081  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Plus size fashion includes tops, tunics and bottom wear that are specially designed to flatter full-figured women. Wearing stylish shrugs and jackets is one way to look slender and tall. Another way is to order bespoke clothing that will ensure the perfect fit.

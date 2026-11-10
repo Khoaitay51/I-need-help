@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6681  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Amazon yet to show any real issues in handling loads of traffic all at once.   I've seen Amazon falter due to high demand before.  Last major event I was aware of was the HP Touchpad fire sale, all but took down their site for an hour-ish.

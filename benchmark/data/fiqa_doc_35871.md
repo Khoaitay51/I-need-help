@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35871  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes. I would recommend. I wasn't a big fan of the conspiracy theory angle. I ignored that but I leave that up to you.  But everything else in the book is very good. Good explanations on money and what bailouts really do etc.

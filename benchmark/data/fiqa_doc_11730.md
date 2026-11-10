@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11730  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I've had some time to investigate this and so I will answer my own question, as it may be of help to others. One of the first things to do is examine all bank statements, as this may reveal in-goings and out-goings from a previously unknown source. Secondly, get any mail redirected. Unfortunately, mail redirection is far from perfect in the UK but at least it increases one's chances of uncovering an unknown asset. Lastly, there is Landmark FAS who will do a search for a fee of around £175.

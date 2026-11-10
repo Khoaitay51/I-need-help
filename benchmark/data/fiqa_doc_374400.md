@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 374400  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The problem is that every option comes with risk - as you note, if you put money in stocks, you could lose (and many stocks are overpriced).  If you put money in bonds, you could lose (many bonds are overpriced).  If you buy precious metals, they could fall further currently.  If you hold cash, central banks might try to ban cash (we'll hear the typical ""This will never happen"" from financial advisers - and they'll be wrong).  Cryptocurrencies are an option, but boy do they fluctuate, so there's risk here too. Those are options and all come with risks, and here's my preferred approach to handling negative interest rates:"

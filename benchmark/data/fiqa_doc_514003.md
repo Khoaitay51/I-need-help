@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 514003  
+**Domain**: Finance / Investment Advice  
+
+---
+
+How about placing the money in a safety deposit box at the same bank? This will probably work out cheaper than the loss due to negative rates. Although, I'm quite sure the banks won't like this idea.

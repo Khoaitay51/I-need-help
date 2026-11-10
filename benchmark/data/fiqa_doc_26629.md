@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26629  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, just set aside the amount of money. If you buy a cfd long in a stock for a 1000$, set aside 1000$. If you buy a cfd short, set aside the same amount and include a stoploss at the value at which the money is depleted. In this case however, you can stil lose more, because of opening gaps. By doing this, you replicate the stock return, apart from the charged interest rate.

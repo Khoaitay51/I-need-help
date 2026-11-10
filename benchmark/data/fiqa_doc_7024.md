@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7024  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I wish congress would consider just adding a lower cost, government managed option by perhaps allowing some to buy into medicare instead of being forced to purchase from a for-profit company.   Also, the government needs to be allowed to put a lid of drug prices for change the law requiring them to simply pay whatever price anyone can dream up.

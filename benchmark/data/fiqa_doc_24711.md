@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24711  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Aldi  I see this place hyped up so much on Reddit and I had a chance to pop into one lately. We have a bunch of ethnic grocery stores that basically sell the same stuff but with way, way, way better produce. The stuff at Aldi was gross. That's like half the reason to go to a grocery store - why bother?

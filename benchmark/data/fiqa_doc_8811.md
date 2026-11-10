@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8811  
+**Domain**: Finance / Investment Advice  
+
+---
+
+**Phase-out of lightweight plastic bags**  In many countries of the world, there has been a phase-out of lightweight plastic bags. Single-use plastic shopping bags, commonly made from low-density polyethylene (LDPE) plastic, have traditionally been given free to customers by stores when purchasing goods—a popular method considered a strong, cheap, and hygienic way of transporting items. Problems associated with plastic bags include use of non-renewable resources (such as crude oil, gas and coal), disposal, and environmental impacts.  Governments all over the world have taken action to ban the sale of lightweight bags, charge customers for lightweight bags and/or generate taxes from the stores who sell them.  ***  ^[ [^PM](https://www.reddit.com/message/compose?to=kittens_from_space) ^| [^Exclude ^me](https://reddit.com/message/compose?to=WikiTextBot&amp;message=Excludeme&amp;subject=Excludeme) ^| [^Exclude ^from ^subreddit](https://np.reddit.com/r/business/about/banned) ^| [^FAQ ^/ ^Information](https://np.reddit.com/r/WikiTextBot/wiki/index) ^| [^Source](https://github.com/kittenswolf/WikiTextBot)   ^] ^Downvote ^to ^remove ^| ^v0.27

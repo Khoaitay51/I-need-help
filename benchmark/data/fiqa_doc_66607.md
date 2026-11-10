@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 66607  
+**Domain**: Finance / Investment Advice  
+
+---
+
+From The Prospectus for VTIVX;  as compared to the Total Stock Market Fund;  You can see how the Target date fund is a 'pass through' type of expense. It's not an adder. That's how I read this.

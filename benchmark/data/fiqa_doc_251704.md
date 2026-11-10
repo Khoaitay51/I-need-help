@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 251704  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Ignoring brokerage fees and the wash-sale rule (both of which are hazardous to your health), and since the 15% LTCG tax is only on the gain, the stock would have to drop 15% of the gain in price since you originally purchased it.

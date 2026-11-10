@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22596  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Too many of my fellow Americans are obsessed with policing each other's sobriety.  Couple that with privatized healthcare / insurance and a bunch of companies will drug test just to keep their rates down.  Anyone who criticizes it will be shamed for ""Wanting to get high""."

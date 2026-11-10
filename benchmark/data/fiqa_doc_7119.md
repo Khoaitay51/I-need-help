@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7119  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Im not sure if this still holds true but when i asked my dad the same question years ago he said Aldis pays for everything up front no debt therefore they are able to get a better price since the money is guaranteed

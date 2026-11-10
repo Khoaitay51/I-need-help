@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19144  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The key point is from the penultimate sentence in your second paragraph: for which you have already paid taxes When you receive a dividend or realise a capital gain, you get taxed on that then, and you shouldn't have to pay taxes on it again in future. So the cost basis gets adjusted to reflect that.

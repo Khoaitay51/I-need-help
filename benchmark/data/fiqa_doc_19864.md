@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19864  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I interned at GS last summer and I am returning fulltime after graduation. In my experience and those I've encountered, it is very much dependent on where, front vs back, in the bank you work. Most software development jobs at GS seem to be 9-5. If you write software in front-office parts of the bank like trading, though, hours generally get worse (but pay is better!).

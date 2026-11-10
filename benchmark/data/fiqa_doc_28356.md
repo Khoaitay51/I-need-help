@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28356  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's a scam. Here's someone who paid ""Josie"" 2000 pounds and lost it all Here's a Google search result list of how this softcore porn actor, Josie Ann Miller, is being used as the face and name of scams"

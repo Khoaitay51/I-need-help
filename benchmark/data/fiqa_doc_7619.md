@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7619  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The author introduced himself as not being a financial analyst so that, apparently, absolved him of even considering the numbers.  The HP presenters struck him as ""straight shooters"".  I think he should have just wrote those two sentences and moved on to his next assignment."

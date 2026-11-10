@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34784  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"we all see posts about How To Get An Idea for a business.  I respond that keeping eyes and ears open has been my ""method"" for many years.  so as an example of that, here's a guy who simply decided ""there have to be more people like me"" and started a business helping others escape from liberal states...taxes, regulations.  his stats are pretty amazing.  enjoy"

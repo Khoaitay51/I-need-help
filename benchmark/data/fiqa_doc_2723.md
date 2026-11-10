@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2723  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Fair enough and I appreciate the advice. But I think in some cases we have a duty to point out contradictory statements, especially if they could be misleading to the average person. I don't want some poor kid who scraped together a few bucks, sees the big revenue numbers and assumes it's a sure thing.

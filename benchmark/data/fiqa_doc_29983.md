@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29983  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think we're way past the stage where anyone can claim that. Tablets have very wide application from hospitals, child care, education, sales, flying planes and restaurants to name a few. Wearables are still unproven; c'mon app1e!

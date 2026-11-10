@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3150  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Beside standard Swift (which may be registered and checked for money laundering) there are the money transfer companies (Western Union) and the electronic currencies like bitcoin.  Besides that is buying something very expensive (gold / diamonds) and sell them again a possibility to transport vast amount of value.

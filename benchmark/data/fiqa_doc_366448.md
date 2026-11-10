@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 366448  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes.   A mortgage is a kind of debt.  Someone lends you money to buy your house, and you owe them the money, so you have debt.

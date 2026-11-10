@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26626  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I was in Detroit recently and Lyft drivers are getting cars from them to use and if they work a certain amount per week they don't have to return them after the shift. Gonna get pretty rapid growth giving out cars on a lease to own with no money down.

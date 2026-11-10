@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11266  
+**Domain**: Finance / Investment Advice  
+
+---
+
+iTunes U has a wealth of content from highly respected universities including Yale, Harvard, Wharton, MIT, etc. If I were fifteen and looking to build some business acumen and savvy, that is where I would start. In particular, I find Harvard business review idea casts to be thought provoking and very timely. In addition, they generally focus on disruptive business models.    Good luck.

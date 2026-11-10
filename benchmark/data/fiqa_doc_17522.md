@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17522  
+**Domain**: Finance / Investment Advice  
+
+---
+
+...  My judgement, based on the direction the research is going and the rest of my knowledge of human biology, is that it's likely. We do know enough to say that; in the future, with further research, we'll have a more precise idea of just how likely. Happy now?

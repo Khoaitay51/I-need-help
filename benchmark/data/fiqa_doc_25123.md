@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25123  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Inflation is not applicable in the said example. You are better off paying 300 every month as the balance when invested will return you income.

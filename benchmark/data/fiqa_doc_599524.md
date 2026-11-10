@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 599524  
+**Domain**: Finance / Investment Advice  
+
+---
+
+SecondMarket attempts to add liquidity to privately held companies. You may be able to find a buyer there, but this is still incredibly illiquid due to accredited investor regulations constricting businesses from catering to the 99%. As around 1% of the United States population qualifies as an accredited investor.

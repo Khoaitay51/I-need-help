@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 301866  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's possible to make money in the market - even millions if you ""play your cards right"". Taking the course being offered can be educational but highly unlikely to increase your chances of making millions. Experience and knowledge of the game will make you money. The stock market is a game."

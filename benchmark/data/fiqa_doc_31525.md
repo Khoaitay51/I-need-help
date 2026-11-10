@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31525  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Oh, don't expect us to take sides, we love both our parents the same! As to the pragmatic decision making - simple math. The disagreement is whether to pay off the HELOC or to invest into the mutual fund instead. Well, check the yield of the fund, compare to the costs of keeping the HELOC balance, and see which one makes more sense. Just compare the expected payments and gains for each of the scenarios and you'll get your answer.

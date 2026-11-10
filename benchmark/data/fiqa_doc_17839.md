@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17839  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Stay in school, learn everything you can, and spend as little money as possible.  And realize that the chances of you dropping out and becoming a millionaire are much lower than the chances of you staying in school and becoming a millionaire.  You're unlikely to be a good investor if you make bets with negative expected payoffs.

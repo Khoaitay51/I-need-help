@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4162  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Put bluntly, if you do a couple extra lines of code, the company isn't going to notice a difference in revenue. If a salesman sells a few more RGU's, the company makes a bit more money.  They are more valuable than you are. It's just that simple.

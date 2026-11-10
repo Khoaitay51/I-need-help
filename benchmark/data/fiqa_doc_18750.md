@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18750  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't think you can always assume a 12-month time horizon.  Sometimes, the analyst's comments might provide some color on what kind of a time horizon they're thinking of, but it might be quite vague.

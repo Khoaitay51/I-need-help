@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27309  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"After we fired a whole slew of higher paid employees with good benefits we waited. Then we re-hired a whole bunch more again at lower pay and bad benefits.   See! We made 800 jobs by ""restructuring"" and that's big news!  Seriously though, they've done this a few times over in Michigan already. Not sure why it's news now."

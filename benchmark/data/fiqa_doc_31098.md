@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31098  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's pretty easy to disregard or outright learn to loathe the brands that are being advertised by intrusive digital ads that hijack your browser, and the ad networks that help make 1/10 of those ads a mobile hijack that won't let you back out forcing you to purge the app from memory. Seriously, those methods of advertising have a net negative effect just due to their obnoxious delivery.

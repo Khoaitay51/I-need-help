@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25250  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is actually a HUGE source of profits for whole foods. The battered fruit and veggies you don't want  or the rotisserie chicken that's been on the warmer 30 minutes longer than you like? Goes right into their prepared foods and cut fruit sections and marked way the fuck up.

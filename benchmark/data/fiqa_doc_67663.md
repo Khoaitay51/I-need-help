@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 67663  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In the U.S., most car dealers provide lease financing through one company (usually a subsidiary of the auto manufacturer). Whereas they provide loan financing through a variety of companies, some of whom offer very high interest rate loans and sell the loans as collateralized debt obligations (CDOs). Have you checked whether Chase or First Tech Credit Union offers a suitable car lease?

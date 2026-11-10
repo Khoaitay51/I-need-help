@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 149500  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I see two advantages to not paying student loan debt off more quickly: For #1, however, there are plenty of other ways to build credit and I don't see this as being worth the downsides of not paying off the debt more quickly. In fact, in the United States student loan debt cannot be written off if you go bankrupt. This is important to know and understand. I would generally advise you to pay down your student loans as quickly as you can reasonably do so.

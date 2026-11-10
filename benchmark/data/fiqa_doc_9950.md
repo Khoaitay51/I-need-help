@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9950  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There is no correct answer. It all depends on you. If you have a fund dedicated to a purpose (house, car, daycare, vacation, etc), in my opinion you are best served by keeping it dedicated to that function in most cases.  Say that you find a home that you want to by in two years. If you have good credit and appropriate debt/income ratios, your car payment will not pose a problem to getting that home. But not having enough money for a down payment will.

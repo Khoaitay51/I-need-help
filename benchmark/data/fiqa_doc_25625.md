@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25625  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Spend them at the gas pump.  Just run the pump until it stops, then repeat with next card.  That's always worked for me

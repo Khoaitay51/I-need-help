@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 108739  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You can pay with a cashiers check or personal check. You can even pay cash, or combine payment methods. However, in the USA if you give the dealership $10,000 or more in actual cash, they will be required to fill out a form 8300 with the IRS.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27782  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A bond fund like VBMFX or similar I think are a good choice. Bonds are far less volatile and less risky than stocks. With your 1-2 year time frame, I say definitely stay away from stocks.

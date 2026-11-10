@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12957  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'll go ahead and assume the lack of insightful comments in this thread means everyone else is having just as much trouble forming an opinion on this as I. Which one is the bad guy here: Cook (and others) for meeting with Trump, or Zuckerberg, for *not* meeting with Trump? Who the fuck knows.

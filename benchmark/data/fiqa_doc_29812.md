@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29812  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My Finances is a personal finance app for iPhone and iPad. The app uses iCloud to sync the data between your devices if you want to. Otherwise the data is only local and won't be synced to any server. Spoiler: I'm the developer and my opinion may be biased.

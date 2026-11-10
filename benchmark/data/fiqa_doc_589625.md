@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 589625  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, However if you live in the USA a lot of companies will refuse to sent you any report and will not let you take part in “right issues” as they don’t wish to come under USA investment law.

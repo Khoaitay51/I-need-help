@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27383  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It is for the pain of being poor and useless. ;)  But seriously, the United States is not going to have a plan for what to do when many jobs can be done by AI. I guess the only plan is to provide plenty of opiods so discarded people can bow out gracefully.

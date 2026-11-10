@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26512  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I understand the sentiment here, I truly do. However, to be consistent in ones rage against off-shore business and tax evasion strategies, then the list of companies that need to be boycotted is very, very long. Apple, Exxon, BoA, Citi, GE, Pfizer... Thousands of companies keep hundreds of billions off-shore and realize profits off-shore with all kinds of twisted schemes. The real solution here is to fix the tax laws and tax rates to stop ""inversion"" tactics."

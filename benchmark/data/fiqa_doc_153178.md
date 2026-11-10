@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 153178  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Its best to dollar cost average adding say 5%-10% a quarter into the fund. That's what Clark Howard would suggest.  Also make sure you do not need the money for 5 years, then you should be okay.   Its tough to lose money if you keep your money there for a long period of time.

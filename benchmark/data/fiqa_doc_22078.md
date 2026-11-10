@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22078  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Many of the business posts are adverts or self-promotion or people hyping stock ""tips"".  Also get a fair number of (lazy) people who want this sub to tell them how to get into business, or what a good business idea is (versus doing  research, and then saying ""this is what I've got, what about this problem, or this challenge?)"""

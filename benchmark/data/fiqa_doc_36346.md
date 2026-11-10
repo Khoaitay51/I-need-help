@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36346  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Not necessarily though, since you can simply adjust the premium. I'm thinking an embedded option is just an option with longer maturity, and the increased price of that adjusted option can be reflected (like any other option) in the strike price or the premium. Am I missing something?

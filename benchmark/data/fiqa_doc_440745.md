@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 440745  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Unless your video does very well, it's unlikely that your income from it will exceed your expenses incurred in making it, such as the purchase prices of your computer and video camera and the cost of your broadband connection, so there shouldn't be any tax to pay.

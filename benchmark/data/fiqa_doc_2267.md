@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2267  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The principal of the loan is the amount you borrow.  The capitalized interest is added to the principal of the loan, because you are not paying this interest as it accrues.  So when you begin payments, the principal of the loan is $5,500 + $436 = $5,936. Using the standard amortization formula (see this page for details), the per-month payment for a ten-year payment plan at 6.8% interest on principal of $5,936 is $68.31.  One hundred twenty payments (each month for ten years) totals $8,197.40.

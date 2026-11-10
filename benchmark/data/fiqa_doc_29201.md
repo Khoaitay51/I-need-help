@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29201  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Right, and the other five senior VP's are going to say something entirely different.   Meanwhile the poor IT manager feels like he is being kicked in the teeth and everyone but him gets a voice in spending his budget.

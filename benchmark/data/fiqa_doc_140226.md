@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 140226  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The best answer here is ""maybe, but probably not"". A few quick reasons: Its not a bad idea to watch other investors especially those who can move markets but do your own research on an investment first. Your sole reason for investing should not be ""Warren did it""."

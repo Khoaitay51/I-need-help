@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 240261  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I ended up writing a simulation in R. Here is my code: It produces a plot like this:  This code assumes you have a lump sum and either wish to pay down a loan or invest it all immediately. Feedback welcome.

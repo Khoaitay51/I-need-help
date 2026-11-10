@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25975  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, yeah.  Costco sells items in bulk, Whole Foods does not.  A better comparison would be Whole Foods against Aldi, Albertson's, Smith's, Vons, WinCo, etc.  These are the companies that sell groceries in similar sizes, but perhaps of lower quality.

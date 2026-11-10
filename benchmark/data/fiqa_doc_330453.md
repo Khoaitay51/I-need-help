@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 330453  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"If you're looking to generate your own charts, you can get up-to-date TSP fund share prices in a Google Docs spreadsheet by ""scraping"" the data from the HTML of certain TSP webpages. You'll need to do this because the GoogleFinance function does not recognize ""private"" funds or collective trusts like those of the TSP. See this thread for tips: Bogleheads • View topic - GoogleFinance price quotes for TSP Funds"

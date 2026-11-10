@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24431  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"this is terrible... ""make a culture from the brand?""... they listed apple's ""think different"", but not ONCE was that brand tied to their culture... nor was anything about google's brand tied to the questions it asked.  I stopped reading after about the third bullet. Stupid. Completely stupid."

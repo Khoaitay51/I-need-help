@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20235  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The man is pure evil. And I really have to wonder what these people think is in it for them? I mean where is the advantage for you to run your country into the ground? Sure you will wind up king of the hill but your hill is just going to be a pile a rubble and your kingdom will be a wasteland of ruins.

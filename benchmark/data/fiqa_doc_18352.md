@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18352  
+**Domain**: Finance / Investment Advice  
+
+---
+
+True story: Had a fire in our store, extension cord got hot and set carpet on fire. Employee put it out in 30 seconds, no big deal.  Store manager came in, bitched about having to pay to refill the fire extinguisher. That's how executives are, at least where I work. Complains about needing people to do the work, and then demands a huge bonus.

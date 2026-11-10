@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9921  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Practice exams are best for 2 weeks before the test date, then hitting your weak topics a bit.  Any studying in the last couple of days didn't help much for me at least.  Qbank is great for L1 but diminishing returns as the levels go on in my experience.

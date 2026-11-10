@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2034  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Before everyone says he should just stay home, think of a one car household, much more likely in a rising market. Be trapped at home all night, or do one or two things you don't like along with that shopping that you needed to do anyway.   TL;DR: You get dragged places if you have only one car.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2562  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, the article requires a login, so the only input I have is that the floor for cell phone plans is about $25 per month. There's no reason to price a product way below competition unless you don't care about revenue

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 599545  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You should probably consult an attorney. However, if the owner was a corporation/LLC and it has been officially dissolved, you can provide an evidence of that from your State's department of State/Corporations to show that their request is unfeasible. If the owner was a sole-proprietor, then that may be harder as you'll need to track the person down and have him close the plan.

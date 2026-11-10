@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7778  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Online shopping trend is a form e-commerce where consumers or retailer buy/sell products on internet in few time and more conveniently. This is the technique which gives flexibility to buy or sell products on internet without visiting so far shops and this technique spreading day by day.

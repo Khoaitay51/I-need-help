@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24881  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Relative changes in rates are significant.  Why? Exchange rates encourage cross-border trade. For example, I live in an area that is now popular with Canadian tourists, mostly due to the favorable exchange rates. Changes in exchange rates between trading partners can affect trade balance as well. The US ""strong dollar"" policy made US exports expensive and imports cheaper, which encouraged more imports."

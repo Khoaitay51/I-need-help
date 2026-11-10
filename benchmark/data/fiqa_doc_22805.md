@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22805  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Compound Stock Earnings, CSE principals Joseph Hooper and Aaron Zalewski are nationally syndicated radio talk shows hosts (listen to archives), investors, financial educators and authors of the all time best selling book on its topic, ""Covered Calls and LEAPS: A Wealth Option""."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13228  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Now sweetums . .its the Fed that buys US treasuries to keep the Yield down  . . .wait but how can that be?  How can the Fed be the biggest holder of US treasuries . . .that would be like sucking your own dick . . .but hey . .its good for the economy  Its a good thing we have bred fucking Morons or the dollar might go into hyper inflation if Americans knew how to add

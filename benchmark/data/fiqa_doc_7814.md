@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7814  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"If you are a ""small"" investor (namely, not an accredited investor), then the transaction costs (commissions) for purchasing the stocks while attempting to duplicate DJIA will defeat any benefit. My personal preference is to purchase mutual funds rather than ETFs."

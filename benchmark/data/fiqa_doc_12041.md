@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12041  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you want to have uninterrupted internet access then buy a Linksys Smart Wifi router. The setup of the router is easy via its web interface as well as through the WPS setup. If you need help for the set up, feel free to contact us.

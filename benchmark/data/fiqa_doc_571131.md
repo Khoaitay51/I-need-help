@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 571131  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Look into the definition of ""primary residence"" for your jurisdiction(s). In some states, living in the home for 183 days qualifies it as your primary residence for the entire year."

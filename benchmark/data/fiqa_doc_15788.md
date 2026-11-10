@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15788  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Samsung’s revenue for the quarter was KRW 47.82 trillion, a decrease of KRW 3.87 trillion YOY  &gt;The company estimated that the stronger Korean won against major currencies in the third quarter negatively impacted operating profit by approximately KRW 700 billion, mostly on the components business side.  Just so people know what is being remarked about here.

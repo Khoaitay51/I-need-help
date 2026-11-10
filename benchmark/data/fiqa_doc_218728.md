@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 218728  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The other example I'd offer is the case for diversification. If one buys 10 well chosen stocks, i.e. stocks spread across different industries so their correlation to one another is low, they will have lower risk than each of the 10 folk who own one of those stocks per person. Same stocks, but lower risk when combined.

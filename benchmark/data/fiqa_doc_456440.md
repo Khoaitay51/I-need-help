@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 456440  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A bank can reject a loan if they feel you do not meet the eligibility criteria.  You can talk to few banks and find out.

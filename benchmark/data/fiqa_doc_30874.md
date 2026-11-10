@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30874  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"So...if the stock market tanks, the value of these portfolios tank...but faster.  The difference time around being that the customers will be holding all of the toxic assets?  I also gotta say that it feels like there's a lot of, ""hey let's sell insurance and hope that nothing bad ever happens but if it does we go bankrupt and the customer's fucked too!"""

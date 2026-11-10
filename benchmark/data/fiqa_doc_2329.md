@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2329  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This is the best tl;dr I could make, [original](http://www.msn.com/en-us/money/companies/shell-prepares-for-lower-forever-oil-prices/ar-AAoVbwb) reduced by 88%. (I'm a bot) ***** &gt; LONDON-Royal Dutch Shell PLC laid out a pessimistic vision for the future of oil on Thursday, even as the company reported success in generating cash during a prolonged downturn.  &gt; Shell Chief Executive Ben van Beurden said the company has a mind-set that oil prices would remain &amp;quot;Lower forever&amp;quot;-a riff on the &amp;quot;Lower for longer&amp;quot; mantra the industry adopted for a price slump that proved unexpectedly lasting.  &gt; Oil&amp;#039;s fragile recovery since then to around $50 a barrel has helped the sector, but Shell and its peers have also engaged in aggressive efforts to bring down costs so they can survive at lower prices.   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/6pz8ur/shell_prepares_for_lower_forever_oil_prices/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ ""Version 1.65, ~177293 tl;drs so far."") | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr ""PM's and comments are monitored, constructive feedback is welcome."") | *Top* *keywords*: **oil**^#1 **company**^#2 **Shell**^#3 **billion**^#4 **cash**^#5"

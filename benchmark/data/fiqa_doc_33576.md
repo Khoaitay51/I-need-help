@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33576  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The world of social media can be quite treacherous for businesses. For the most part, your prospective customers won’t always welcome your page with open arms, especially if you do nothing but post about your business all day, sparing nary a thought to what they actually want to hear or read about. Below are some basic tips for beginners to social media marketing.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26863  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;He stole from other rich people.  That isn't true.  From the article: &gt;Shkreli was convicted of three of eight charges, including securities fraud. He was acquitted of fraud charges related to allegations that he looted Retrophin to pay off his hedge-fund investors.   Based on the charges in which he was convicted, it sounds like he misled investors about the nature, type, and risk of their investments and lied about the state of the company and Funds.  The interesting part is that it sounds like there were no actual victims from this.  He did return the investments with significant returns.  His malfeasance appears to be purely a result of *lying* and not following the law regarding disclosures even when regularly warned by the CCO of his firm.

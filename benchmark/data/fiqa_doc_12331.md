@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12331  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"China's chief central banker warned markets are fully valued and therefore susceptible to a drastic price correction -  triggered by a wide-spread, simultaneous reversal of opinion in the markets. Basically the point when the ""Greater Fool"" phenomenon ends and and selling pressure spikes as everyone starts getting out because they think everyone is. Simplified af but thats the laymen interpration of a minsky moment."

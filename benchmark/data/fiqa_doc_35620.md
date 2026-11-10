@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35620  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Thanks! They guys who worked on the Machine Learning and such REALLY know their business. We've had a couple successful pilots and the farmers using the system have been pretty stoked with it.   From what I understand, it's a lot of buzzwords meant to get you intrigued. I mean, they're all true, but it could've been more concise haha. I will pass along compliments :D

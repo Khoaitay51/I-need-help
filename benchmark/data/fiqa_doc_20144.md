@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20144  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, like I said, there's a big difference between working level bean counters who aren't allowed to think, and management bean counters who can use their brains. Process for process sake isn't a good thing in ANY profession.   Maybe that's the difference. Bean counters (the little ones) are mired in process.

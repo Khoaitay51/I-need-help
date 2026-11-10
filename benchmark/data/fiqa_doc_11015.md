@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11015  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Look at literally any discussion about guns that isn't a pro gun echochamber. I don't just save articles and threads to use it later, and I don't have time to go on some huge research project with Reddit's godawful search function.

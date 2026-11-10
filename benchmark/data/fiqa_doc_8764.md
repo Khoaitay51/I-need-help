@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8764  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The article does not support this at all.  &gt; profits would gush if breakneck growth were to stop. Uber says it is profitable in cities where it has operated longest, such as San Francisco. Nextera says that if it stopped investing in new capacity, it would make $6bn of free cashflow a year.

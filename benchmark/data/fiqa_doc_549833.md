@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 549833  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Location, Location, Location. The closer to the highway, the more they can charge. People want to go less than a mile from the exit to get gas. Therefore  they save time, but spend more money. That is understandable, so the gas station takes advantage of the situation.

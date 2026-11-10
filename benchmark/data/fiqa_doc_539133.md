@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 539133  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There is some benefit to creating a corporation or LLC -- you theoretically have a liability shield. As Michael Pryor points out in his answer, though, there will probably be little difference if you get sued. Operating the corporation or LLC incurs some extra costs: you have to pay annual fees to the state, and there's a bit of extra administrative overhead (very little overhead for an LLC though).

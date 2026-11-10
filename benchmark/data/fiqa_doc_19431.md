@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19431  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; I don't agree we can assume a government will be the solution...  I am totally open to something else but see no other options.  Corporate America has sold the American people on the idea that empowering them is to our benefit so there will be no popular uprising.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19297  
+**Domain**: Finance / Investment Advice  
+
+---
+
+WHAT? That is just no true. I lived in Philadelphia, London and Brussels and I can tell you, the prices were almost double in Philly for groceries store. Even at Wallmart, I wont talk about Trader Joe, Whole Foods, acme...

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 508921  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As long as you're in a lower tax bracket - you would probably be better off paying the taxes now, and investing into the Roth IRA/401K. However, you should be investing for your retirement now, and not later, because of the compounding effect, and also you'll gain the employer matching (if available).

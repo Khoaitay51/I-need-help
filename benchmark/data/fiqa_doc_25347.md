@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25347  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My first job was in a technology/IT role on the trading floor which was an accident.  It didn't require any knowledge of finance/stock markets.  I didn't even look for that job specifically.  Before that I was at a small tech company.  So I guess you could say it was luck initially.

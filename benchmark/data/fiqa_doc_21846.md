@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21846  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You're right. That's pretty much it. You get a deduction for any medical expenses above 10% of your Adjusted Gross Income. You also have to itemize your deductions; claiming the standard deduction won't do.

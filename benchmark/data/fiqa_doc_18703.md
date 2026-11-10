@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18703  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The Dems use to use fiscal years (October 2008 through september 2009) to put all the big first year Obama expenses under bush (tarp but not the tarp repayment, the bailouts, and stimulus).  Now that they want to show decline, they must be including the bailouts and stimulus under Obama.

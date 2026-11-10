@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34778  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Ahh the vest. The mark of a Finance professional. Seriously, I don't know of any other person outside of a Finance career that wears it. My theory is that it's warm and it lessens the need to re-tuck your shirt every few minutes for those that don't have tailored shirts.

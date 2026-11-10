@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2366  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; The CEO of Canada’s largest grocery and drugstore chain has warned his shareholders that minimum wage hikes across Ontario and Alberta will cost his company an additional $190 million in expenses next year.  &gt; “We are flagging a significant set of financial headwinds and the organization is mobilizing all of its resources to see whether or not it can close that gap,” said Loblaws Companies Ltd., CEO Galen G. Weston earlier this week.   Is that really so bad of a quote?  He's saying it's something they need to be aware of and address...  I don't get the headline.

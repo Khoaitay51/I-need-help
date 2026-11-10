@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15539  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I actually didn't do the math with your numbers, but I recall Sal from Khan Academy did a nice video about your question, challenging the notion that it is always better to buy. https://www.youtube.com/watch?v=YL10H_EcB-E

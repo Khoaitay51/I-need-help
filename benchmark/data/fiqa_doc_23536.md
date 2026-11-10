@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23536  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Equifax CEO suddenly retires following an epic data breach affecting 143 million people  With millions upon millions of dollars in a golden parachute. Because Equifax does not believe in punishment or clawbacks. A similar parachute was given to the Chief Security Officer, Susan Mauldin, who had zero security credentials.

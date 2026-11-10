@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11330  
+**Domain**: Finance / Investment Advice  
+
+---
+
+STFU. What are you, on safetry patrol in the 5th grade? Moderators like you are the reason reddit is in rapid decline. Reddit in rapid decline effects the bottom line.  If you were to resign as moderator, the community, and the bottom line would be better off. /business

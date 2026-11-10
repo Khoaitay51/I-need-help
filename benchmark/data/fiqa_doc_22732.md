@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22732  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Cause the ads are so fucking annoying. They advertise stuff I don’t care about way too often and it’s the same ad over and over again. Every time I listen to sound cloud in the car and there is an ad I turn the volume all the way down.

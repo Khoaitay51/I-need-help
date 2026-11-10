@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2143  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Consumer Reports actually reverted their stance on the Model S and gave back their recommendation after Tesla performed an automatic update to their vehicles.  I don't know any other car manufacturers that perform OTA updates like android/ios phones.

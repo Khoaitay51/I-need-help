@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21190  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Great post - awesome pictures, and I'd love to see some more photos from the markets near you.  Not too sure about the implication that ""you can make money if you know what you are doing with these counterfeit products..."""

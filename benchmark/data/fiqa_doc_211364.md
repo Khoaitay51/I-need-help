@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 211364  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would add to your reasons: Would you mow an entire lawn with a string trimmer just because you can, or would you buy a lawnmower? Use the right tool for the job.

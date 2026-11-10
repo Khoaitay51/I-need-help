@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20735  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Data is the future, the more data you obtain, the more accurate your predictions. The more accurate your predictions, the more data you can obtain. Data is the fuel to business strategies and they have plenty of data they are currently organizing. There is a reason why they hire more top tier MBA students than any other company.

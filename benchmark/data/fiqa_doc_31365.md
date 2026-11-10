@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31365  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"LOL!!!! A BBC report about ""hate crime"" only listing attacks on migrants, but does not list attacks on Germans.  **Bottom line: Germany needed those migrants like it needed a bullet in its head. Meanwhile, Japan, Poland, Hungary, Norway, etc have not issue to deal with and they are doing just fine.**"

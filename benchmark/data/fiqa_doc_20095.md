@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20095  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Come on, Germany!  Look at history and start understanding that you’d be far better off looking eastwards, reaching intelligent agreements with raw-materials-rich Russian, than with just dragging as dead-weight “Old Europe” and its increasingly decadent and misgoverned American controllers.

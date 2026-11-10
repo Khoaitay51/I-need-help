@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30296  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Whatsapp Application is either free or a paid application for iOS users, depending on the region. In India they charge $1 at the time of downloading the application. In the US, it's free for the first year, and then a $1 per year subscription (though the initial app download is free). This is one of their revenue sources which I know of.

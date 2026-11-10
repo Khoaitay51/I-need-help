@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20606  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I am currently a non-voluntary member of four different retirement plans in two different countries. There are a few aspects to this (Caveat: this may be different for each country and change over time) I would consider the following strategy

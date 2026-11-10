@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15825  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That's not helping your case.   &gt; WARNING This kit definitely contains dangerous things. While the xNT transponder device has undergone several quality checks during manufacture and has been put through a battery of tests with various private labs, it has not been tested or certified by any government regulatory agency for implantation or use inside the human body. Use of this device is strictly at your own risk.

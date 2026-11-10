@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4789  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I can't think of anyone who seriously uses LinkedIn as a definitive source to find personnel.  Maybe some bottom feeding firms in India, but that's about it.  Judging by the downvotes LinkedIn is used by the Bangladesh Buttholes.

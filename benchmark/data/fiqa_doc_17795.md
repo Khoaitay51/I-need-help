@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17795  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You should apply for 83(b) within 30 days. 10 months is too late, sorry.

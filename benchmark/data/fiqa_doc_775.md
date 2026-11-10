@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 775  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Big topic but I worry much more about who gets debt and who gets subsidies (bailouts) as those are both inefficient and unfair. -- one economist.   Ps. I think the Fed should print $ and distribute per capita rather than do QE, which helps the rich more...

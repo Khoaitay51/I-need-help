@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13715  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Would you buy this used car, in its current condition but with new tires, for the price of the tires? If so, buy the tires.

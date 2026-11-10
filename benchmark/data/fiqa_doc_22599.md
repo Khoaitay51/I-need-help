@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22599  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The easiest way would be to set up a common savings account. Most of them pay some meager interest rate, and over one night it would be especially meager.  A Certificate of Deposit is another way, but you'd have to lock the funds in for an extended period of time.

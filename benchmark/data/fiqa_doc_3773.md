@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3773  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would classify Bitcoin as a hybrid.  Currency : It is accepted by e-businesses as a form of payment  Commodity : Chart illustrating the volatility and speculative nature of Bitcoin

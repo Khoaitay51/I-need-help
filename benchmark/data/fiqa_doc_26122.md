@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26122  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In many countries in Europe the prices shot through the roof, so it is not all positive. Also the switching country gives out lot of monetary control that is not welcomed by many.  I think that UK is not going to change to euro for a long long time.

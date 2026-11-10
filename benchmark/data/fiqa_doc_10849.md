@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10849  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The most succinct answer is ""Banks are in the Money business"". Not construction, not real estate, not any of the other things they may find find themselves sometimes being dragged (foreclosure) or tempted (construction) into. ""Money"" is their core competence, and as good business people they recognize that straying outside that just dilutes their focus."

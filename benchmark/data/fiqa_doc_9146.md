@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9146  
+**Domain**: Finance / Investment Advice  
+
+---
+
+One additional reason to pay with cash rather than financing is that you will be able to completely shut down the dealership from haggling over finance terms and get right to the point of haggling over the cost of the car (which you should always do).

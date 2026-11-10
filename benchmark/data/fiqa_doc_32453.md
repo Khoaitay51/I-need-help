@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32453  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No clue, why you are getting downvoted. Most people need to understand that entry level positions garner entry level pay, and it's only after being loyal to a company that you get paid much more. However, if work sucks, they ought to do the best to find another one.

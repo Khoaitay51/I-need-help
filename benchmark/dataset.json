@@ -1,0 +1,7 @@
+{
+  "dataset": "fiqa",
+  "retrieval_unit": "document",
+  "source": "https://huggingface.co/datasets/BeIR/fiqa",
+  "input_queries": 648,
+  "excluded_queries": 0
+}

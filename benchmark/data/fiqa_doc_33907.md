@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33907  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"He is actually arguing for higher taxes.  When he talks about ""competitive"" taxes, he means that US taxes are too low, which is why we can't fix our infrastructure, and why we are failing to make other investments that corporations depend on for growth (like research and standards development).  http://money.cnn.com/2015/09/20/investing/jamie-dimon-higher-taxes-meet-the-press/index.html"

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20196  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Facebook has its fingers in many cookie jars and and can dip in many more because of the crazy amount of money they have/generate. They are practically unstoppable by now. I doubt we will see something new come along and kill it its too diverse for that.

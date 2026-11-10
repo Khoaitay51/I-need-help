@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9477  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Favoring one position because it is more pleasant or resonates more emotionally despite the logical alternative  is the very definition of naivety.   It is unfortunate that people will lose their jobs but if a company is no longer financially viable, there is no way they can continue to employ them.   Also, touting your age as a counterpoint while not addressing any of the points is  going to sound condescending.

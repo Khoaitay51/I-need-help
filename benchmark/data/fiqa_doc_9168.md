@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9168  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is good advice.  People place a lot of value on appearances. A clean uniform, and not smelling like a sweat-rag or a sewer, will help clients feel like they're getting more value for their money.  If he's overweight, now is the time to fix that as well -- fit, attractive people have an easier time closing deals in all industries.

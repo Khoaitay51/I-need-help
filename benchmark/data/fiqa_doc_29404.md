@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29404  
+**Domain**: Finance / Investment Advice  
+
+---
+
+What a mindfuck.  Human consciousness is something I can't quite wrap my head around.  How about an intermediate scenario -- what if whole-head transplants could be performed onto cyborg bodies such that no duplication of the mind was necessary?  Would that somehow be closer to a transfer of *this* you?

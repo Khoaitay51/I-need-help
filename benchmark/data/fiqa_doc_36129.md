@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36129  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"What does your link supposed to mean?  It's a video from 2013. And Maxine is ""allegedly"" nuts.  Anyway as the top link mentioned, it's a campaign spin-off organization.  Each Obama campaign has spin-off organizations. Not really surprising, nor malicious or problematic. Even failed-to-win presidential nominees have these lobby groups, such as Al Gore."

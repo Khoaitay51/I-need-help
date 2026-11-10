@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20140  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Not sure what your needs are or what NIS is:  However here in the US a good choice for a single fund are ""Life Cycle Funds"". Here is a description from MS Money: http://www.msmoney.com/mm/investing/articles/life_cyclefunds.htm"

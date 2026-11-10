@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 351615  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Keep a diary, before buying write down why are you buying the stock, how long do you plan to keep it. Put down reasons when you would sell it. For example you buy a stock because it has lot of cash reserve, it is a focused company, good management. You would sell when management leaves or it starts to use its cash for  acquisition that are not fitting in profile.

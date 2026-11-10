@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 63091  
+**Domain**: Finance / Investment Advice  
+
+---
+
+More leverage means more risk. There is more upside. There is also more downside. If property prices and/or rents fall then your losses are amplified. If you leverage at 90% then a 5% fall means you've lost half your money.

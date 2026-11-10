@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35361  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Luckily for them the quality of their originals is generally much higher the other contemporary content they buy, minus the odd blockbuster. Sometimes so much so it seems purposeful.   I think their business model of betting on content is at the least more interesting than most of the other media platforms out there - at least they're adding legitimate value to the entire creative ecosystem while they attempt to achieve critical mass.   I'm still shocked by some of their reported series budgets (Bloodline comes to mind). Generally though I think they're pushing TV in the right direction creatively and otherwise.

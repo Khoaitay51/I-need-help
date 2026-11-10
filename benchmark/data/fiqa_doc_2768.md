@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2768  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They use an amortization table like can be found Here.  The Forumula is not that complex  where:   A = payment Amount per period    P = initial Principal (loan amount)   r = interest rate per period   n = total number of payments or periods You will need to add 50 to  the A to account for the payment fee amount though.

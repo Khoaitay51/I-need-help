@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6607  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would imagine that as a holder you will receive information in the post when it's made public, but I don't think it's been decided yet. This thread on the Motley Fool boards is keeping an eye on them - you might want to keep an eye on the thread.

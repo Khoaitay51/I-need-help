@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34139  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Capital gains and losses offset each other first, then your net gain is taxed at the applicable rate. If you have a net loss, you can offset your other income by up to $3,000. In your example, you have no net-gain or loss, so no tax implications from your activity.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13018  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I hear this story all the time. Before they were afraid to let someone science on their face. They thought they might get a little science in their eyes, or it might taste too salty. Then one day, they finally let someone science all over their faces, and they loved it!

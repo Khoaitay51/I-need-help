@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7951  
+**Domain**: Finance / Investment Advice  
+
+---
+
+~~Most checks don't.~~  Edit: I've definitely seen checks cashed way beyond 90-120 days. I don't have extensive knowledge of the rules though. Regardless, it's not like Floyd magically loses is pay if he doesn't cash the check in time.

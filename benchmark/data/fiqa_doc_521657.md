@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 521657  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You can get audited for anything Business owners are more likely to get audited than people filing 1040-EZ's for their simplistic income tax obligation. According to HR Block I hope you enjoy the process where you explain the source of your earnings

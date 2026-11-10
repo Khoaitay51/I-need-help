@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28749  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt; The worst that could happen to the employee is they could lose their job.  Yes, that's my point. An employee is not going to risk saying ""no"" to a violation of labor laws when their livelihood depends on keeping the pay check coming."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29176  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Do you have a smart phone?  Check out the Clark Howard Podcast.  I listen every day.   Of course you can listen from your computer but its far easier to consume from a pod catcher

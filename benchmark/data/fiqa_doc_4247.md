@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4247  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is the exact reason why I think we will have self driving cars really soon. I would love to just surf the internet on my way to work and not have to drive. Of course I only work 6 blocks away, but I know many people have a 30+ minute commute.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 476663  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Naturally the advice from JoeTaxpayer and dsimcha is correct, every situation is different.  I will get reckless, go nuts and make a recommendation! You are young, childless for the time being.  Do the following with your money: ALTERNATE IDEA for #6 Fix yourself up for the long term first, then have a bit of fun, then get out of the house debt.  In that order.

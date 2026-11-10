@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23480  
+**Domain**: Finance / Investment Advice  
+
+---
+
+What is the focus of the program, sell the good or service or recruit new people?  If it is the latter (as it often is) then show them this pyramid. http://www.consumerfraudreporting.org/MLM_pyramid.php Pretty much the number of people on earth runs out too quickly.

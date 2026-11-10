@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 184646  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No. Medical bills for yourself or your human companions may be: Canada Revenue Seeing-eye dogs and the like also get special treatment Nice Doggie There are pet medical insurance policies; but as they are often priced like human policies, they might exclude your animal if it has a pre-existing condition. Good Luck Scott

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17348  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Crazy how AIM is now worthless but Whatsapp was worth $18 billion.  I wonder what AIM could have implemented that would have made it valuable back when it was at its height of popularity. An ad service? A mobile app?

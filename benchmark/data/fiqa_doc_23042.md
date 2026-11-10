@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23042  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Competition is good. Google promoting its' own services and potentially endangering industries isn't.  The purpose of the technology is to foster innovation and competition, not allow one megadon of a company abuse its' position to muscle in on every industry that exists.

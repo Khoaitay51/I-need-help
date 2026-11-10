@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15537  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, there are many reasons that Lehman and Bear were allowed to go under. Lehman had much more exposure to real estate than Goldman and JP, and they were also the very first domino to fall, back when people didn't think the crisis was a full-blown crisis yet.  As for Bear? I think the Fed harbored some hard feelings after the LTCM thing.

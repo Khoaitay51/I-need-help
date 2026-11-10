@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12472  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Oh, come off it. It's meat and bread, it isn't literally flavorless. You were just drunk or whatever and couldn't taste for shit.   Mcdonalds isn't the best burger in town, it may even be the worst, but it's still a burger, and it still adheres to the laws of taste.

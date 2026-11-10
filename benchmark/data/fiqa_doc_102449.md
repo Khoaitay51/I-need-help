@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 102449  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Let's take an example: IBM has about 430,000 employees worldwide.  Assume the average yearly salary is $80K (it's probably less, since a lot of jobs are offshore).  If every employee took 10% of their pay as stock, that's $132 million every two weeks.  But IBM's market capitalization is about $153 billion, so stock purchases would be less than 0.1% of that.

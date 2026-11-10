@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27273  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This guy has no idea what he's talking about. Depaul is a great place with a ton of talent. I got multiple internships at big time companies such as Deloitte because of the depaul name and how reliable our students are. The city's businesses want to hire you.

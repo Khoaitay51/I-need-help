@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30946  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"he is saying that ""QE"" meaning ""quantitative easing"" meaning ""the theory that the government flooded the markets with money, artificially driving up the price of stocks"" meant that hedge funds, which HEDGE, and benefit from an up-and-down market, couldn't win in a market where it just kept going up.  It's basically a conspiracy theory bears have been pushing for years ""QE artificially inflated the market, it's gonna crash!"""

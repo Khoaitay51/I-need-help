@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8959  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Also, when I tested between perl and shasum(cmdline), I found they got me different results.   A quick search showed that other people hit the same issue, that of an extra '\n' from echo : http://stackoverflow.com/questions/1843383/why-does-perl-and-bin-sha1-give-different-results  So it might be worthwhile doing an ""echo -n"" for this as well, when checking against the hash file."

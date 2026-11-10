@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18551  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Subprime Auto Loan Defaults on the Rise  [https://youtu.be/4XrdNmgon2c] Jul 30, 2017  Bill Black the white collar criminologist says It is a very severe problem for consumers who are going to lose not only their cars, but their credit ratings

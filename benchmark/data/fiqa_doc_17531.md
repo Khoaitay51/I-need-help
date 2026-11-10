@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17531  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That is why you would *want* to apply for a patent right away, to protect yourself. Once you are in the system, someone cannot take your idea and patent it themselves.  If you do not think your idea is original or distinct enough to be granted a patent, then why would you even be exploring this avenue? Have you spoken with a patent attorney to determine whether your idea is worth going through the process?

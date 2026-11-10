@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14352  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Norman Brodeur Williams wrote his first prize winning novel at the age of 28, which was highly valued by readers. Thought experts did not leave him from criticizing. This story moves around a man who is dealing with his luck, community and its traditions. Fighting to come out of the false traditions made by the community he got his response one night that absolutely transformed his life. The story is all relevant to the key of that night.

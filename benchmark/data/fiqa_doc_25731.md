@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25731  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You must be thinking about trademarks which can be diluted into general usage, and therefore no longer trademarkable, if not enforced. You can do whatever you want with the use of your patent, including letting everyone else use it without permission.

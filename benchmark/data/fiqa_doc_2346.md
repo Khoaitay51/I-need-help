@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2346  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you are looking to open an NRE Account, the banks have now made the process very simple and quick.Here, we will have a detailed look at what NRE Account is and how to open one such account.For more details, visit https://www.icicibank.com/nri-banking/nri-banking.page?

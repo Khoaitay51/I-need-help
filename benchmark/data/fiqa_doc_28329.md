@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28329  
+**Domain**: Finance / Investment Advice  
+
+---
+
+He wasn't complaining about it he was exemplifying it. He doesn't care how much of the bussiness's funds he takes advantage of in order to stroke his ego. That extreme level of entitlement, while trying to claim he's not snobbish, exemplified huge amount decadence, selfishness, greed, and carelessness.

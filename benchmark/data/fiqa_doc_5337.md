@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5337  
+**Domain**: Finance / Investment Advice  
+
+---
+
+when you are that big you typically run a hybrid environment with a mix of public and private cloud environments. At that scale it becomes more cost efficient to build and operate on your own hardware while bursting public cloud resources on demand

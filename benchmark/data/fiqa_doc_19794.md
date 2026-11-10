@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19794  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Systems to research that may help you out: Less Accounting and Wave are great because they can import data from banks / credit cards. I know you said your bank doesn't export it but it seems like something as a small business you would want.

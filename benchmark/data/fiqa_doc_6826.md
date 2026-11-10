@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6826  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Generally Google gets their data,  directly from the exchanges (Nasdaq, NYSE). This is really expensive   -- tens of thousands of dollars a month just for the license from the exchange, and lots of telecom costs on top of that.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15536  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You'll need to read all the fine print with your particular credit card, but in general, if there is no annual fee and you don't make any purchases, you don't pay anything.

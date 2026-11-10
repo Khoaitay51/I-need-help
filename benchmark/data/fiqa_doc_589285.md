@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 589285  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't think there are any web based tools that would allow you to do this. The efforts required to build vs the perceived benefit to users is less. All the web providers want the data display as simple as possible; giving more features at times confuses the average user.

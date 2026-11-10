@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30191  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If it is closed, you should be able to trust that it is closed permanently. What you still have is the online account. Imagine this would be removed and then the account would be re-activated? That should not happen, but the way you see it, you must be afraid of that as well. What I mean to say: See these two things as completely separate.

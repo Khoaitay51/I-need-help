@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30196  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I actually like bdubs... the wings. and fried pickles at least. The rest of the menu blows, but if they did some beer specials and brought back wing Wednesday at a reasonable price, they'd be fine. Everyone I know that used to frequent there went when it was 30 cent wings. This wasnt too long ago and I'm pretty sure they've doubled in price since

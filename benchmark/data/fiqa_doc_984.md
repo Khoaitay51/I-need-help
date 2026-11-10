@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 984  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That is your bill because the services were performed for you.   You still can negotiate with the doctor however.  Suggest that while you aren't willing to pay the full share, you will pay the negotiated amount he would have actually gotten from the insurance company (or some fraction thereof).  Doc did make a mistake, but you are very much liable for it.

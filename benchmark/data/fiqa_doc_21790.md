@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21790  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The DIY approach can be useful for regular dusting and cleaning, but when it comes to thorough cleaning, do it yourself does not seem a viable option Carpet cleaning is one of the intimidating tasks that call for professional intervention.

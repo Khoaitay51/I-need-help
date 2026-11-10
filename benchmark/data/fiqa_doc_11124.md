@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11124  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The ROI percentage becomes a meaningless figure at that point and would either be infinite or a very large number if you assume an equity investment of $1 or $0.01.   At that point it's obviously a lucrative deal *as long as it works out* so the bigger question is what are the risks of it not working out and what's the ROIC.

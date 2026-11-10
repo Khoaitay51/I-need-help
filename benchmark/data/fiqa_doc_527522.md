@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 527522  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The answer to your question is Forex trading.  You can get to 250K quicker than any other ""investment"" scheme.  You'll just need to start with at least 500K."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20064  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is really shallow analysis.  Just because revenues are up does not mean the market is healthy.  This might indicate that a market dominating participant such as Amazon is causing prices to be aggressively driven up.  The real issue isn't so much quaint dead tree versions facing off against e-books, but who is getting the money from this trade which is getting locked down to various shiny devices.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14639  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Note that folks may also be shopping for supplies for a nonprofit tax-exempt organization. I made such a purchase a few weeks ago. Whatever the legal basis of the exception,  you need to be able to prove to the store that you have it. If you can't,  they must collect the tax.

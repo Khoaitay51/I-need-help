@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 205010  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Just guessing here… How about Daily Median price?  StockCharts provides a similar value they call VWAP. Which stands for Volume-Weighted Average Price. I believe it is a better 'average' for the day (click on link).

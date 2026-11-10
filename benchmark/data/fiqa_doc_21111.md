@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21111  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Most readers probably know that an acronym is an invented word made up   of the initial letters or syllables of other words, like NASA or NATO.   Fewer probably know that an initialism is a type of acronym that   cannot be pronounced as a word, but must be read letter-by-letter,   like FBI or UCLA. A quote from Daily Writing Tips. CAGR is an initialism, and should not be pronounced.

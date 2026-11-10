@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25857  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The markets are based on a growing population, so yes, revenue growth is possible to continue alongside that into perpetuity.    I know this subreddit is known for their lack of actual basic business foundations, but jesus christ.

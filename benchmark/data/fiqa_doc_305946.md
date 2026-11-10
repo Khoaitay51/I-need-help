@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 305946  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's nearly always a good idea to save for your future, if you don't already have sufficient funds to see out the rest of your days. The hardest part of the saving decision is knowing exactly what portion of your funds to save. If we save too aggressively, we risk having an adverse impact on our everyday life and, of course, there's always the possibility that we'll never make it to old age. But if we don't save, we risk the prospect of a poverty stricken retirement. It's not always easy to find a balance. The best solution is to make so much money that we cannot possibly spend it all!

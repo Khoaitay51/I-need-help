@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36212  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The average height in the NBA isn't even 6'8"" and that's with the centers inflating the numbers. Your average point guard is 6'2"".   NBA players work their asses off to get where they are, hours and hour in the gym and hours and hours on the court. Am I saying they work harder than anyone else? No. But it sure as hell isn't easy to get there."

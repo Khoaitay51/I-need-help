@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12332  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Check out the bulk stores like BJs, Sam's Club or whatever else is available to you.  You can definitely save money shopping there but you also need to keep your wits about you as well.  Example, if you're buying in bulk only to let food go to waste, obviously that's not good either...

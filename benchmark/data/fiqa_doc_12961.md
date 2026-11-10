@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12961  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's also worth thinking about minor ""emergencies"" when the location of your cash may be more important than the amount. I keep a baggie of change and small bills in my glovebox for meters and tolls. I keep a ten dollar bill in my armband when I go out for a jog or bike. Those little stashes have saved me more than once. Zombie apocalypse money? I just have a couple hundred at home."

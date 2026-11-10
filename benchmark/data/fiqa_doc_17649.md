@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17649  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Miro Zecevic ‘s Tax Advisory Team works closely with you to understand your business and its corporate tax issues by Andrea rubio, the opportunities and risks your business faces. Corporate tax can be a complex issue. Enhanced regulatory and other relevant obligations mean you have less time to focus on the areas of your business that are important to you.

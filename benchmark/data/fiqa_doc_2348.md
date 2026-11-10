@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2348  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you make paying off those loans a priority,  you will find money where you can and also look for stuff to sell around your home and also look for as much extra work as you can stand.

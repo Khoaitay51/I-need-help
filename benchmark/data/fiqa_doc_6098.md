@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6098  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is what happens when reform is done through the agencies rather than legislation, it can change with a new president.   Obama's legacy is going to be that almost everything he did was reverted in Trump's first year of office.  Really the only thing that might last is Obama care and they are pushing hard to get rid of it.

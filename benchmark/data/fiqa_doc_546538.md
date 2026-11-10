@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 546538  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The real answer is ""Why do you want to waste a windfall chasing quick returns?""  Instead, use this windfall to improve your financial situation, and maybe boost you toward financial independence, or at least a secure retirement.  In simplest terms, forget the short term, go for long term.  Whatever you do, avoid lifestyle creep."

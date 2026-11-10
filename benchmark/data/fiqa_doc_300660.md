@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 300660  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Go where your money is treated best.  If you can lower your APR, great. It should help a little bit with getting a mortgage if you can reduce your payment.  Your debt-to-income ratio would go down.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36379  
+**Domain**: Finance / Investment Advice  
+
+---
+
+What kind of visibility do you have on sales? You need sales, that's why you're in business!   If their networks are good and you can bring in a bunch a of clients it sounds like it could be a good deal. Sales cure all ills.

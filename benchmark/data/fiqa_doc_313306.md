@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 313306  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In principle, a default will have no effect on your bank account. But if the US's credit rating is downgraded, the knock-on effects might cause some more bank failures, and if the debt ceiling is still in place then the FDIC insurance might not be able to pay out immediately.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4947  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It would only make sense to repay the HBP faster if you knew your marginal tax rate would be increasing in the future.  It sounds like that is not the case.  By repaying it sooner with borrowed money, you are paying extra interest and potentially increasing your marginal tax rate.  Probably not a good plan unless you know your taxable income will increase for other reasons in the next couple years.

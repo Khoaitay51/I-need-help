@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36285  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I'm assuming this is in comparison to the Standard Oil era. The main difference I see is that these are more merit based monopolies than the earlier times. I don't know if you can you can anything about it. Technology has made the game more like a scenario of ""winner-takes-all""."

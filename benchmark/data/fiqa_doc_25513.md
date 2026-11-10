@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25513  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If the person gifting the property owed any debt to Canada Revenue Agency on the date of gift, you may getting a nice letter from Canada Revenue Agency advising you to settle the donor's tax liability with the property gifted.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 37517  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Let's start with a definition: A Collar is a protective strategy for a position in the underlying instrument created by purchasing a put and selling a call to partially pay for the put option purchased or vice versa. Based on that definition, there are two different types of collars. Each is a combination of two simpler strategies: References Multi-Leg Options Orders

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9506  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Network theory to the rescue.  Imitate the [PageRank algorithm](http://en.wikipedia.org/wiki/PageRank): to have a good rank you need to have a link with every other people who also have a good rank. This means the obvious: you need to network with your banker and with the maximum of people who have high-rank links with him (bosses, friends, coworkers). This will maximize the chances of your discovery (like searching for a node in a [graph](http://en.wikipedia.org/wiki/Graph_theory)).

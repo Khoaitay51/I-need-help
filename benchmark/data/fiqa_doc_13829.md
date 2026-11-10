@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13829  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Citizens Advice can tell you whether it would be possible / worth taking it to Small Claims Court or not, and how to phrase your claim if so.  If you do go to Small Claims Court, you don't need legal representation. I would think of Citizens Advice as a kind of triage as to whether you need to seek legal advice or not.

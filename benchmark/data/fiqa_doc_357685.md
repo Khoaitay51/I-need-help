@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 357685  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The big websites, Yahoo and the like, only give the 10 biggest positions of any fund. Download the annual report of the fund, go to page 18, you will find the positions on the 31st of December.  However the actual positions could be different. The same applies to all funds. You need the annual report.

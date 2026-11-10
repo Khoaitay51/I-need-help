@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 780  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, this is common and a perfectly normal use of your ssn#.  The trustees of the estate can get in a lot of trouble with the IRS if they disburse assets to you if you are subject to tax garnishment (i.e. you didn't pay your taxes)

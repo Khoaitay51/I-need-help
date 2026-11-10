@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6369  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Most penny stocks go to zero because most businesses fail.  You stated in your original post that you were wondering specifically about companies with no assets. These are exactly the kind that fail and go to zero.  There are many holes within the regulatory structure that allow for many accounting tricks in penny stock land. And even in areas that are adequately regulated, there will be few to no remedies for the optimistic penny stock shareholder speculator.

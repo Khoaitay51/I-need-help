@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14216  
+**Domain**: Finance / Investment Advice  
+
+---
+
+We don't know how to make money in the stock market, therefore no one should be allowed to.  ~Fuckers  If Bill Gates wants to give the government some of his money, [here's the form](https://www.pay.gov/paygov/forms/formInstance.html?agencyFormId=23779454).  If he wants to give the government some of other peoples' money, he should shut the hell up.

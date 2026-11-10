@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33503  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Forget income tax, they need to raise the tax on capital gains and other investment income, that's where most of the wealth is. For example a CEO would get like 200k in income every year, but would get hundreds of millions in stock options. A higher income tax means nothing for this CEO, and for the country for that matter.

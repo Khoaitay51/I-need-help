@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36088  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Before you can truly learn, you must unlearn first. I recommend the book ""Fooled by Randomness"" by Nassim Taleb."

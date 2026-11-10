@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5223  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Are you one who cannot invest high efforts and time to enhance the profit in trading? However, you have strong desire to gain profits in trading binary options. Then, binary today is just for you. It encompasses the features, which is highly applicable for novice and experience person.

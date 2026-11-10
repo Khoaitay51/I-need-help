@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23041  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This doesn't seem smart, but people also seem unable, or unwilling, to do the smart thing vs the thing they want to do.  In other news, the average car price is over $34,000, which is 63% of median household income.  Compare that with 1985, when the average cost of a new car was 38% of median income.  So, yeah, it's not surprising that there's a desire to stretch that out a bit.  But cars last longer, too.  So there's that.

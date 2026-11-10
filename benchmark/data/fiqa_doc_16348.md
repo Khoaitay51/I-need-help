@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16348  
+**Domain**: Finance / Investment Advice  
+
+---
+
+When I traveled to Germany,  I found it was much better to get cash at ATMs and use credit cards.  The exchange rate was better than exchanging dollars for Euros at an exchange center.  Just make sure you have enough cash to get from the airport to whereever your are traveling.  The airport exchange rates were terrible.

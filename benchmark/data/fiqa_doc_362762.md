@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 362762  
+**Domain**: Finance / Investment Advice  
+
+---
+
+For exchange contracts, yes. A trader can close a position by taking an offsetting position. CME's introduction to Futures explains it quite well (on page 22).  Exiting the Market Jack entered the market on the buy side,   speculating that the S&P 500 futures price would move higher. He has   three choices for exiting the market:

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25061  
+**Domain**: Finance / Investment Advice  
+
+---
+
+1.  this is not the correct sub, try /r/Entrepreneurs or similar 2. Banks only care about 1 thing: collaterals with personal guarantee from the owners/shareholders of the business. Nothing else matters, don't waste your time with a business plan.  (Yes ELI: bank only give money to people who have money).

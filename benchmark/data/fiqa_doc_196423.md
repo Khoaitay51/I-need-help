@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 196423  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Not a financially sound decision in my humble opinion. Basically, you are prepaying your taxes and the only reason you want to do that is if you don't have the discipine to save that money for when it is time to pay next year (assuming you will have to).

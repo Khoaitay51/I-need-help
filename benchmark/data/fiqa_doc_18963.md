@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18963  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Commissioned sales is dead. It might have worked when consumers were beholden to retailers for product knowledge and pricing, but now everyone can pull out their phone and understand the product, its competition, and know the lowest price in minutes.

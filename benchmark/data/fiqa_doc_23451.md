@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23451  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Thank you Slater\_John for voting on metric\_units.    This bot wants to find the best and worst bots on Reddit. [You can view results here](https://goodbot-badbot.herokuapp.com/).     ***    ^^Even ^^if ^^I ^^don't ^^reply ^^to ^^your ^^comment, ^^I'm ^^still ^^listening ^^for ^^votes. ^^Check ^^the ^^webpage ^^to ^^see ^^if ^^your ^^vote ^^registered!

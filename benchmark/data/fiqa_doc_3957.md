@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3957  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"People should borrow and spend less, and save more.  Is this truly correct? Isn't the fundamental problem high supply and no demand?  Shouldn't it be ""borrow less but spend more"" - which of course would mean getting higher wages.  Am I wrong? Please to be educating."

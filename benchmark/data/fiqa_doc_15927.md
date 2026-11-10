@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15927  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Don't shakedown other less profitable industries to subsidize industries that are overflowing with cash.  Maybe I'm missing something, but I don't see how that is at all the case with what is happening here.   Their pay is in line with others in the industry. If you consider the cost of living where they are located, it is above average. If you are making an analogy such as a sports team that pays the industry average, ok, but I don't see the point.

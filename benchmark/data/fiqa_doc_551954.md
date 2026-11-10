@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 551954  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There is no age-limit, in fact the sooner you start the better - the sooner the money starts to compound.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16187  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The business and investment would be shown on separate parts of the tax return. (An exception to this is where an investment is related and part of your business, such as futures trading on business products)  On the business side of it, you would show the transfer to the stocks as a draw from the business, the amount transferred would then be the cost base of the investment.  For taxes, you only have to report gains or losses on investments.

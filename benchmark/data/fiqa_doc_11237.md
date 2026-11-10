@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11237  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Excellent points, especially what you say about why managers like certain people and also how productivity is measured. I suspect many HR systems exist that aim to eliminate this subjectivity in terms of assessing employee performance and post-assessment, dole out rewards (pay, bonus, etc.) as objectively as possible...but of course these systems are far from perfect.

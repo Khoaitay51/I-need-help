@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 590710  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A typical HELOC will have about $300 in fees to open it. From there, it's up to you how much or how long to use it.  I'd shop around to find the bank that offers the right product for you.

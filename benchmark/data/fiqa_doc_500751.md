@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 500751  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Regarding your specific types: If you can't part with anything, sure, scan them. Also, there are lots of opportunities to sign up for eStatements with just about any financial provider.  They want you to sign up for them, because it reduces their expenses. If you still like having paper around (I do admit that it's comforting in a way) then you can usually prune your paper a bit by statement (getting rid of T&C boilerplate, advertisements, etc.) or by consolidation (toss monthly when the quarterly consolidation statement arrives; toss the quarterly when the yearly arrives).

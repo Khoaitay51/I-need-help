@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30448  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm fine with taking care of me and mine. If I have the opportunity. The more that opportunity is squeezed, the more I'll go looking for the people squeezing it and capturing most of the income. Upper classes who don't realize this tend to see pitchforks out their windows.

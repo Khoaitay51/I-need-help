@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24016  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There are many places in the US without taxis or public transportation. I don't think self driving car fleets where you call one on demand will get a foothold. It would be impractical to send a car 20 miles to pick someone up and drive them to work every day. Even with algorithms that car pool people, the cost will be high.

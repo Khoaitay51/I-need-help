@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6386  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There are lots of things that can be graphed apart from financial data. Like flight data, for example. With the level of detail visible in the pics on that site, what reason is there to conclude that's market data? Interesting theory tho.

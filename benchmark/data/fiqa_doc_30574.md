@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30574  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It was so awesome (like a really good bowel movement) to hear the congresscritters start to say ""fortress balance sheet"" in a sarcastic and slightly taunting way.  Well deserved given that most of the fortress is due to the government TBTF backstop."

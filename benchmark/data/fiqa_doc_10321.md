@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10321  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I just want to point out that this can happen anywhere, teachers with tenure who get into big trouble ""retire early"".  The whole country could do with a heaping helping of accountability. I've already seen unauthorized charges on my credit card, and I'm sure it'll continue for years to come."

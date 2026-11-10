@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9044  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Dedicate the majority if your time to paying close attention in your class. They will give you little chests to remember when it comes to options and other important areas. Take practice tests after every chapter you read. For the week before your test, take as many practice exams as possible. Mastering the practice exams is your key to success

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25600  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; A well functioning legal system is consistent with capitalism.  The only well functioning legal system consistent with capitalism is the one bought and paid for by corporations that lobby for laws favorable to themselves, and for the abolishment of regulations that protect workers and consumers and safeguard our economy.

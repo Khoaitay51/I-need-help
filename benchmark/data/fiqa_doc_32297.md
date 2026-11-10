@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32297  
+**Domain**: Finance / Investment Advice  
+
+---
+
+At some point I just wanted to make free apps for grocery stores just so I could stop wandering around their stores, especially in new locations.  Every single time someone who works there reminds me that you can't touch any of the digital systems as they're old and finicky and nobody is just going to go in there and add huge new features like that.  Blows my mind that even relatively simple stuff like inventory management can grow into these complex things, even though on the surface it doesn't appear to do very much.

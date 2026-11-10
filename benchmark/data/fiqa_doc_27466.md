@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27466  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't really understand the paper. To me, the top 1% do not make their income from salary, but rather from equity or various other asset-based income.   Mixing both in the paper to assume that if you don't make $100k/y on salary by 25 you're a loser (sorry, part of the 99%) is dishonest.

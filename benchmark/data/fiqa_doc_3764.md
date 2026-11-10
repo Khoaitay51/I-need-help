@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3764  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think the only way to have an idea of whats going on is to take a sip of all the propaganda lies misinformation half-truths and of course the ever coveted granules of truth. Then sift through all the crap by overlaying all the stories on top of each other then fact checking what comes through as the actual story -the spin

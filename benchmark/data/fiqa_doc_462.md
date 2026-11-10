@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 462  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Hmmmm, 1 or 2, yeah, maybe they were not a good fit for one reason or another. but 5?? Really, you gotta start thinking that maybe, just maybe, there's a chance that's Trump's the problem. #justsayin'  is all.

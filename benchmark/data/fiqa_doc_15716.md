@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15716  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Think that was the point. In fact the blog even says it. Because terrible customer service experiences are more common than not these days, a good one - even an adequate one - stands out.   And I don't think it resulted in ""I love the brand"". But it did result in the product and company remaining in the consumer's home (a form of marketing in itself)."

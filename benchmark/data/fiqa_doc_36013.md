@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36013  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I was hoping it wasn't real time and I was going to be able to look 20 min. into the future using real time quotes for a 100% success rate.  Oh well.  Don't you know you can't make money day trading? :-)  Everyone on Reddit seems to think as much.  What % are you up for the day?

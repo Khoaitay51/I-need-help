@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13743  
+**Domain**: Finance / Investment Advice  
+
+---
+
+not really.  drinking a single beer is not the same level of intoxication as smoking a single joint.  source:  i have done both many times ;D  not sure where maturity comes into it.  perhaps you are young and consider that to be some kind of trump card.

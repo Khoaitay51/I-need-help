@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24659  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt; Well, first of all, how do you define ""executive,"" and how do you differentiate between executives who had a hand in ruining the company, and those that didn't?   If you're in a VP+/Director position, you don't get blindsided by this shit no matter what which division you're responsible for unless the company has serious communication issues -- which is a tell in and of itself.  &gt; Second, ""executives"" tend to be flexible, mobile, and have ""fuck you"" money. Turn off their salaries, and they'll just leave.  I don't find that a very compelling argument. It's the same as the old ""You can't tax the rich, they'll just move!"" argument, and should be solved much the same way. Okay, let 'em quit. Any stock options they have / other benefits get cashed out and applied to outstanding debts accrued under them before any payout reaches them. They can walk if they want, but they're going to feel it when they go.  &gt; I know Reddit has this fantasy where executives don't do anything but golf and drink all day, but you can't run a company with an empty C-Suite.   I don't pretend that they do, but by the same metric I don't believe that many are worth anywhere near as much as they get paid -- and especially not when they're producing results like this."

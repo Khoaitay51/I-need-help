@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3075  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"They aren't choosing winners and losers, if you want to use the game analogy then they are disqualifying assholes who flount an attitude of ""fuck you, I won't play by the rules"".  Your statement is the equivalent of a soccer fan getting pissed at the refs for DQing a player for picking up the ball over their head and running it to the goal over and over."

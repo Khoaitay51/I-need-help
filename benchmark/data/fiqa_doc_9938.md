@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9938  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The best source of financial statements would be from the company in question. On corporate websites of public listed companies, you can find such financial statements uploaded in the Investor's Relations section of their website. If their company does not have an online presence, another alternative would be to go to the website of the exchange the company is trading in (e.g. NYSE or NASDAQ) for financial data.

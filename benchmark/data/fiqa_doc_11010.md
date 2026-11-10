@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11010  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The site still has to hit the ad server to find out which image to use. The ad server could then do everything it already does, but instead of returning the image, it returns a string that matches the filename of the image to be used. The site then pulls that image from its server.

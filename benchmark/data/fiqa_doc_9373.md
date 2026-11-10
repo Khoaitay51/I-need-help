@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9373  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This is the best tl;dr I could make, [original](http://reason.com/archives/2017/07/14/dont-let-unions-use-good-returns-to-defl) reduced by 89%. (I'm a bot) ***** &gt; Expect something to this effect: &amp;quot;The California Public Employees&amp;#039; Retirement System&amp;#039;s investment earnings for the fiscal year ending June 30 were above 9 percent, reconfirming the health of the state&amp;#039;s pension system-and debunking the naysayers who claim that unfunded pension liabilities will obliterate municipal and state budgets.""  &gt; Even a year of good returns will do little to correct the vast level of pension underfunding.  &gt; The Pensions &amp; Investments article about the latest returns is aptly headlined, &amp;quot;Strong returns nice, but aren&amp;#039;t expected to last.&amp;quot; Ed Ring&amp;#039;s May 2016 California Policy Center analysis concluded that public pension funds &amp;quot;Will be hit much harder in a downturn than private pension funds&amp;quot; because they &amp;quot;Are not subject to the same rules that private pension funds have to adhere to.""   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/6ngouf/california_still_facing_pension_crisis_even_with/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ ""Version 1.65, ~167506 tl;drs so far."") | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr ""PM's and comments are monitored, constructive feedback is welcome."") | *Top* *keywords*: **pension**^#1 **year**^#2 **fund**^#3 **return**^#4 **California**^#5"

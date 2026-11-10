@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 210887  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If the price had dropped to $4 from $50, and you had $5000 to start with on your account, you will be left with $400 in your account if you closed the position now. So you would not be in debt if this was the only possition you had open.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 200690  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Withdraw your savings as cash and stuff them into your mattress? Less flippantly, would the fees for a safe deposit box at a bank big enough to hold CHF 250'000 be less than the negative interest rate that you'd be penalized with if you kept your money in a normal account?

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21223  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You generally need to use the prepaid debit card in the form it is received. Many don't allow you to remove the money from them at an ATM. If you can find out the prepaid debit card brand ahead of time, this would tell you whether or not it can be used at an ATM. For example, MoneyPass does allow ATM access for its prepaid debit cards. You could always try asking your employer to choose one that specifically allows for ATM access.  Source: https://www.nerdwallet.com/blog/banking/prepaid-debit-cards-what-you-should-know/

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 505057  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Otto, I totally agree with you. That feature would be awesome addition to mint. Have you thought of adding Custom tag called ""reviewed"" and just mark that to the transaction.  Ved"

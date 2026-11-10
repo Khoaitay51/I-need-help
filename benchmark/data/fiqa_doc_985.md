@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 985  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Definitely, check if they are regulated by the Finnish financial regulatory board. Google FIN-FSA regulation. It can also be that they are regulated off-shore, no matter just find it out. Besides try to find the terms of you're contract, if cant find ask the broker to point out. Wonder what will happen, following this thread

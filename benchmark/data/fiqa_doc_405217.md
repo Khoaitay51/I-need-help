@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 405217  
+**Domain**: Finance / Investment Advice  
+
+---
+
+For self-service type online customers, OptionsXpress gives me far better trading features(like technicals advanced conditions) and tools, ACH money management & scheduling, fullfillment too. $9 stock trades.  I don't know if they yet share Schwab's (their new parent company?) commission-free ETFs getting so trendy nowadays.

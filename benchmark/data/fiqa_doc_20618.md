@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20618  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Streaming ESPN does not have good revenue potential. I remember a report that they would need to charge $30+/month to replace the revenue cable subs provide. It might plug a hole, but ESPNs revenues are still the only thing that matters for Disney.

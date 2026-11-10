@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9766  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A log scaler on income would help visualize the data a little better. The physician is just so out of line with the other wages that it makes every other job seem to pay roughly the same. Or a break in the scale to look at outliers.   Or the data could be perfect and the zoom feature isn't working on mobile.   TLDR: According to this chart I should be a physician.

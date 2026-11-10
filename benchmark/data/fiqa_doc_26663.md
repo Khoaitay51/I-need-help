@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26663  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;paint Trump as incompetent...  As an outsider with no dog in your race, Trump painted himself incompetent long before he even ran for election.  Hell in my country (before that mess of an election) all Trump was known for is being that billionaire who unsuccessfully tried to bully an old Scottish lady.

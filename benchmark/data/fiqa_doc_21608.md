@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21608  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Yeah. This shorting the box nonsense is an extremely expensive way to capture downside. If I just drop $1000 on a long-dated out-of-the-money put I have significantly more downside exposure for much much less than the [100 X $160 - (call premium)]. That's like 16 grand dude!!! It does keep you more delta neutral, but still, stupid way to go about it, especially if you are concerned about ""cheap""."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16014  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't see it happening (a north african airport hub). Whilst I commend your cynicism on this day of enforced gorging on bullshit (Merry Christmas), at some point 'doing the right thing with the right intentions' will trump short-termism and finding loopholes.

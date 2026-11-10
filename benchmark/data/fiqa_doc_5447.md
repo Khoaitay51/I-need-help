@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5447  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's admittedly a theory. I've not yet heard a good reason for skyrocketing opioid addiction unless you believe it's the fault of doctors or pharmaceutical companies which seems slightly more absurd. These drugs have always been highly controlled and regulated, that's not changed.

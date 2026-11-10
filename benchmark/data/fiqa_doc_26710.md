@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26710  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's a business/economic term for industries/companies that ""race to the bottom"" by doing things like slashing prices and sometimes cutting corners on production or service to beat out competitors to gain a majority market share. Essentially Amazon is doing this to try to make Whole Foods people's first thought when they think of getting groceries."

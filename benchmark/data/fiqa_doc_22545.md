@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22545  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; All this hate on Wal-mart is coming from over-privileged bloggers who get paid to write stupid bullshit the entire year.   Can you verify this claim? I'm not saying you are wrong, but it would be interesting to know what your motives for attacking the messenger are.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36343  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I work in asset pricing/market microstructure research so I do come across a decent amount of topics at work that utilize my applied math degree. For the topics I'm working on right now on it's usually time series or econometrics stuff like vector autoregression, principal components, regressions, etc. Some of my coworkers are working on papers that use stochastic calculus and other aspects of continuous time finance.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 487052  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Any investment company or online brokerage makes investing in their products easy. The hard part is choosing which fund(s) will earn you 12% and up.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10608  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Basement remodeling can considerably increase the resale value of your home because no one enjoys having an unfinished basement. Remodeling the basement is not an easy deed since you first need to come up with an idea of what you want, the make a proper plan and eventually put that plan into action to achieve the outcome.

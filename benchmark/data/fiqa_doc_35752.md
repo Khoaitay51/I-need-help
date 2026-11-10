@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35752  
+**Domain**: Finance / Investment Advice  
+
+---
+
+For a long term gain you must hold the stock a year and a day, so, the long term hold period will fall into 2015 regardless. This is the only tax related issue that occurs to me, did you have something else in mind?  Welcome to Money.SE.

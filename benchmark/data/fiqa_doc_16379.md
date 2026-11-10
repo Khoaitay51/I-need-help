@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16379  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Either approach will put a strain on your friendship, unless you are willing to treat it as a gift which may or may not be returned rather than a loan. I agree that paying it direct to the dealer (or giving her a check that is made out to the dealer) avoids the risk of the money getting sidetracked.

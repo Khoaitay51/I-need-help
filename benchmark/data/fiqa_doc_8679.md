@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8679  
+**Domain**: Finance / Investment Advice  
+
+---
+
+EBIT could be lower due to non-operating revenues such as investments in other companies, tax reliefs, adjustments to incorrect loss provisions and various other items that would not be part of the companies day to day operations.  Be careful and read the footnotes and managements discussion for those items, they should be disclosed to some extent.

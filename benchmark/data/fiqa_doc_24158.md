@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24158  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Someone online asking for your bank account info never has your best interests at heart. They can send you a check and while it may take a while to really clear, they can't use it to suck money out of your account. Be very cautious.

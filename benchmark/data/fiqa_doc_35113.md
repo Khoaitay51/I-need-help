@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35113  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Oh wow, someone who is BULLISH stocks and the tech sector specifically? Wow, no groupthink at all here folks, none.   I'll catch you on the flip side of this epic bubble we're in, which you obviously don't see.

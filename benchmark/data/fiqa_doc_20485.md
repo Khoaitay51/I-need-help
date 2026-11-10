@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20485  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Deposits are contributions. You deposit say, $5000, and over time you have $6000.  The $5000 can be withdrawn any time with no issue. It's tracked via form 8606.  With this in mind, I wrote an article The Roth Emergency Fund, suggesting that since one can withdraw deposits with no issue, the Roth can be used to hold emergency money.

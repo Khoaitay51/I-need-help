@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23300  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My mom said that in her four years of college she didn't recall ever watching TV. No one did.   If America wanted the youth to really wake up they'd shut off the video games and television and REALLY experience college for four years. Also: no more Facebook.

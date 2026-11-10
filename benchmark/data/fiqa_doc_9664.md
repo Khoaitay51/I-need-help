@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9664  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes.  if it wasn't rigged before, it certainly is now.  High frequency trading and the ability to buy priority access to the exchange are the one two blows that killed it.  Honestly, the exchanges themselves should be network neutral.  It's an absolute crime that they aren't, it just takes money from normal people.

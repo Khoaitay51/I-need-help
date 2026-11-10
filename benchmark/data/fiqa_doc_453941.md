@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 453941  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I have been through default in Ukraine august 1998. That was a real nightmare. The financial system stopped working properly for 1 month, about 30% of businesses went bankrupt because of chain effect, significant inflation and devaluation of currency. So, it is better to be prepared, because this type of processes result in unpredictable situation.

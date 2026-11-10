@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17652  
+**Domain**: Finance / Investment Advice  
+
+---
+
+How would gold have protected you during the 2007/8 crisis?  In no way, shape or form. The ways to protect yourself at any time are: Boring, huh?

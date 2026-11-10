@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 490443  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Why not just do an FHA loan? The minimum credit score is 580, and you can sometimes even go lower than that. Another alternative is to consider a rent-to-own agreement with his landlord, since it sounds like if he doesn't buy he'd continue renting there anyway.

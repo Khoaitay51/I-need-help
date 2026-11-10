@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 393710  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you tell the collector that the claim isn't valid, they're obliged to go back to the creditor to verify it. Sometimes that gets a real person, instead of their automatic billing system, to look at the claim, and if you're right, they'll drop it.

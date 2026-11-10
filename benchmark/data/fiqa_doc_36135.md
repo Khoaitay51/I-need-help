@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36135  
+**Domain**: Finance / Investment Advice  
+
+---
+
+While salary is usually a large expense, it's often not the one with the most waste.  Cutting salary almost always ends poorly if you need any sort of specialized skills.   The city should be looking at it's budget, but at services that aren't necessary or are far too expensive to operate in a crisis.  Closing a community center or canceling some public events not only saves a huge amount off cash in the form of overtime for police and support services, it also makes the problem public, and tend to make people open to paying more fees of taxes, solving the problem for realsies.

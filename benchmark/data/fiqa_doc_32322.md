@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32322  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I don't know which field of work you're in, but in my field I found the classic ""fuck you, pay me now"" to be very beneficial to me. Go check it out. I hope it helps you out as much as it has helped me: http://creativemornings.com/talks/mike-monteiro--2/1"

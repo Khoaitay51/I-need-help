@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18200  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The best thing is to diversify across multiple currencies. USD and EUR seem reliable. But not 100% reliable to keep all your investments in this types of currencies. Invest part of your savings in USD, part - in EUR, and part in your home country's currency. Apart from investing I recommend you to have certain sum in cash and certain on your bank account.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29574  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't understand why they couldn't just put google maps and apple maps side by side, even if they changed the default app to Apple's at least they wouldn't have pissed people off who depended on Google's services (like transit)

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20675  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If the company went bankrupt, the issued public shares that were outstanding at the time most likely were voided, in which case your shares are most definitely gone.  The company might have done a new stock issuance coming out of bankruptcy with a different symbol, and while it could be substantially the same company, it doesn't mean much for you.  It's unfortunate this may be the case, but it is one of the risks of investing.

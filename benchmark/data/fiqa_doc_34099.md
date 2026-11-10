@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34099  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Since there's no taxable income (inheritance is not taxed to you), you do not need to amend. The executor used the correct form. Note, I'm not a tax adviser or a licensed professional. For a tax advice advice contact a CPA/EA licensed in your state.

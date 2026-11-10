@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 570680  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would suggest to buy your own printer, and calculate the cost for a page including the wear to the printer. Then either deduce these printing expenses, or ask the charity to reimburse you. This is not much different than when you would go to a copyshop, those easily charge 10-30c per page, with your own printer you can probably get it around 5-10c per page, including paper, toner, drum, and amortization. The advantage is that when you do use the printer for other purposes, you wont get into any problems with who owns the printer or deductions.

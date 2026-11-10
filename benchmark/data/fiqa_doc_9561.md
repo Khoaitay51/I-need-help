@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9561  
+**Domain**: Finance / Investment Advice  
+
+---
+
+How can banks be expected to make good decisions when they are not responsible for creating their own reserve? Do you think that the banking system could run without FDIC? And why? And what is your opinion on local banking vs. big corp banking?

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 71898  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If your refund is so small (like $20 - $25), and it's not worth receiving, it can be put towards next years just to give you a slight edge.

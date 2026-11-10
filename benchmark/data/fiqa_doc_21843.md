@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21843  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They are using a tax arbitrage, a variation of Hollywood Accounting. This is a common tactic adopted by all big companies, including GE, Apple, Microsoft, Google and hedge funds like Bain. The company's management has only one legal duty, to maximize the shareholder value and this is one way of doing it.  Depending on your perspectives, it may be unethical but it definitely is not illegal.   Blame the politicians and people electing them, not the businessmen.

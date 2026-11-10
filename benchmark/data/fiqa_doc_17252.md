@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17252  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Definitely will be appealed several times throughout the litigation, but if it gets through a jury trial, the jury gets a lot of deference on what they determine damages are. As long as they aren't too ridiculous, higher courts will uphold big payouts.

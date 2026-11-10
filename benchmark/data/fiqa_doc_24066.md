@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24066  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt;Simon Salamon, 60, a regular Whole Foods shopper, said the price drop brought him to the East 57th Street store. &gt;&gt;“It reminded me why I shop at Amazon,” he said. “Ninety-nine percent of the time they have the best prices and their return policy is great. With the prices lower, I think we’re more likely to shop here every day.”   This sounds like it was written for /r/hailcorporate.   Was the article written first and they paid actors to read the lines?  The ""now priced at!!!"" photos look like a grocery ad."

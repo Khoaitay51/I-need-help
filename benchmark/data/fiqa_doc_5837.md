@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5837  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Yes, CDOs certainly allow the investor to choose the tranche they want to invest in. As you said, lower risk higher priority tranches get paid first but also have a lower coupon rate. The higher risk lower priority (""junior"" or ""mezzanine"") tranches pay last, if it all, but have higher coupons."

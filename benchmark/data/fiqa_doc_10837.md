@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10837  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is when the Netflix UI became insufferable. They took out all the text, and now they barely tell you what the movie is about, or who made it, but they've got lots of images that take forever to load.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29096  
+**Domain**: Finance / Investment Advice  
+
+---
+
+So, what percentage savings did Lowe's actually realize by doing this in the scheme of things - especially in context to the business losses that will happen as a result from this?  The truth is, if we sheeple could just understand the power we wield, we could be the judge, jury and executioner for most any company if we chose to.

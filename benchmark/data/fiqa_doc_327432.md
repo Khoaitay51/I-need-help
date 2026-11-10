@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 327432  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"You are correct that it could refer to any of the types of interest rates that you've mentioned. In general, though, phrases such as ""rising interest rates"" and ""falling interest rates"" refer to the Federal Funds Rate or LIBOR. These are the interest rates at which banks in the U.S. and U.K., respectively, are lending money to each other."

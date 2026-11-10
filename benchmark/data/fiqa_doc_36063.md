@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36063  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In many cases, you are required to file your taxes by law even if you won't owe. If it's anything like in the US, it's quite possible your employer is not taking the right amount and you may owe more or may even be in line for a return. http://www.usatax.ca/Pages/filing_requirement_taxes_canada.html

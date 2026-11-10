@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11172  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Given that money can go into the 401(k) pre-tax, and that once the   loan is paid off, the principal is restored, I'm having a hard time   seeing the downside of this approach. Am I missing something or does   it actually make sense in my situation? You're missing several things. Here's a list of what I could think of: You should make sure that none of these issues is a problem for you.

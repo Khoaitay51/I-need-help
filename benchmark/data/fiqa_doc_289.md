@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 289  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"So you're basically saying that average market fluctuations have an affect on individual stocks, because individual stocks are often priced in relation to the growth of the market as a whole?  Also, what kinds of investments would be considered ""risk free"" in this nomenclature?"

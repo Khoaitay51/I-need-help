@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11339  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, but that is more of a problem in the long run dynamics of companies. In the short run they aren't changing the person in charge. It seems weird to assume they will stop trying until we see an actual strategy shift that seems short sighted.

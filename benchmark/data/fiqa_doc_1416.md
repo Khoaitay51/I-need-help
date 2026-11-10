@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1416  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I've never needed body parts in the 7 years I've owned it, so I don't know.  But mechanical parts are the same as any other car; nearly all are available within a few days at most, but for the rare parts that have to be special-ordered from Germany, up to 2 weeks.

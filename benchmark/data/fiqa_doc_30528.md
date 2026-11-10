@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30528  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I dread dealing with bloomberg support about any API issues because if you're not using excel they have absolutely no idea what to do; but it takes about a day of back and forth e-mails because they can connect you with someone who does.

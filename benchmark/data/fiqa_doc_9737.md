@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9737  
+**Domain**: Finance / Investment Advice  
+
+---
+
+100% scam. Run away. If you have already given the bank account, inform the bank and close the account. Else just close the new account opened.  Do not contact the scammer or reply back.... Just ignore ... Don't read any of scammer email, they are very convincing in why it's right and why it's not a scam.

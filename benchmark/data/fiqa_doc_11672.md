@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11672  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Assuming you are looking at moving your earnings when your tax status in India was NRI; then there are no taxes to be paid when you transfer the money back to India. You can move the funds back to India over a period of 7 years from the day you land.

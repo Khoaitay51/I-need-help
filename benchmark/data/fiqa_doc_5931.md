@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5931  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The problem is that these commercial GPS have cut corners to save $$ in each unit by not insulating the sensors correctly to filter out frequencies outside the allocated spectrum. As a result they are capable of receiving signals from other frequencies such as the one used by LightSquared.

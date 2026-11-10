@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11716  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Many businesses will request that you get a bank-issued check for large amounts of money. The exception is often in cases where you're not going anywhere: you can write a 50,000 check for a deposit on a new house, and you'll never have a problem, but a car dealer will probably request a counter check for the same sum.

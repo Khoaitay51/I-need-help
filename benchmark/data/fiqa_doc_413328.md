@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 413328  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Turbox Tax states the following:  ""For 2015, the AMT exemption amounts are $53,600 for individual taxpayers, $83,400 for married taxpayers filing jointly and surviving spouses, and $41,700 for married persons filing separately. This is the amount you're allowed to deduct from your taxable income before applying the AMT."""

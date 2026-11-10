@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28473  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In Canada section 347 of the Canadian Criminal Code makes it illegal to charge more than 60% annually.  Since most Canadian credit card annual interest fee is below this they are within that legal limit.  However this is limited only to the rate and not necessarily a cap on the absolute interest charges.

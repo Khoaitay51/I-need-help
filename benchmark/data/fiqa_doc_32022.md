@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32022  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The closer the contribution is to the December 31st date, the more profitable that specific contribution is, only taking into consideration the 5% discount. On your case, the first contribution that beats your student loans interest rate is the August one, where you get about 9% annual return, the remaining contributions go up from there.

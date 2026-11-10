@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19701  
+**Domain**: Finance / Investment Advice  
+
+---
+
+not really, just coming up with shit to say, i like to maintain a bit of the thread one way or another and it was all too easy there.   If being cyclical or recursive keeps it going then off we go!

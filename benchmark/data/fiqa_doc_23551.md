@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23551  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A Loan is an loan that gives some kind of benefit as an assurance to a loaning organization. So when you put in an application for a credit, you likewise advocate that in case that you can not pay, you've some form of benefit that will cover the default sum.

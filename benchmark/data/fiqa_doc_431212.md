@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 431212  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you have a debt that has very low interest now, but you are aware that it's not going to stay that way (0% introductory APR on a credit card, for example), it can make sense to pay that off before the higher rate kicks in.

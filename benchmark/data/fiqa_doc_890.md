@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 890  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's called competition. Reddit is funny, they love the electronic revolution when it comes to music, games, TV, piracy, etc. but hate that it will doom bookstores. The sword cuts both ways. Maybe independent bookstores time has come.  (when I say reddit, I am talking in general terms)

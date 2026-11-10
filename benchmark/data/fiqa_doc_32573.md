@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32573  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You don't even know why licenses you need? And you're asking Reddit? You will be doing a disservice to any client who has the misfortune of having you as an investment advisor. Go work for an established shop for a bit and learn the ropes. How could you dream of asking someone to trust you with their money when you know as little as you do?

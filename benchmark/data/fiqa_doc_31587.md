@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31587  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Exchange traded options are issued in a way that there is no counter party risk.  Consider, stocks and options are held in street name. So, for example, if I am short and you are long shares, no matter what happens on my end, your shares are yours.  To be complete, it's possible to enter into a direct deal, where you have a contract for some non-standard option, but that would be very rare for the average investor.

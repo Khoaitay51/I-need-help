@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5334  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sign up for alerts.  Everytime you use your card, you'll get an alert.  That way if there is an unauthorized transaction, you'll know right away. The alerts can also tell you what amount was charged - since this happens right away, the last last cc transaction is fresh in your memory and any overcharges can be easily detected. Has saved me more times than I can remember!

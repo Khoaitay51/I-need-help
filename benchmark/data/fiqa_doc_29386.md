@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29386  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Lightning is one of the most devastating natural phenomena and a direct strike will damage anything and everything on its way. Lightning Eliminators &amp; Consultant Inc. installs a wide range of lightning protection products to divert a strike away from the structure and equipment. These products are designed to prevent physical damage to people, structural damage to buildings and protect against internal system equipment failure. Get more details on lightning protection products: http://forum.nordicgames.at/members/179160-MaxLewis

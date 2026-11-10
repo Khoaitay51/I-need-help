@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8527  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Slack is just fancy IRC. Not exactly hard to clone. Its why Microsoft teams now exist, and FOSS answers like rocket. Chat and mattermost are out there.   Why pay billions for something their devs could spin off in a few weeks?

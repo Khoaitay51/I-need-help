@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20790  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"how do I decide which model to purchase so that I get maximum amount of utility considering how much money I would have to pay?"" You should have a fixed budget for buying a TV, based on a small portion of your available cash, and not spend more."

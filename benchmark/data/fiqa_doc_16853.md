@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16853  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"To me it seems much easier to amazon yes, but much less beneficial to local economies. These new rules will have an effect similar to the way that Walmart contributed to the decline of ""mom n pop"" shops, taking money away from people in the communities and into the pockets of shareholders and executives."

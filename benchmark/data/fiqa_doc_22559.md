@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22559  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Your nazi publication lied (which is admittedly goes without saying)  These changes will result in the reduction of up to 12,000 positions **globally**    Why do you hate my country so much you would spread anti-American propaganda?

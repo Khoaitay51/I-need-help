@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6068  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The buyer can get another cosigner or you can sell the car to pay off the loan. These are your only options if financing cannot be obtained independently.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 77652  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The markets are not as information efficient as some might have you believe. But on the contrary, looking up what the aggregate professional analysts have said is also part of ""doing your homework"""

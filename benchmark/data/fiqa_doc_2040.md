@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2040  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I was thinking to do mix of ELSS and Tax Saving FDs. But is my choice correct? Also what other options I am left with? This depends on individual's choice and risk appetite. Generally at younger age, investment in ELSS / PPF is advisable. Other options are Life Insurance, Retirement Plans by Mutual Funds, NSC, etc

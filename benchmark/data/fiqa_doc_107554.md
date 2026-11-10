@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 107554  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"First - yes, take the 2.5%. It could be better, but it's better than many get. Second - choosing from ""a bunch"" can be tough. Start by looking at the expenses for each. Read a bit of the description, if you can't tell your spouse what the fund's goal is, don't buy it."

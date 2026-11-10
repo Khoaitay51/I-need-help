@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29237  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The 2012 Leadership Development and Talent Strategy Report is a wealth of information that will show you where top performing corporations plan to focus (and spend their training dollars) in the new year. Download your free copy of the report at: http://www.PredictiveSuccess.com

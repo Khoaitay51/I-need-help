@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34388  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Inefficiency is about time spent producing.  If money funnels towards producing rather than (example) gambling, even if producing costs more the money is removed from gambling economy to producing economy.  And if people increase production and speed due to better pay, it's more efficient.    It's never that simple, but it's an important point.

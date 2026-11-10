@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10155  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Amazon is not just in retail business anymore. They're in more logistics and internet infrastructure business. While it's true some customers will turn to walmart to save few dollars. Then customers will have to deal with slow delivery and bad website.   Price is no longer a threat to Amazon.

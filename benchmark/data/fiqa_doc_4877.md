@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4877  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The issue here is not that Sears is taking money from the pension.  The pension is underfunded and Sear is asking to not make additional payments towards the underfunding.  Pensioners are still getting screwed.  At least in the US, there are lots of controls on what companies can do with pension money.  Way beyond just having separation of assets.

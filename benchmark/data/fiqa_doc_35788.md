@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35788  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It starts with the optics.   Isn't this the sort of *ends justify the means* attitude that led Uber to where it is today?  Recruiting a woman to replace Kalanick with the primary goal of creating the appearance that it cares about its reportedly horrid corporate culture is exactly the type of thinking Uber could do without.

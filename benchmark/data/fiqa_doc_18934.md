@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18934  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"No matter what you do, the question of ""what is income"" is *always* going to be an extremely complex question.   To use this particular example, is paying a royalty fee to an external party a legitimate business expense that is part of the cost of doing business and which subtracts from your ""income""?"

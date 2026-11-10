@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34239  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In my experience, Yelp reviews have accurately represented the quality of the establishment reviewed and have been right in line with my tastes and expectations. I find Google reviews perform comparatively worse. So far Yelp is the best tool I can find for quickly making decisions about where to spend my money.

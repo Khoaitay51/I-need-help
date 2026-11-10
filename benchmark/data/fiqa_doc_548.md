@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 548  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In order to do this, you would need to purchase an Amazon gift card from another online vendor that accepts PayPal and then use the Amazon gift card on the Amazon site. There are dozens (if not hundreds) of sites that sell Amazon gift cards online that accept PayPal.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29075  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Sure my dude. I'm not disagreeing with them being irrelevant outliers in terms of this data, I'm just disagreeing with you saying ""lottery"" like they didn't have to put any effort in. Becoming a pro athlete is a shit ton of work"

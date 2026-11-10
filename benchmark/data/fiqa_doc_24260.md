@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24260  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No. PayPal payments are credited to a PayPal account. PayPal doesn't let you pay arbitrary banks or credit cards, that defeats the purpose of PayPal and there are other services which can do that cheaper or with less hassle. You need to find another mutually available and satisfactory option with your client.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36282  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If it's *already* beneficial to lease out/buy more advanced airplanes, is it really necessary to introduce this carbon tax? Fuel costs are rising every year, so it seems to me that companies would go greener regardless of governmental stimulation.

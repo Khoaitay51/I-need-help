@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 134794  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I spoke to HMRC and they said #1 is not allowable but #2 is. They suggested using either their published exchange rates or I could use another source. I suggested the Bank of England spot rates and that was deemed reasonable and allowable.

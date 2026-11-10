@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19606  
+**Domain**: Finance / Investment Advice  
+
+---
+
+From an investor's standpoint, if the value of crude oil increases, economies that are oil dependent become more favourable (oil companies will be more profitable).  Therefore, investors will find that country's currency more attractive in the foreign exchange market.

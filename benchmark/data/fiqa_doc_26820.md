@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26820  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The dividend is what represents your ownership in the CU.  The APY is a calculated figure that will help you compare apples to apples the return of the investment from many vendors and many types. (I think you CU might have had two different people writing that portion of the website, because the comparisons pages don't make that clear, and the pages don't layout the same way.)

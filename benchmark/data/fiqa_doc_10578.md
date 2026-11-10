@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10578  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Gold is a risky and volatile investment. If you want an investment that's inflation-proof, you should buy index-linked government bonds in the currency that you plan to be spending the money in, assuming that government controls its own currency and has a good credit rating.

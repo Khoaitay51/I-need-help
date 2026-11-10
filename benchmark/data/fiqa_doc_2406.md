@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2406  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm saying children have no self-control in the things they demand.  Parents typically buy their kids toys so they can have fun and keep themselves busy and most parents see it as time they earn for themselves so they're willing to buy their kids some toys if it means it'll shut them up

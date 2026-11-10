@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30859  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's called an argument from the extreme. Although, I think North Korea is a not as good of an example. Perhaps a better argument would have been ""if you like taxes so much why don't you give all your money to the IRS?""  So far the only points I have gotten from you is taxes are bad, freedom is good. Did you want to speak about a specific point?"

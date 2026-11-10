@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 358125  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This simulation game uses actual historical S&P 500 data to test whether you can ""time the market."" You start with $10,000 invested, and it plays back 10 years of index values, in which time you can choose to sell (once), and if you do sell you can subsequently buy (once). Then you find out how you did relative to just holding what you started with.  If you play it enough times, you might eventually beat it once. I never did."

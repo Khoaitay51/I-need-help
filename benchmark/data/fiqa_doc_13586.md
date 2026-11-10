@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13586  
+**Domain**: Finance / Investment Advice  
+
+---
+
+With the S&amp;P 500's cyclically adjusted price to earnings ratio above 26 and inching closer to 30 everyday I would be inclined to disagree. Also price trends and technical indicators say nothing about over and undervaluation. If fact technical indicators are worthless in the real world.

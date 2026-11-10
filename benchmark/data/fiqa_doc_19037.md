@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19037  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No shit. That's not the point OP was making. He was saying they dont exist, so who would buy an electric car when the necessary infrastructure isn't in place yet? The same situation existed for gas when those cars first hit the road. Guess what? People built gas stations. It goes for any new tech that requires infrastructure. Thry build out together. Its not something thats insurmountable.

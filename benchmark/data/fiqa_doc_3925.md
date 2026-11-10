@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3925  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That's the tragedy. No one in industry checks what coursework you took they just assume that the BS is more quantitative and impressive. There is certainly enough variation amongst programs such that some BAs have quant heavy work and some BSs do stand for bull shit.

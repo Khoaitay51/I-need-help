@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14844  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yeah, Target's failure was a special sort of scenario where they worked too quickly and made lots of important mistakes that ultimately doomed the venture.  Sears Canada's failure, on the other hand, seems to be a more traditional business failure.

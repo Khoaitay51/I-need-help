@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20480  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You can criticize this all day long but at least take into account state benefits for being a parent and the fact that more children is an opportunity for more support later in life. Some families seemingly don't have a choice and some are trying to take advantage of the system and play the victim card. It's not merely a simple breeding habit

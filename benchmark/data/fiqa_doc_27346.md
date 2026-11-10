@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27346  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Stay in Portland, racist filth.   Standard right-wing MO, accuse your opponents of what you are most guilty of yourself.  You were complaining about people being illegal immigrants. I gave a simple solution, make them legal. The only reason you should have a problem with that solution is if your original complaint about illegalness isn't your real reason.

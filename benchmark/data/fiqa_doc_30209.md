@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30209  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's a risky ""investment"" given how capricious the government can be, and like another poster said... if you don't understand it and can't explain proof of work, cryptographic hashes, and how and why there's a limit to total BTC ever, as well as changing difficulty to PoW, and what implications that those things *might* have..."

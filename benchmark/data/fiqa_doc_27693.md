@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27693  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'd pay cash.  Car loans are amortized, so sometimes you can get upside-down on the loan between 18-30 months because you are pre-paying interest. This can get you into trouble if you get into an accident. Given the low rate and the type of car you're buying, you're probably fine either way.

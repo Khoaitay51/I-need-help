@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31608  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The problem I have with all this is won those tours against EVERYONE ELSE WHO WAS ALSO DOPING. I'm not sure he gained a competitive advantage when the entire field was also doping.   Lewis Blacks rant on John Stewart earlier this week was spot on.

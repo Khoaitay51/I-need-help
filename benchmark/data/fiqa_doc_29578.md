@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29578  
+**Domain**: Finance / Investment Advice  
+
+---
+
+And people call me crazy because I want Seth Rich's murder investigated! Lol   Lol so Seth Rich being murdered for political gain is a crazy conspiracy theory, but Amazon is TOTALLY taking underlying control of the economy. Serious business discussion going on here /s lol.

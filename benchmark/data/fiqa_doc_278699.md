@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 278699  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Nobody outside of the credit scoring agencies know exactly what goes into the scoring formula. That said, I don't think there is any evidence that keeping a fixed loan (car or mortgage) open is necessary to keep its effect on your score. It doesn't improve your utilization ratio like an open revolving credit line would. And depending on the exact details of how your specific lender reports the loan, it might appear detrimental to your debt-to-income ratio.  I would simply pay it off.

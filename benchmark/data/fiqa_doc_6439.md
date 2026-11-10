@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6439  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I simply wrote my bank an email and said, ""I want to handle my own escrow"".  They said, ""fine"" and even let me set up a third account called ""escrow"" (savings and checking being the other two)  that I just transfer money into whenever I want.  But, I don't actually know what their requirements are for doing that. I have a ton of equity in the house, and I never missed a payment, AND I have direct deposit at that institution.  So, it can be done."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35675  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Actually his mom died recently so I'd take it easy on the guy.  Not saying he's not a major ass, but the universe is hitting him pretty hard right now.  No class in kicking a man when he's down.

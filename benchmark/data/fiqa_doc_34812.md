@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34812  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Why not?  For the reason that I already gave  &gt;If marketing is a product then so is education.  Who pays for the marketing? The company that wants to get their product info out to potential customers.   Who pays for inner city public schools? Not the students that want part of being there   &gt;Are there for-profit schools? Yes? Sounds like a product.  Yes, sounds like a product that's being bought. Who's paying for it though? Again not the students

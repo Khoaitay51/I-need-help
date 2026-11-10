@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 300721  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is ideal placement for your allocation to income investments or those with nonqualified dividends: bonds, REITS, MLPS, other partnerships, and so forth.  These are all taxed at income rate, generally throw off more income than capital gains, so you get the deferment without losing the cap gains rate.

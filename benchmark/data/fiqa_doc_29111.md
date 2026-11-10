@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29111  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Merriam-Webster has the following definitions of the term, ""Interest"": While 2a may be the definition you know, there are more than a few others here that are worth understanding as there can be various contexts so that it isn't as simple as you may think."

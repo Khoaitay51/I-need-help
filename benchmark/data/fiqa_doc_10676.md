@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10676  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If I can get an accurate measurement of my foot and the manufacturers can offer accurate dimensions of their shoes it would make that problem go away almost entirely. Sure, the style of shoe may affect how it feels even if it technically fits your foot.  As someone with oddly wide feet, this would be perfect for me since retail stores rarely ever carry wide sizes.

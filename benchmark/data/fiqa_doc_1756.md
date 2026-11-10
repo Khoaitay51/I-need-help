@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1756  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;While there is truth to this guidance, it fails to take into account that the human body continues to fight against weight loss long after dieting has stopped.  But isn't that the wrong mentality? It's about altering your diet for life, not 'dieting' for a period of time.

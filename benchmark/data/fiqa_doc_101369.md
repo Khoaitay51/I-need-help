@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 101369  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Consider contracting with a property management company to lease and maintain the house until it can be sold. Rent on the property should cover the mortgage, property taxes, etc. The property management company can handle maintenance and the tenant would be responsible for utilities.

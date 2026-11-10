@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28720  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Bottom line is our system is broken.  For three years running I am 0% return with over 600k in.  Yet, the 401k admin institution charges us all enormous fees that most aren't even aware exist.  A helpful tip is to also check out your expense ratios and learn how those work as well so you know how much you are paying in hidden fees.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1937  
+**Domain**: Finance / Investment Advice  
+
+---
+
+When I had a high-deductible healthcare plan, I used http://www.ehealthinsurance.com/ to do comparisons among the plans.  As far as comparing the costs of specific procedures across providers, I'm not aware of any good ways either.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27015  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you feel comfortable taking an 8% gain on your stocks, then yes, you should sell. It is generally a good idea to know when you want to sell (either a price or %) before you ever actually buy the stocks. That helps from getting emotional and making poor decisions.

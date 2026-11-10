@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23423  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Not medical! Y'all need some business courses. Liability insurance, etc. no factory will let you operate machinery stoned. No bank will let you move money between people's accounts stoned. Banks are more concerned with fraud than anything else and people with expensive drug habits steal more.

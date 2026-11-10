@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32177  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you can borrow for an asset that gives you income that's more than the cost of carrying the debt, then go for it. But the kinds of debts you have now aren't those kinds of debt, so get rid of them.

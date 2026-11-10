@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24905  
+**Domain**: Finance / Investment Advice  
+
+---
+
+So your plan is to wait for the whales to die of old age, with sea world caring for them the entire time, during which you will condemn sea world for doing this while acknowledging it's their only option at this point.   Ok.

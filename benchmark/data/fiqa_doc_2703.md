@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2703  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Cool, I think if you can do that you can make anything a habit.  As much as I believe in meditation I probably only mange about ten months out of twelve.  I've also taken up morning journaling - The Five Minute Journal is my journal of choice but any method that you stick with is good.

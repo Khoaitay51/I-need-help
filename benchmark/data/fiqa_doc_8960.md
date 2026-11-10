@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8960  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Giulianis retarded no one should listen to him, ever. Not only the ideas he says are retarded but also he sounds retarded with his speech impediment. He was my mayor and he was great. Now he's a Dracula looking sell out for the Republican Party.

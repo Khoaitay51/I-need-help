@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 263390  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would suggest looking into Relative Strength Asset Allocation.  This type of investment strategy keeps you invested in the best performing asset classes. As a result of investing in this manner it removes the guesswork and moves naturally (say into cash) when the stock market turns down. There is a good whitepaper on this subject by Mebane Faber titled Relative Strength Strategies for Investing.

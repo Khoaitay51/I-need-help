@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 748  
+**Domain**: Finance / Investment Advice  
+
+---
+
+...is investing in a business you believe in a bad strategy?   I'm not saying you're going to be right with your investment (obviously your judgment is coming into play), but you make it sound like it's a terrible way to do things. Is it?

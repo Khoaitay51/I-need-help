@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24032  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I really want a CEO to play up impending doom one time. ""We seriously need funding. Anybody out there want some equity with warrants?""   Here's to hoping that this company does well. As of now, that is too much for me to pay for a car."

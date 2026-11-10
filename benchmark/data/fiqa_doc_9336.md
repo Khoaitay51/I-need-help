@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9336  
+**Domain**: Finance / Investment Advice  
+
+---
+
+big U econ grad here.  my knowledge of money and banking, the general economy's workings etc are well above the average person, but no other direct benefit...and nothing any employers I have worked for cared about

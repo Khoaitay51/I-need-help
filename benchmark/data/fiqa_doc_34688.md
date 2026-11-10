@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34688  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The bond funds should tell you their duration. My 401(k) has similar choices, and right now, I'm at the short maturity, i.e. under 1 year. The current return is awful, but better than the drop the longer term funds will experience as rates come back up.  Not quite mathematically correct, but close enough, ""duration"" gives you the time-weighted average maturity in a way that tells you how the value responds to a rate change. If a fund has a 10 year duration, a .1% rate rise will cause the fund value to drop 1.0%."

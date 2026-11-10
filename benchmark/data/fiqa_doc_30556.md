@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30556  
+**Domain**: Finance / Investment Advice  
+
+---
+
+$70k (plus 5-10% annual bonuses and medical/dental/vision 100% employer-paid) compared to $55k at my last gig (for a 28-year-old with a philosophy degree, I'm not complaining).  It's in San Diego, so CoL is pretty high.  I'm just happy that I'll be able to pay off my student loans.

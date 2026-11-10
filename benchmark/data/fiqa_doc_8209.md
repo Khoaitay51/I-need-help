@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8209  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It was about a decade between splitting consulting off and the IPO, including 3 years of legal action to allow the consulting branch to become a fully independent entity, and the partners on each side were not exactly best friends during that time. Not exactly a quick money grab. (also please note that Andersen created a new consulting group *before* the IPO of what was then Andersen Consulting, and this was what lead directly to the lawsuit)

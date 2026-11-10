@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33587  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This course was written by active owners, operators and investors in Group Homes, Halfway Homes, ICF/MR Homes, Disability Homes and other special needs assisted living and care homes in order to personally teach you the strategies and steps to help you start your first Group Home.

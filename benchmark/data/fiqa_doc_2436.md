@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2436  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Xero and WaveAccounting can make things easy, but they also have their limitations. I've used both for short periods of time but found both of them to be lacking. While the ""ease"" is appealing, the ability to drill into the details and get good reports is the downfall of both of these accounting systems. QuickBooks may seem like the easy answer here, but it really is the best for getting the power you want without getting too complicated."

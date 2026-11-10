@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31376  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think Jobs had an impact based on his ideas, if you look at Apple under Scully and then again when Jobs came back there was a clear difference. The real test will be what happens to Apple now that he's gone for good.

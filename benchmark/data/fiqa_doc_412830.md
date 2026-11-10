@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 412830  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The recommended way to track TSP funds in online portfolio tools is to track the underlying index and know that the results are pretty close.   Not a perfect solution: :( Source including suggested ETFs: http://finance.yahoo.com/news/breaking-down-tsp-investment-funds-194600393.html Related, but not exactly what you are looking for, Personal Capital will track your TSP holdings: http://themilitarywallet.com/manage-thrift-savings-plan/

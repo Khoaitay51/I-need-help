@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 277583  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Good tax people are expensive. If you are comfortable with numbers and computers, you can do it better yourself.

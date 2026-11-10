@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15518  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Timeshare and resort packages are a popular option for people who take frequent vacations. But are they a good deal? Many people sign up due to attractive sales pitches but are then disappointed by the actual package. It's a good idea to read reviews from experienced travelers.

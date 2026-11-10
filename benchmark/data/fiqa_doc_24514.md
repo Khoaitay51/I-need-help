@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24514  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The casino market is too saturated. I live in Maryland. Charles Town (WV) casino is 40 minutes away to the north. Live Casino is 40 minutes to the East. A new one is being built in Baltimore city, Holywood is 2 hours away to the further East. People in the region don't really have a good reason to drive 4 hours and go through 10 toll booths to play at AC.

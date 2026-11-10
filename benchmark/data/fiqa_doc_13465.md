@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13465  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"LOL!!!! You want nucelar weapons at the hands of ""Palestinians"" or even Muslims/Arabs.  Sure. Hamas, the terrorist organization, will be great with nuclear weopons.  (Did you forget to take some pills today?)  All Arabs countries, all(!) of them, are not worried that Israel have nucelar weopons. Actually, they are glad about it because Israel will take of Iran for them."

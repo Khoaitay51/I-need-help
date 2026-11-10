@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8727  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I was actually planning for the CFA. But with not being sure about doing a job anytime soon, and needing four years after the CFA for the charter, I decided against it. Also, I live in a foreign country so getting a job isn't easy for me.

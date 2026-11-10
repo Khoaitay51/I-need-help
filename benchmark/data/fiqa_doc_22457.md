@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22457  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I had this thought after I posted the comment. If you are really more interested in the learning and research, you know plenty of math already.  Fields like behavioral finance that are really cool and growing fast and my not require the quant math.

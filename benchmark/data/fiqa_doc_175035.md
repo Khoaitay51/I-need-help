@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 175035  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think technically the MIR includes the date of issuance but not the time, see the references here. What you have there looks like a timestamp followed by the MIR. If you look at this example from IBM they also show the input time as a separate field.

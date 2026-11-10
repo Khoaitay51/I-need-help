@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14299  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Capitalism is a fine way to distribute resources and spur innovation... so long as it's not the only game in town. If we could provide medicine, food, clothing, shelter, and internet access to every person in the country, then it hardly matters how callous and Randian the employment market is.

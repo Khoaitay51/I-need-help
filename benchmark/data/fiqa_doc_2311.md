@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2311  
+**Domain**: Finance / Investment Advice  
+
+---
+
+LOL. You think the game is fair, big man? You think its all about that one big idea, and then you're gonna be rich?  Why don't you finish high school, and get a real job and plan your big startup, and then we'll have this conversation.

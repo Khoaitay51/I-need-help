@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15002  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you own a medium sized or large online business, then buying or developing a shopping cart and integrating other required software with it will not solve your problem. You need a more extensive solution. Integrated ecommerce software consists of all the software you need in one place. You will can not only manage your online store.

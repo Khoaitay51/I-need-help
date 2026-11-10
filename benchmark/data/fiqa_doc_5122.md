@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5122  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Robinhood does offer premium products that they charge for-I suspect we will see more of that in the future. They do not change the bid/ask spread as some have said because they have to give you the NBBO.

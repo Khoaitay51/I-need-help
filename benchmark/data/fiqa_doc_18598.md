@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18598  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Trade work has a stigma associated with it. Many millenials believe that a college degree is required to get a decent salaried job in this market.   That mindset is understandable. After all, why would you voluntarily pay tens of thousands in tuition and tens of thousands more in loans if it didn't lead to getting a higher paying job?

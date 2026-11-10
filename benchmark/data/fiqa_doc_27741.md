@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27741  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's a game.  The Democrats take money from these companies and leave the loopholes in and then scream to high heaven about the evil corporations to energize liberal campaign outreach.  Its nothing but a scam.    And dont even get me started on the corpratist Republicans who are even worse.

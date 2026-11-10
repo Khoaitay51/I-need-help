@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31911  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yeah, it ends up being a bail out.   But then again, the tax payers bailed out the banks during the financial crisis (a crisis that was largely perpetuated by them) so should it be okay not to help bail these homeowners out during an actual natural disaster...

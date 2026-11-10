@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 203139  
+**Domain**: Finance / Investment Advice  
+
+---
+
+One major benefit to being able to buy discounted company stock is that you can sell in-the-money covered calls and potentially make more than you would selling at strike.

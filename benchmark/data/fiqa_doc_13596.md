@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13596  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You have two different operations going on: They each have of a set of rules regarding amounts, timelines, taxes, and penalties. The excess money can't be recharacterized except during a specific window of time.  I would see a tax professional to work through all the details.

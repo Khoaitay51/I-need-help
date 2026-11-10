@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2875  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The trick is that any payment you send over the minimum required will be applied to the check balance first, not your main purchases. I guess if you don't use that card for anything else at all it might work out.

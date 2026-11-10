@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6447  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The minimum wage in Portugal is around 550€. A one-bedroom apartment anywhere close to the center of Lisbon should be on average 600€. Most people on minimum wage have to go to the outskirts of Lisbon or close cities. Although the prices on the houses have gone a lot these past 10 years.

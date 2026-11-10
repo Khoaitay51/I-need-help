@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14815  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I worked on the Top Gear China special, we deliberately picked cars that were a bit shit but we were also very careful not to irk the Chinese public by openly mocking their vehicles, I think we were quite diplomatic.   That show was ten years ago, the Chinese cars I see today are incredibly incredibly better - the Chinese rivals (in terms of price) to the Hyundai Sonata are virtually on par with Jaguar/Mercedes in terms of interior environment. Weak in powertrains tho.

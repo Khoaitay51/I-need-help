@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 557582  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Absolutely.  There is no requirement that an option be in-the-money for you to close out a position.   Remember that there are alwayes two sides to a trade - a buyer and a seller.  When you bought your option, it's entirely possible that someone else was closing out their long position by selling it to you.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17695  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I never said it would be easy, I said it would be a better solution in that it would *actually* solve the problem.  And if TPTB want a collapsing shit-show, they're perfectly welcome to stay with the existing trading desks, and watch it all fall apart due to their own hubris and corruption. I, for one, have no problem watching arrogance morons lose their money.

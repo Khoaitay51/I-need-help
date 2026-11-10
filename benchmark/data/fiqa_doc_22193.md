@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22193  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Same could go for flying private. At the end of the day there is a cost benefit and what an employee's time is worth.  My employer doesn't give a shit, so I pay for my own business class out of pocket. People I deal with externally all fly business, which sucks when you are on the same flights.

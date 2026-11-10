@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25678  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You literally couldn't be more wrong, your links to fake news notwithstanding  Everything the Republicans try to do is meant to hurt people and/or help the wealthy.  That is not the case with the Democrats  The lies like the ones you are trying to spread are intended solely to help the GOP accomplish their goals

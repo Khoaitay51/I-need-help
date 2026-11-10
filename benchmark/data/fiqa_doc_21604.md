@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21604  
+**Domain**: Finance / Investment Advice  
+
+---
+
+yes, and how is it not a monopoly? if someone owns a piece of forest, doesn't he have a monopoly on it? or are you saying he would have to own _all_ forest in the universe for this to be true?

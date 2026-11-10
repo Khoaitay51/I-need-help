@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11459  
+**Domain**: Finance / Investment Advice  
+
+---
+
+About two years ago I went to BB giving them the benefit of the doubt.  They refused to price match another local retailer on the grounds they weren't local and BB gets to decide what constitutes local.  It will take a miracle to get me back in their store.  Incidentally the other retailer has big prominent signs outside, inside and on its ads saying it will price match including online retailers.

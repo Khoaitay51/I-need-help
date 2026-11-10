@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16449  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Thank you for pointing out one of the biggest flaws of that argument. To add to your points: Even if they used simple savings accounts for all their money (poor idea), the banks can still lend it as business/home loans... The money doesn't just site there.

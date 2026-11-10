@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31694  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If I understand you right, people are giving the LLC money for an ownership share.  That is NOT income - it would go under equity on the balance sheet.  It is analogous to getting a loan from the bank.  It is not income - you get cash (an asset) and have an increase to debt (a liability)

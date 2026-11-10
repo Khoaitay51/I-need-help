@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 302  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Either way the govt is going to get to a breaking point and it's going to be shitty and miserable until they get there (and obviously when they get there it will get worse before it gets better). This bond trade just prolongs the shitty/miserableness even longer. Who knows how many more people will die from govt sponsored thugs and hunger because this trade pushed the breaking point out a few months/years?

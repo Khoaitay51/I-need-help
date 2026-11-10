@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24108  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Agreed, but there's also a modifier these days of how fast you can learn new things. It definitely helps get your foot in the door to know someone, but to be more 'employment agile' one really needs to be able to pickup and learn new concepts all the time.

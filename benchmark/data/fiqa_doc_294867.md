@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 294867  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You don't see Buying and Selling. You see Bid and Ask. Best Bid--Highest Price someone is willing to pay to buy a stock. Best Ask - Lowest price someone is willing to accept to sell a stock. As for your second question, if you can look up Accumulation/Distribution Algorithm and Iceberg Order, you will get basic idea.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32855  
+**Domain**: Finance / Investment Advice  
+
+---
+
+CDs or money market funds. Zero-risk for the CD and ultra-low risk for the money market account; better return than most savings accounts.

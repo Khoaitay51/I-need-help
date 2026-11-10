@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1173  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Consultant included a passing comment about whether companies were singular or plural. ... Writing about them as a Businesses plural entity seems oddly formal and doesn't look right at all. ... I had this scenario myself when referring to our own company name.

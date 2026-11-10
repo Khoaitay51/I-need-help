@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31985  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I was in Mexico after The Donald got elected. Mexicans were friendly with me but definitely uneasy. Hopefully the ones I talked to about Trump were put at ease when I said he is just full of hot air and not much else. So far, that's the case.

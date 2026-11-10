@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 488948  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Have you tried calling a Forex broker and asking them if you can take  delivery on currency? Their spreads are likely to be much lower than  banks/ATMs.

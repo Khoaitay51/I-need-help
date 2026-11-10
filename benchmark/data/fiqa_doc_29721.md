@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29721  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Fair enough. I was just trying to save them money.  If it were me, I'd call up the dealer first and threaten to contact local media if they didn't void the contract.  In the end though a lawyer is probably the best bet. Even just having them write a letter to send over would probably get them to nullify it.

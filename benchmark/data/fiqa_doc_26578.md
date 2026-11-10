@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26578  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Financial Aid - the government gives you better interest rates and is a better lender.  Credit Cards - are for idiots.  Mortgage and Loans - Credit Unions give a much better deal. They actually re-invest in the community.  You can take you big banks and shove em' up your ass.

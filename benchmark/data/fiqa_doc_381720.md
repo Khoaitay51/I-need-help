@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 381720  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There is also security aspect. By reducing the number of active credit/debit cards, one significantly reduces the surface of attack. There is smaller chance of getting one of your card information stolen and misused (cf Target data leaks and others).

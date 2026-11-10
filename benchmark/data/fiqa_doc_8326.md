@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8326  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Do you have signature authority or interest in the account? Then yes. Interest in the account means that you wire $25K to your dad, but the money still belongs to you (I.e.: if you ask for it your dad will give it back to you).

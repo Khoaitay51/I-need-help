@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3376  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Oxford Review makes a lot of sense.   You're right - I should start off with a small goal. I am planning to do a reach out to about 100 professors and kind of take it from there. Would you be interested in being an advisor?

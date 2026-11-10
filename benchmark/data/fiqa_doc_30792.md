@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30792  
+**Domain**: Finance / Investment Advice  
+
+---
+
+come on. they're interns. do you really expect, or need, them to be qualified? Interns are there to do scut work and canned development training, and to audition for the graduate analyst position they want to apply for next year. Or to get do disillusioned by the experience that they self-select out after they graduate.

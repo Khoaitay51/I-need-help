@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4910  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Nowhere does that say PV uses rare earths.  It says some thin film cells use tellurium, but that's not a rare earth element.  The only substantial use of an uncommon element in silicon PV cells (which comprise 90+% of the market) is silver for front contacts,  and that's being replaced for cost reasons.   And silver is also not a rare earth element.

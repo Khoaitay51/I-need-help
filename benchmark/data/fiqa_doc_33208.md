@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33208  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The dividend goes into the IRA (either reinvested automatically or remains as cash until you invest it, per your choice). You're not taxed on this dividend (IRA is a taxed-deferred account - you're taxed on the distributions, but not on the capital gains within the account).

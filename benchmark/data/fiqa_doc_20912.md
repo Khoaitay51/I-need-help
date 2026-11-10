@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20912  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This seems very suspicious, as if it were fraud, and not a legitimate collector.  Garnishing wages takes a court order. A court would require a bit more proof than a name. Names can easily be common, I know sets of first cousins named after the common grandparent, 4 pairs in my extended family, along with 2 triples. The court would certainly look for a social security number match. Your own credit history will show no activity in that state.  A legitimate debt collector would handle this very differently.

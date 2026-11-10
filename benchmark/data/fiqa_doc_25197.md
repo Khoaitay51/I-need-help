@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25197  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; free the orcas, they'll look like heroes, and everyone will flock to SeaWorld because they're good guys now. They listened and changed. People love those stories.  This is no percent what would happen at all. People go just to see Shamu flop around.

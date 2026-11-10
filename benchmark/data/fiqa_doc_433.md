@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 433  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It seems like their main problem is not hiring - clearly they've hired some bright technical people.  It just seems like the iPhone and Android came along and management refused to admit that the new platforms were going to compete with the Blackberry and its ecosystem.

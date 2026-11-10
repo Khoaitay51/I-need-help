@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22932  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Probably cause their entire paycheck is barely enough to cover the necessities like groceries and rent and utilities. Let alone small (in Western terms) luxury items like being able to own and upkeep your own vehicle vs public transportation, or having some kind of entertainment budget. Especially if you have a child.

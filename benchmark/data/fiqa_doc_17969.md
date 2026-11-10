@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17969  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I'm not sure these are all good e.g. ""Facebook: A Friendster for college students"".  What's the point of describing one company with another? Especially one that is smaller? And it used to be just college students, but not any more."

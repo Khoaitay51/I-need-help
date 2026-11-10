@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 534  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Nah I just don't believe anything I see on TV or read on the internet. Anyone can go onto www.imrightyourewrong.com and find whatever data supports they're argument. It's one big echo chamber and you're just some douchebag yankee squawking away behind his phone yammering about how dumb the rest of the world is and wondering why your welfare and wic hasn't arrived this month yet

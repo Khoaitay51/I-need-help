@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4397  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"For a lot of small beef farmers (""hobby"" farms like ours) the price of fertilizer is already high enough that it's proving effective in maintaining or possibly reducing costs.  The most successful examples I've seen have equal or higher carrying capacity (cattle per acre) for less monetary cost by moving to ""older"" methods of grazing.  The tradeoff is that rotation takes more time to do than open field &amp; hay grazing.  There's also lower capital equipment costs; tractor, mower, and bailer are the major equipment for a small producer so being able to do without or use smaller ones is good.  And less maintenance on that equipment.  We're not experts by any means, and our farm isn't anywhere near its maximum carry capacity, but every large/full-time farmer I know that has done it has had good results."

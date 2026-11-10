@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24459  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"You'd have to check the rules for your broker to make sure that the term is being used in its usual sense, but the typical answer to your question is ""no.""  A GTC will execute during market hours.  You would need to explicitly specify extended hours if you want to execute outside of market hours (which your broker may or may not support)."

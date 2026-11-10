@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16714  
+**Domain**: Finance / Investment Advice  
+
+---
+
+See, unlike you, I know the general ordinances regarding taxis in my area backwards and forwards because I worked in the industry for eight years. It is utterly clear that Uber/Lyft are taxis in that they transport people for payment. The only exceptions are hotel airport shuttles, and buses that fall under another classification.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21605  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I agree with the article, but one thing I wonder about: how much is driving suppressed because of the relative high price of gasoline and the relative lack of fuel efficiency in cars? In other words, are we going to put more cars on the road and drive on average more km per yr per if we have a sort of quantum leap in fuel efficiency? Not necessarily a bad thing, but perhaps something that makes achieving foreign oil independence a bit harder than we might think.

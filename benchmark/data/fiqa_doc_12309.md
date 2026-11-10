@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12309  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, you will need to create an actual account. However, when all is done and you are about to log in, there will be an option on whether you want to log in as a live trader or a paper trader. Select the paper trading option and log in and get rich off fake money.

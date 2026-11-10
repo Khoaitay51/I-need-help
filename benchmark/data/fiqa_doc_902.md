@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 902  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Name one nation state that has survived more than 20 minutes without taxation.  People won't pay if they don't have to, things don't get built if people don't pay.  Take a holiday to Somalia if you want to see a libertarian paradise in action.

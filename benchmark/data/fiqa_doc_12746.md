@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12746  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Among the other fine answers, you might also consider that owning a vehicle outright will free you from the requirement to carry insurance on the vehicle (you must still carry insurance on yourself in most states).

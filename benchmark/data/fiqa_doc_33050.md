@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33050  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Responsibly produced food is more expensive because it costs more to produce food responsibly. Hard to imagine there won't be some supply constraints associated with these price cuts. ""Organic free range beef only $5/lb when available( only available at 3:42PM every third Tuesday of months that start with the letter 'J'"""

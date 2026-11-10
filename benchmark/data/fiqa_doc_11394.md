@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11394  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I said no and yelled at the sales rep cause they wouldnt take no for an answer. I recieved 2 bad reviews from San Franscisco and 2 from NY and I am in Miami.  Two of them mentioned menu items I did not serve for weeks cause the items were out of seasons.  F yelp!

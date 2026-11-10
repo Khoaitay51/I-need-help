@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 265167  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't believe you can do that. From the IRS: Finally, certain types of property are specifically excluded from Section 1031 treatment. Section 1031 does not apply to exchanges of: I highlighted the relevant items for emphasis.

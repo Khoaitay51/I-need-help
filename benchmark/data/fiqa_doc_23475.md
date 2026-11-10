@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23475  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Seems pretty stupid to buy when switching jobs every 2-4 years yields the greatest gains in salary.  Why would you want to grow roots in an area for 15-30 years when you might be better off changing jobs/locales?   Sure you don't have to keep your house that long but with all the extra costs and risks renting is a fine option for an upwardly mobile citizen.

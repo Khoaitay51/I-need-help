@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 328300  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I know this is a little off the wall but I bought a rental property for my son's tuition. The tenants pay down the mortgage for the next 12 years and it (hopefully) also appreciates in value. Worst case scenario is I come out with a rental and a kid with no education.  He doesn't go then there's no skin off my back.

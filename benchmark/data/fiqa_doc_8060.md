@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8060  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sounds about right. From [Give Well](http://www.givewell.org/how-we-work/our-criteria/cost-effectiveness):  &gt; As of November 2016, the median estimate of our top charities' cost-effectiveness ranged from ~$900 to ~$7,000 per equivalent life saved (a metric we use to compare interventions with different outcomes, such as income improvements and averting a death) .

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10217  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Lightning is an unpredictable phenomenon. Each year thousands of properties are destructed and damaged globally by lightning strikes. Lightning damage in the US alone cost over 5 billion-dollars annually. A properly installed lightning system can safeguard and prevent damage up to 98%. Click here for more details: https://www.goodreads.com/user/show/68791054-william-porter

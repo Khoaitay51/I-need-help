@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8003  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Knowing the log return is useful - the log return can help you to work out the annual return over the period it was estimated - and this should be comparable between stocks. One should just be careful with the calculation so that allowance for dividends is made sensibly.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25014  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As a parent I think you absolutely have to teach them that income is related to work because (for most people at least) it's a more fundamental principle than budgeting, investments, interest, etc. Once they've learned that the primary source of income is work, then you can start teaching them what to do with it, i.e. how to budget, economise, save, invest, etc.

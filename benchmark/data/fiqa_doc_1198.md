@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1198  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, as long as you own the shares before the ex-dividend date you will get the dividends. Depending on your instructions to your broker, you can receive cash dividends or you can have the dividends reinvested in more shares of the company. There are specific Dividend ReInvestment Plans (or DRIPs) if you are after stock growth rather than income from dividend payments.

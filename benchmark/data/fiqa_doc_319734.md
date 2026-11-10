@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 319734  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Specific to the inquiries, from my Impact of Credit Inquiries article -    8 is at the high end pulling your score down until some time passes. As MB stated, long term expanding your credit will help, but short term, it's a bit of a hit.

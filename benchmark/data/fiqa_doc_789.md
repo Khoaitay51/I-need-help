@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 789  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;When reading a publication, do you only pay for the pages you read?  No, but many would consider this an innovative and wonderful pricing mechanism.  &gt;It's a package deal, not a rip-off.  Similarly, many consider package deals like cable TV where you get a 1000 channels you don't want to pay for a rip-off.

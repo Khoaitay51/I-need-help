@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8237  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Since nobody seems to have an answer here is the list I've came up so far: I'll keep adding to the list - also feel free to edit or comment if can add to the list.

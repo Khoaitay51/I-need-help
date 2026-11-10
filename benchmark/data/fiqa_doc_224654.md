@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 224654  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Renting your property out at less than market rates is a form of charity. Your heart says that this is the right thing to do, your bank account says no. And so does your wife. This isn't a question for the Money stack exchange, I think ... But since you are asking here:

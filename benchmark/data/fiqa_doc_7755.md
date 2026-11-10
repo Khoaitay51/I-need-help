@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7755  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The outsourcing was mainly to secure buy contracts from national airlines in subcontracted countries.  Give Mitsubishi a few contracts and see JAL and ANA buy a bunch of the new planes.  Japanese people get told again and again, through the broadcast networks that act as propaganda machines, that Japanese engineering and craftsmanship was necessary in the building of the plane.  Everybody wins!   It was mostly the salespeople telling the engineers how to make the plane.

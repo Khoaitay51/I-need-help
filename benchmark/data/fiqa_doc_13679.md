@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13679  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Less than 1/5th of the country. Narrowing down the demographics based on margins it was rural, uneducated, 45-64 year old white guys who weren't bothered by Trump sexually harassing women that really got him the vote [according to the exit polls.](http://www.foxnews.com/politics/elections/2016/exit-polls)

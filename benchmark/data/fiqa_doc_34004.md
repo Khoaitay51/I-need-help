@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34004  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That's the kind of joke a dad says to his adult son about his mom or a group of guys says on a golf course. In a public forum, to a female board member, while Uber is in a shitstorm of bad PR especially about potential sexual discrimination of their employers AND drivers, yeah.  I don't think the joke it particularly offensive, but Uber is in damage control mode and that was really poor timing. And I think we all agree timing is very important in comedy.

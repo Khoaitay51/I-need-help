@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13186  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Despite sustained job growth and lower levels of employment, most Americans do not think the economy has improved  This is such bullshit and I'm tired of hearing it. The unemployment numbers are fixed. Everyone knows this yet the media loves to pretend it's not the case. It's becoming propaganda at this point.

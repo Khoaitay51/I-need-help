@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11995  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I have a friend that bought volatility calls the day before brexit and made 1900% return in 1 night.  I wouldn't put that investment next to someone that's buying and holding SPY and say my vix friend is thousands of times better at investing.

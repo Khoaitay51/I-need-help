@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33396  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think that MFin is best suited for more technical roles in banks (I assume when you say IB you mean sell/buy side M&amp;A), HF, AM, and PM roles. I don't view PE, CF, or IB as technically challenging as most of the analysis is done on the areas outside of finance.

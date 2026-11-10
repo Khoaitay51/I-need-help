@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3768  
+**Domain**: Finance / Investment Advice  
+
+---
+
+[Chevy Bolt](http://www.chevrolet.com/bolt-ev-electric-vehicle) 238 miles range. You can buy it NOW, instead of waiting until next year. I would rather buy from GM than from Slick Muskie.  Parking problem is syndrome of dysfunctional management. I don't trust a place that can't even fix their parking problem could build a good car.

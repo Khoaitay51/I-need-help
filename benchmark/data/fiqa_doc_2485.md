@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2485  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; The problem as I see it, is that the die-hard Tea Partiers who want to curb gov't spending, bristle whenever you add the DOD to the equation.  That's one of the many reasons that the Ryan plan is bullshit.  I'd keep the NSF but ratchet back the others like you describe.  You might enjoy reading [this plan](http://philip.greenspun.com/politics/economic-recovery), which hits on a number of other important points.

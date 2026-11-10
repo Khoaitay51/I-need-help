@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 269851  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Being in the same situation, and considering that money doesn't need to be available until 2025, I just buy stocks. I plan to progressively switch to safer options as time passes.

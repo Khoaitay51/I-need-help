@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12418  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Having read Rich Dad, Poor Dad, I absolutely despise Kiyosaki and everything he represents. He's all about ""passive income"", turnkey operations. That is, not actually working for your money. Gee, what an honourable strategy. How about actually doing something of value to earn a living?"

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 580802  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You cannot do a 1031 exchange with stocks, bonds, mutual funds, or ETFs.  There really isn't much difference between an ETF and its equivalent index mutual fund. Both will have minimal capital gains distributions. I would not recommend selling an index mutual fund and taking a short-term capital gain just to buy the equivalent ETF.

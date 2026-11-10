@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15994  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Legitimate, yes.  However, cosidering the fact that Chinese working conditions are often far from ideal to begin with, that even though the salaries are increasing considerably, the majority  of people would never pay extra for fair trade. Organic , big city people with higher living standards, yes quite possibly considering the food safety issues. Majority, no way, too expensive.  Any business idea based on fair trade in China is nothing but wishful thinking in my humble opinion.

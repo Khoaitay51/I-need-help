@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 110848  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This question was asked three years ago, but now that it's 2017 there is actually a relatively easy, cheap and fast solution to at least the first half of your question. To cash the check: I've done this a half dozen times while abroad (from the US) without any problems.

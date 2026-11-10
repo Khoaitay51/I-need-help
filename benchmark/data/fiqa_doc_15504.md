@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15504  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There's no rule of thumb but the purpose of candlesticks of any kind (fixed, volume weighted etc.) is to display the intra-period price action. So if you'd fit 3 years worth of 1 minute bars on a chart, candlesticks become useless and you might as well use a line chart.

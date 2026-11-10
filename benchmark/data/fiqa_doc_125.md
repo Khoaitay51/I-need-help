@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 125  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This month when you join Scentsy you get a free defuser with your kit!   This has never been done before.  You also get spring / summer and Fall / Winter testers plus all your kit items!    Be your own boss!  You choose what hours you work, when and where you work them.   Join my Scentsy family today!  [Amanda C. Robar Scentsy Business ](http://www.amandacrobar.scentsy.ca)

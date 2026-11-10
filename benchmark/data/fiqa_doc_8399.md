@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8399  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This. I am as liberal as the next guy, but hearing this sub become a place to rave about political views is getting old. That is why I hardly ever post here. I am more interested in the direction of the economy than placing blame or giving credit.

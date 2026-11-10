@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3737  
+**Domain**: Finance / Investment Advice  
+
+---
+
+His parents did not hand the job to him at all. What is it with Reddit hating every person who lucked into being born with more money than they did? Does that mean he never earned anything? Is he not self made, no matter what he does, simply because he had some.advantages that you did not?

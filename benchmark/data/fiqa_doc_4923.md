@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4923  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Funny most of those states almost half voted blue. Take the bottom quarter of Florida and go to the Middle red states. More democrats than the entire population combined. Empty land my friend no one gives a shit about empty land.

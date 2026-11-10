@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6731  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Now today I received another refund in the same amount for the same property. What can legally happen if I cash it? Legally the money is not yours. The best course for you is to return the check via certified mail, notifying them that you were already paid. Just because someone made an error, does not mean the money belongs to you. If you don't and rather cash the check; sooner or later depending on the amount, it would be found out by the company as part of reconciliation/audit; they will/can then demand the same back from you.  It is up to the company to decide if simply refund is sufficient; or refund plus some interest or start a legal proceeding against you as ""intentional theft""."

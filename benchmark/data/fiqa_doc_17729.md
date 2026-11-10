@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17729  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well yeah. I agree with that. I just thought the distinction should be made that BK didnt just close and fire a ton of people. They just delegated out who is responsible for them. Sure some people were probably fired, but it wasnt BK that fired them.

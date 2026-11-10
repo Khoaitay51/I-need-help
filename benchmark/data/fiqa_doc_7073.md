@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7073  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well they way I see it, if there were no Taxes and nobody had to pay taxes, that would be a fair argument, but it seems we have to pay taxes because the rich and powerful feel that the country they live in should be nice and pretty and safe, and should have education and medical care.  I totally and whole wholeheartedly agree, provided they pay proper taxes and not try and steal my money.

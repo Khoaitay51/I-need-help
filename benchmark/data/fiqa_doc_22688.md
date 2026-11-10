@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22688  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes though I'd likely put a caveat on that. If you take short-term investments and extrapolate the results to get an annual result this can be misleading. For example, if a stock goes up 10% in a month, assuming this will continue for the next 11 months may not be a great idea. Thus, beware of how much data do you have in making these calculations. When looking at long-term investments, the compound annual growth rate can be quite useful for comparison.

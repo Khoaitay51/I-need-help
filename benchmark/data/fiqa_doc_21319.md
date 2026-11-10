@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21319  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't like paying the percentage on the supermarket coin counters, and don't feel like buying a coin counter so I have my own solution. I keep higher value coins for vending machines, parking meters etc, and lower value coins I put in charity boxes.

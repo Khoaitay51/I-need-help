@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3012  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This is the best tl;dr I could make, [original](https://www.theguardian.com/business/2017/aug/27/should-the-rich-be-taxed-more-a-new-paper-shows-unequivocally-yes) reduced by 89%. (I'm a bot) ***** &gt; Under a Jeremy Corbyn government, someone earning around &amp;pound;125,000 or more would have been eligible for a new 50% income tax bracket and there would have been a 45% rate for people on more than &amp;pound;80,000.  &gt; What&amp;#039;s more, for the average US worker, the bad old days weren&amp;#039;t really so bad. Finally, saying that the rich would never pay up is defeatist; tax loopholes could be closed, tax havens shut down, wealth - especially in the form of immovable land - could be taxed rather than income.  &gt; As the paper concludes: &amp;quot;The overarching policy question is the following: in the current era of fiscal consolidation, should the rich be taxed more? Our evidence suggests unequivocally yes.""   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/6wzcbg/should_the_rich_be_taxed_more/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ ""Version 1.65, ~201183 tl;drs so far."") | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr ""PM's and comments are monitored, constructive feedback is welcome."") | *Top* *keywords*: **tax**^#1 **income**^#2 **rich**^#3 **more**^#4 **time**^#5"

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 331332  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Its actually a good thing.  The #1 factor to your credit score is your credit utilization.  So if you don't spend money unwisely and they don't have any annual fee I would keep them and use them each twice a year to keep them in your credit mix.

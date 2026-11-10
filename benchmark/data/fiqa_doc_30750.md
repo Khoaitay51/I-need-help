@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30750  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They still have an estimated $2 trillion shadow economy? I'd say that's an epic fail at reducing non taxable transactions. And Probably the same level of bribing is going on, just not with cash. If the purpose was to reduce corruption it sounds like it barely did anything

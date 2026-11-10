@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35442  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The three rating agencies S&amp;P,Moodys &amp; Fitch were the Architects of the 2007-2008 Financial crisis.  [Start here ](https://en.wikipedia.org/wiki/Credit_rating_agencies_and_the_subprime_crisis )   The Fed is now planning to unwind its [balance sheet](https://www.bloomberg.com/news/articles/2017-07-26/fed-says-balance-sheet-unwind-to-start-relatively-soon-j5lbf6ik) in October  The Feds balance sheet contains the same crap these assholes rated AAA  And so now as times come to try and sell that shit, they the rating agencies reappear to create misdirection while this hoax on the Global financial system is perpetrated.

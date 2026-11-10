@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15696  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, truckloads of cash. /s  It's exactly the same as your example, when people say to pay for a car in cash, they don't meany physical bills, but rather the idea that you aren't getting a loan.   In most acquisitions, the buyer will usually pay with their own stock, pay in cash, or a combination of both.

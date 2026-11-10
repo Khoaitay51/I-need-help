@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35821  
+**Domain**: Finance / Investment Advice  
+
+---
+
+For some reason I have a doubt that you have ever payed taxes in california.  Money has been injected into these areas. The fact that they need to be cut should be proof of that. You can't cut money that was never given.

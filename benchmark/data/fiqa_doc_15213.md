@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15213  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The problem here is that the metrics that are used to track the economy are looking for things like growth and change. In a perfect world, everyone would have exactly what they need and there would no need for economists because the economy would be static.

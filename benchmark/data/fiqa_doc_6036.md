@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6036  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Insinkerator 65 is the top model in our standard range of kitchen sink disposals, offering high performance continuous feed operation and able to handle large amounts of food waste. It is good for all households and comes with 4 year parts &amp; labor guarantee.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 802  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It probably doesn't matter since your credit and your checking are at the same institution, but I don't like to let my credit auto draft my checking.  I always do it the other way around (and keep them at different places) I feel like there is more control when my money is gone that way.

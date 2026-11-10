@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14185  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Your link is pointing to managed funds where the fees are higher, you should look at their exchange traded funds; you will note that the management fees are much lower and better reflect the index fund strategy.

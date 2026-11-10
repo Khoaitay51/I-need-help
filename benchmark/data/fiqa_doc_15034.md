@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15034  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They also eliminate the risk associated with that loan, and get the money back to find a loan to someone else, possibly at a higher rate. It really is just about financially neutral for them.

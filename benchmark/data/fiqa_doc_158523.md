@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 158523  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In the context of EDV, 4.46 is the indicated dividend rate. The indicated dividend rate is the rate that would be paid per share throughout the next year, assuming dividends stayed the same as prior payment.  sources:

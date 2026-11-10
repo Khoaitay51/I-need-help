@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35865  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Just reading your comment more it is so far off topic. Investor rationality is so far off topic. The outside  investor made a decision to invest already. The owner is being forced make investment decisions. Noting in the article is talking about taking those choices away.  There should be a separate sub for people like who want to make off topic challenges of capitalism. It's disruptive. I can't make a comment with debating every assumption endlessly.

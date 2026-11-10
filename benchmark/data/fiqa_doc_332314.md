@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 332314  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you have income in the US, you will owe US income tax on it, unless there is a treaty with your country that says otherwise.

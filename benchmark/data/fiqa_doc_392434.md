@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 392434  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Simply file an amended return to correct the mistake. This happens all the time and is a standard procedure that every legitimate tax pro can handle. You can work it out with the tax pro about whose mistake it was and who should pay for the additional service.

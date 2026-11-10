@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 191977  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Not-very-serious companies always try to reduce your pretended salary. This also happens in Argentina. My advice is to look for another opportunity because you have to take into account that if you join the company this will happen again; for example, in the future, they may lowball you on raises.

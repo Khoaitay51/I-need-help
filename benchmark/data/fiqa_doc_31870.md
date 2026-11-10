@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31870  
+**Domain**: Finance / Investment Advice  
+
+---
+
+He alienated whole countries and races of people. He also alienated more than half of America and he's wondering why  no one wants to buy his tacky condos or stay in his sub standard hotels? Moron. His base can't afford to buy those condos or stay at his hotels not till he gets rid those damn immigrants stealing coal jobs.

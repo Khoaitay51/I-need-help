@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28495  
+**Domain**: Finance / Investment Advice  
+
+---
+
+College degrees are used as a club membership, if you don't have a piece of paper saying that you know what you know, it doesn't count as far as employers are concerned.  You may possess the knowledge, but not the 'credentials'. It's stupid, yes, but that's how society works.

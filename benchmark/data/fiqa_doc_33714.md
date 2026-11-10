@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33714  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Putting money into a Roth IRA or 401(k) will save you money if your taxes this year will be lower than your taxes in retirement. See also the Wikipedia retirement-savings matrix.

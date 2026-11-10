@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9772  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Has anyone on this thread experienced this firsthand? I am interested in talking with older tech workers who have encountered the kind of ageism, or the kind of college campus, hackathon atmosphere of a young tech company that caters more toward twenty-somethings than employees with families. I report for Marketplace and am covering the issue.

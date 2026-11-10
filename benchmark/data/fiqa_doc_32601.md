@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32601  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A mortgage will show as a lien on your property. Say your home is worth 400,000 (money units) but you only owe 200,000. A lender may be willing to be second in line, lending you another 100,000.

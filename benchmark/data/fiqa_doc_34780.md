@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34780  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The one thing that I know is that we'll no longer need to subsidize or coddle the lower classes anymore.  I'm tired of having to pay such high tax rates so that they can live off my hard work.  No more forced labor!

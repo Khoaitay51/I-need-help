@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14795  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Postmodernist-marxist pushing agenda..    In reality democray is still the only option,  the key is an informed public..  And I think we are going through a big change with this now..   Why not make a paper related to public important knowledge on democratic issues, teach them how to make informed decisions..  That would be a real contribution to society,  this paper is filth.

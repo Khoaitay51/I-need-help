@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3519  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The top feature of these stacking windows and doors is that you can make considerable savings with their help because their design and make creates a kind of airtight construction that reduces the flow of outgoing and incoming heat and your home will stay cooler for longer in summers and warmer for longer in winters.

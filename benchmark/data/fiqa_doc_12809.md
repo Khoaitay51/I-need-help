@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12809  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I guess 15 years of practicing law, successfully I might add, in the realm of torts (including dozens upon dozens of negligence actions a year, just about all of which were covered by insurance) has been a mirage.  Thank you dtank88 for setting me straight.  Goodbye.

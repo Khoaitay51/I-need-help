@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2261  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I presumed he wanted 13 years of data at market close. Of course the more frequently he wants the data and the more attributes he wants the larger the file will be.  I'm all but certain he thinks he's going to be the first genius to develop a quant screen and identify ""hot stocks""."

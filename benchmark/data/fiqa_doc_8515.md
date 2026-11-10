@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8515  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The weird thing is that Walmart and maybe Kohl's sales are becoming the economic conscience of America.   If Kohl's does better because Walmart shoppers move up a notch -- cool.   If Kohl's is doing bad, and Walmart's down, and especially if Walmart necessities of life items are doing poorly, we know things are going the wrong way.

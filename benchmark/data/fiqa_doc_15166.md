@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15166  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The Port Authority of New York and New Jersey has had a zero growth operating budget for something like, 4 years now, and employment level is at the lowest it's been in decades. The amount of work that needs to be done is still the same, so the fewer people have to work more overtime.

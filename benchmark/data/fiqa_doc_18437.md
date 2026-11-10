@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18437  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, to be fair, they weren't really being patent trolls, which I understand to be entities that sit on patents for stuff that was never produced, just waiting for someone to produce it so that they can sue them.  LEGO may have been unjustified in trying to hold onto their designs (I'm guessing through trying to justify it as a trademark thing and not a patent), but they weren't trolling.

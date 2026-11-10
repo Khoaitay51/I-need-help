@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 94689  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Questrade is a Canada based broker offering US stock exchange transactions as well. It says this right on their homepage. ETFs are traded like stocks, so the answer is yes.  Why did you think they only offered funds?

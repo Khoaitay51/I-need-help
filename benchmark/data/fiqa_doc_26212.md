@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26212  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Thanks! I will admit the past few weeks were tough but yesterday when I was craving a fresh salad and fruit instead of stead and sausage it felt pretty good. Plus the health benefits from a plant based diet are just ridiculous.

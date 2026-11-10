@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23819  
+**Domain**: Finance / Investment Advice  
+
+---
+
+a) Go to Money super market and compare all the share dealing accounts and choose one to your liking. b) That depends on one's own circumstances. Nobody can be give you any specific strategies without knowing your financial situation, goals and risk averseness.

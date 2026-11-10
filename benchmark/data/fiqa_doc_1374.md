@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1374  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I wouldn't be either but here's to hoping. I think a part of me just really wants that not to be true so I don't have to uninstall all my easy/cheap ride options.   But yeah if it does that shit will get uninstalled immediately too.

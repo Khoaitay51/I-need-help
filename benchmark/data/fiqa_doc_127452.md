@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 127452  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Why would there not be a bid and ask?  Dealers make their money in the spread between what they buy it from one entity for and what they sell it to another entity for.  This doesn't mean they have to do it auction-style, but they'll still have a different buy price from a sell price, hence ""bid"" and ""ask""."

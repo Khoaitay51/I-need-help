@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25507  
+**Domain**: Finance / Investment Advice  
+
+---
+
+When that happens the least desired things get cut off first.  This condition signals to the market that we are correcting very badly missallocated sources which in turn is a good thing because we are allowing the bubbles to burst.  These burstings will bring prices back down to acceptable levels so that the economy starts moving again.  What you instead are suggesting is to not allow, for example, home prices to come back down to affordable levels and just keep the bubbles inflated.

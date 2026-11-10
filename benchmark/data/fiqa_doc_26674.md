@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26674  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Many gains to be had, but the two rules of investing are don't lose money. So if you are to invest in marijuana, wait until marijuana is legal, and wait for the market leader to emerge, and see what their financials are like. Then invest, with enough information.

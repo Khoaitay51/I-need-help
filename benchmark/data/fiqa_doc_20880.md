@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20880  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;Falls Church VA   Falls Church is an independent city. It has no county to levy taxes.  The FY2017 budget shows a 1% city and 4% restaurant tax. Then you've got 4.3% VA state tax, and 0.7% Northern Virginia regional tax.  Totaling 10%.

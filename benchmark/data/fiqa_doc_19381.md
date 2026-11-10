@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19381  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"GSElevator is part fraud, part satirist and has never worked at Goldman. None of the ""quotes"" used in his article were ever said by anyone. His pieces are sometimes good for a laugh but if you're taking this article as actual advice you clearly do not work in the industry.   I stopped paying attention as soon as he recommended analysts wear $700 shoes ..."

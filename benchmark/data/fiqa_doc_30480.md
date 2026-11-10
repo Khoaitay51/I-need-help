@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30480  
+**Domain**: Finance / Investment Advice  
+
+---
+
+AI will take much more jobs than it creates. **The whole idea of AI is to take jobs away from humans.**  The government can control this by regulations.  For example, make a law that all customer service, specifically talking to people when doing work for them, must be done by humans.  Then, AI is just a tool at the hands of humans.  Chances the government make such laws: very very small. They care more about saving money for corporations than the well being of people.

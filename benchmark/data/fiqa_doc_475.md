@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 475  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I just can't come around to calling it ""taking advantage of"" when the means to act on them was put into existence knowingly. It's like saying you took advantage of the highway by travelling at, and not less than, the posted speed limit."

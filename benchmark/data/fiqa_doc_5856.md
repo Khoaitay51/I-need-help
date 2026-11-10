@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5856  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Although banks do not have to honor checks that are more than six months old, they often do. Limit Noted on Check. Many large corporations put the length of time that a check is valid on the face of their checks. For example, a check may state, Valid for 90 days from this date"" or ""Not valid after 180 days."""

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32709  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's fake. It's not a leak.  &gt; According to **this rendered image,** Apple may be releasing a new line of Macbook Air computers in the color “Space Gray” at their next conference.  And according to my anus, Apple may be releasing a new line of Macbook Air computers that can be inserted rectally.

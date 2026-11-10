@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22426  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Out of the money options often have the biggest changes in value, when the stock moves upward. This person could also gain, by the implied (underlying) volatility of the stock rising if it moves erratically to either side. Still seems to be a very risky game, given only 4 days to expiry.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17366  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Doesn't matter anyway.  We have at least 6 degree Celsius rise in temps assured by 2050-2060.  Very likely 10 degree  Celsius increase by 2100.  The ocean is warming faster than thought on the most dire predictions.  Food chain is going to collapse.

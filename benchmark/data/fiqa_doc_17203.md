@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17203  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt;we do have a lot if people saying ""Muslims are bad and boooh Islam.""   Because it's considered ""hate speech"". Don't dance around the topic.  &gt; To your WWII comment. This was the darkest time of German History ...  Which you need to avoid from ever happening again. By allowing free speech.  Yes, Germans (I have many relatives in Germany) are more open than ever, but if we continue with this ""hate speech"" nonsense, Germany will become like Sweden.  As you know, Sweden used to be the most open and free country the world. Now, a 78 years old Swedish lady is facing a lawsuit because she dared to say that Muslim urinate in the street.  **What makes you sure that Germany will not becomes today's Sweden?**"

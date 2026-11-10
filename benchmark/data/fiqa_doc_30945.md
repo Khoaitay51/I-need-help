@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30945  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is a case of money-laundering, not forgery.  Many laundry detergents include a dye that glows under ultra-violet light.

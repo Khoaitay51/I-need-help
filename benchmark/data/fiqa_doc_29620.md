@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29620  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Many of us believe that brushing and flossing twice daily is enough for us to maintain proper oral health which is why we do not bother to even visit the dentist; however, it is important that we do that so that we know if we are facing any infection or cavities so that it can be cured at the initial stage.

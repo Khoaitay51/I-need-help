@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14518  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The Fed didn't ""signal"" anything. They did not do any analysis. They merely took a pole of consumer opinion.   The article should have said ""Poll Shows Americans Believe they Are No Better Off than Five Years Ago."" But that would be less exciting."

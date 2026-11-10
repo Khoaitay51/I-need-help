@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17528  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It's monopoly money.  Everybody treats it like that.  Of course it doesn't work.    It would be vastly different if you had you budget **plus**    (a) freedom of choice for the supplier, internal or external,    (b) your group could spend any budget surplus on whatever they wanted (well, for the office).    But that will never happen because company policy.

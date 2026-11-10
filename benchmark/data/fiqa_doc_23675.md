@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23675  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I asked my realtor, but she recommends to go with just one banker   (her friend), and not to do any rate shopping. You need a new realtor. Anyone who would offer such advice is explicitly stating they are not advocating on your behalf.  I'd do the rate shopping first. When you make an offer, once it's accepted, time becomes critical. The seller expects you to go to closing in so many days after signing the P&S. The realtor is specifically prohibited from pushing a particular lender on you. She should know better.  In response to comment - Rate Shopping can be as simple as making a phone call, and having a detailed conversation. Jasper's list can be conveyed verbally. Prequalification is the next step, where a bank actually writes a letter indicating they have a high confidence you will qualify for the loan.

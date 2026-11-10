@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1136  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm not sure what can be done about that unless you happen to be home every day? I'm gone 12 hours a day but fortunately (knock wood) we don't have a bad theft problem in my neighborhood.  I think ringing the doorbell is sufficient in that you can immediately go and get it.

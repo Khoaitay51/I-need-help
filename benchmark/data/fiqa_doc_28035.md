@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28035  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Also, people who come for golf aren't going to want to go native. They can build a self-contained resort on the cheap and locals will work in support jobs just like when resorts are built in shithole countries.

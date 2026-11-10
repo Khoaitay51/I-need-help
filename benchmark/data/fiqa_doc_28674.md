@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28674  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Most of the population living in poverty do not have cancer.  They are mostly high school dropouts, single women who made the decision to bring the child into a world without income or a father, or people who choose not to work.

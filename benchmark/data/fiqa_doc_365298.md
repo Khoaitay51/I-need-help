@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 365298  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Diversify into leveraged short/bear ETFs and then you can quit your job and yell at your boss ""F you I'm short your house!"" edit: this is a quote from Greg Lippmann and mentioned in the book ""The Big Short"""

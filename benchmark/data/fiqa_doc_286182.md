@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 286182  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It is a lousy investment to purchase an apartment in China. Chinese citizens purchase apartments in China because, well... here's how China works: There's some fundamentals driving Chinese property values higher, but mostly it's a bubble caused by those reasons.

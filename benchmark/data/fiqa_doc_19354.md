@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19354  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You need to look at the financial statements, talking to the executives, and have some sort of discussion about price.  Then you would have to do due-diligence to make sure that they are not hiding stuff.  Bear in mind, the company isn't going to go through all of this unless you can convince them that you have the means to complete the transaction.

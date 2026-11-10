@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23115  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I understand what the headline is trying to say, but there is more to Amsterdam than just pot (and prostitutes). Amsterdam is a super cool and historic place with great people and culture. Vegas is just... Well it is Vegas. They really aren't alike, and pot dens aren't going to make them similar.

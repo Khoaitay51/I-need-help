@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10655  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"His entire ""opinion"" is really just backing up Damore. Only in the last two paragraphs does he even mention what the actual title of the article is about where he goes on to say:  &gt;Either Pichai is unprepared to understand the research, is not capable of handling complex data flows or was simply too afraid to stand up to a mob.  &gt;Regardless of which weakness applies, this episode suggests he should seek a non leadership position.  Brilliant work, Mr. Brooks. Your analysis is spot on and not only should Damore not have been fired, but Pichai should resign as CEO of Google because of it. A better message would be sent to Google's customers, employees and shareholders by doing so. /s"

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14472  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is very insightful, I think. As an open question, consider what *downside* a nation (or bank) has to acknowledging bitcoin or other cryptocurrencies. Obviously nations may lose some monetary control by endorsing bitcoin, but I don't know if there's much of a downside for banks considering bitcoin's easy conversion in to USD.   If anything, I feel like most of the problems for banks surrounding cryptos would be regulatory.

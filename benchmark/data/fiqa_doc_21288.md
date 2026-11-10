@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21288  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A gift between spouses has no tax implications.  If one spouse dies the inheritance tax is always zero no matter how much of the estate passes to the surviving spouse. Gift taxes are actually related to estate taxes, so a gift no matter how large never requires filing any tax forms or paying any taxes.

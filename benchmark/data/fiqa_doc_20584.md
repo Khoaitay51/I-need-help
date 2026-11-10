@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20584  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;if they got paid for the household chores and family care they provide, it would add an additional $10 trillion to the global economy.  This wouldn't add anything to the global economy; the value is already there.  It would just artificially inflate gdp/gwp measures from them paying themselves instead of being a representation of value created through trade.  If I invoiced myself for my household chores, and then had my first bank ACH my other bank account for the invoice; I haven't created anything in value that's not already there.

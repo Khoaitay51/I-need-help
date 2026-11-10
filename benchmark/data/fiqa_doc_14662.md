@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14662  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I doubt it, they never knew who those loans belonged to even a decade ago . .there is no way the underlying assets even if identifiable will be performing or marketable.  It was a simple bank fraud, where banks bundled up all their worthless shit in alphabet soup and the rating agencies rated it aaa and it blew up . . its still the same worthless shit

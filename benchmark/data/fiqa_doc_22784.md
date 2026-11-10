@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22784  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Japan currently has an economy roughly twice the size of Canada's. I'm not sure how fast Japan is growing but I think New York state might pass Canada's GDP in the next few years so i don't see Canada getting to Japan's level anytime soon.

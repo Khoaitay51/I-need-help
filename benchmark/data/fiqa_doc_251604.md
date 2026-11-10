@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 251604  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They are 2 different class of shares belonging to the same company. Class A shares [par value of 0.01] have 100 voting rights per share. Class B shares [par value of 0.0002] have one voting rights.  Both are listed separately with different ISN and trade at slightly different values. The Class A at higher value than Class B which looks right as it has more voting power.

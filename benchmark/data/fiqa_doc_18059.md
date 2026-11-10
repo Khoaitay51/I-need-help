@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18059  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The penalty is 10% regardless of the tax. If your marginal rate is so low, I'd consider converting some to Roth each year, and not touching it for tuition.

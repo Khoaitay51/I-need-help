@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3556  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm not so sure I buy this article, but for anyone who doesn't know, Rajan wrote a great book called Fault Lines that linked entrenching class disparity in the U.S. with the mortgage build up and the following crisis. Great read

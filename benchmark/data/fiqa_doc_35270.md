@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35270  
+**Domain**: Finance / Investment Advice  
+
+---
+
+A used luxury car coming out of lease is usually very affordable. They are usually in good condition, still look relatively new, and are within the same price range as a newer Toyota or Honda.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32522  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Credited to your account means amount has been deposited to your account(this will be your income). Debited from your account means withdrawn from your account(This will be your expense). Hope this clarifies your question. Regards Jayanthi

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13847  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sorry, in the US (Bank of America). The kind of account we have has that high fee, but they also have free account options that have lower or zero balance requirements, you just have to setup direct deposit. The one we have has free checks, free safe deposit box, an English speaking customer service rep guaranteed to answer my call in something like 3 rings, and a bunch of other stuff I'll never use.

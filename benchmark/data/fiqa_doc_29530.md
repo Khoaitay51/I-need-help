@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29530  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt; It is amazing to me how ""middle class"" can spend hundreds of thousands of dollars and not spend even a few thousand to get some real advice.  i have seen to many ''middle class'' buy a $100k+ house and not even spend $1000 on a decent home inspection..."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4392  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Italy on its own cannot decide to turn to money printing, only the European Central Bank (ECB) can make this decision. I'm assuming that the ECB will not turn to printing money for this. Italy will have to get the 5 Billion euros from its own budget somewhere, but the amount is low enough that they should be able to do that without much problems.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 352271  
+**Domain**: Finance / Investment Advice  
+
+---
+
+because the market price for good investment advice isn't that low. investment advice is subject to market pricing just like any other good or service.  if you are good enough at investing that you seek increased volatility opportunities, you will have no trouble finding investors willing to give you a share of the upside without any of the downside risk.

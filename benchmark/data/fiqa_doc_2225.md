@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2225  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I've had luck finding old stock information in the Google scanned newspaper archives. Unfortunately there does not appear to be a way to search exactly by date, but a little browsing /experimenting should get what you want. For instance, here's a source which shows the price to be 36 3/4 (as far as I can read anyway) on that date.

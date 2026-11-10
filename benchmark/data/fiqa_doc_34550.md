@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34550  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Their ""genius idea"" saved me more than 50 bucks last week when I bought a new ultra book and photoshop 6 student edition for my wife from Fry's Electronics and found out that Fry's would match their prices. Best Buy was cheaper than Fries, pigs must be flying somewhere.."

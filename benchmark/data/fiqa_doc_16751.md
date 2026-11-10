@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16751  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Putting Chris's comment as an answer: It's your income, not your spouse's income. You can give her the money, but you'll still be paying tax on it To elaborate more - the general principle of income taxation is that income is taxed when received, and specific expenditures can be deducted. If you giving the money to your spouse is not one of this specific deductibles - then it is not deductible. Your income, nevertheless, is still taxed to you - as you're the one to receive it.

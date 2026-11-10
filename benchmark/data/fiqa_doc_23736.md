@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23736  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My wife tells me that Etsy used to be all nice hand made stuff and now it is getting over run with cheap crap.  She says they don't have good quality standards to hold the merchants to.  Sounds like an opportunity to me!

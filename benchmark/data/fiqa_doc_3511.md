@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3511  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Why is this on r/finance lol. But of course that's a common thing. 300 a month sounds extremely cheap depending on where you are. Sounds like your friend is trying to take advantage of your dad owning a house and stay there for free, no?

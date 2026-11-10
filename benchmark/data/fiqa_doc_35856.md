@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35856  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"What do you think the problem is? I notice you edited your post after I read it.   &gt;The ""value"" of HUMAN labor is determined by supply and demand, right? I hire people right now because they are the cheapest supercomputers with arms available for me right now.  No, you hire people because they have skills to do tasks with their labor. We will *always* think of new ways to be useful, new things to do, that people will want done, will value being done, and will purchase labor to get done.   When we stopped using horses &amp; buggies, all the people in those industries didn't just throw up their hands and walk away from work. *They figured out new ways to create value with their labor*, and the world went on."

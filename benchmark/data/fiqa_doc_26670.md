@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26670  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I love the ol' American response ""you gotta work hard to be successful"". Umm, no? Because if we'd all have a choice, I'm sure non would pick to be part of a minority, or purposefully choose to be born in rural, poverty stricken Africa."

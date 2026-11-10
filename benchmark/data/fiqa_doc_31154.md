@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31154  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;$1160 per month, lets say you only have one kid.  &gt;Oh, wait, taxes are taken out. You really only have about $1,000 to work with.  To be fair with your calculation, with $1,160 a month, you're not subject to federal income tax and most likely no state income tax, *especially* with a child.  That adds an extra $1,900 to the calculation.  Plus you'll get a $1,000 child tax credit from the government.  I'm not saying the extra $3,000 is enough to live on, but that calculation above leaves a bit out.  Edit: Brainfart - I forgot about Social Security / FICA.  In most years it's around 7.65%, which would be about $1,000.

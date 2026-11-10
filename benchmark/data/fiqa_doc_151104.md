@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 151104  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Lipper publishes data on the flow of funds in / out of stock and bond funds: http://www.lipperusfundflows.com Robert Shiller works on stock market confidence indices that are published by Yale: http://som.yale.edu/faculty-research/our-centers-initiatives/international-center-finance/data/stock-market-confidence

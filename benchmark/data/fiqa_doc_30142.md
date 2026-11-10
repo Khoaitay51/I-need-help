@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30142  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think your reasons are good. Fundamentally accounting software is built to ensure you record your accounting data effectively with minimal mistakes and good auditing. But you still need to use the tool properly to get the benefit. One other advantage is that many accountants are familiar with, say QuickBooks, and can do your accounts more effectively if you use their preferred tool.

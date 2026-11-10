@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19823  
+**Domain**: Finance / Investment Advice  
+
+---
+
+**[Craig Morganson](http://www.askcraigmorganson.com/)** says, the probability is, throughout your life, you’ve sat down at a piano or keyboard and plinked your way around it, musing on how you wished you’d taken the moment to master how to play. You might be unclear by the noticeable differences among keyboards and pianos, and in reality they usually are off putting to rookie players.

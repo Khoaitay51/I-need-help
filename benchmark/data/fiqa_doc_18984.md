@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18984  
+**Domain**: Finance / Investment Advice  
+
+---
+
+LOL, yeah, actually maybe china doesn't give a fuck about the waste like they are doing with all their industry? Of course they don't look at emotions or give a shit because they are a fucking communist centrally planned government you retard.

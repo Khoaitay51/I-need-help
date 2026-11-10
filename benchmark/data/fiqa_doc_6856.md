@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6856  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I have had more than 1 co-worker tell me that they were right because they were 40-50 and because I am younger, I was wrong.  One guy in my office, and another was a VP in corporate headquarters. Got to love the tyrannical logic of higher age = correct.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19789  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Australian Goods and Services Tax is charged on the sale amount. Whatever internal accounting you do before billing the customer is of no interest to the Australian Tax Office.

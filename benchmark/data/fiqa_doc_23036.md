@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23036  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Why should he? It is filled with illegal things. What's the problem? You can't talk about religion anywhere but caves? Religious jokes a religious joke. Or are you offended for other reasons?   Telling someone to stfu. Nice. Herp derp.

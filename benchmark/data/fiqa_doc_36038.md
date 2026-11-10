@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36038  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Really not sure with this one and I don't want to cheat and look up an answer.  I'd say you could find the high/low points of the stock over the last year or two and see how large the spread is between those values and the average price of the stock over the same time period.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18675  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It is not clear when you mean ""company's directors"" are they also majority owners.   There are several reasons for Buy;   Similarly there are enough reasons for sell;   Quite often the exact reasons for Buy or Sell are not known and hence blindly following that strategy is not useful. It can be one of the inputs to make a decision."

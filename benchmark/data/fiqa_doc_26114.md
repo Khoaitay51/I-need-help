@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26114  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You have no idea what you're talking about.  Walmart pays double the taxes that it's employees get from the government.  If they didnt pay taxes, you would make sense. Unfortunately, they do and you don't.   Your argument is bad and you should feel bad.

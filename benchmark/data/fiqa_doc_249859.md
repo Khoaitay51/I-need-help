@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 249859  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You're free to provide services, but if you stay in one country for more than half a year - you're generally considered to be its resident for tax purposes. Germany is no exception to the rule, in fact - this is true to almost any country in the world. If you provide the services from Poland, and never set foot in Germany - they won't say a word.

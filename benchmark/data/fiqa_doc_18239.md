@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18239  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Here's an Irish government publication that should give you some background information to get you started. In a nutshell, you get tax benefits, but cannot withdraw money without penalty until you reach retirement age.

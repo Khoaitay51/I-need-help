@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8028  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yeah, there's no story of some kid from Canada uploading a video to YouTube for free and becoming an instant millionaire success. Oh, [wait](http://en.wikipedia.org/wiki/Justin_Bieber).  All that aside, you do have a somewhat valid point. Most new artists aren't going to make $1 million in a week releasing their standup. But the old model still needs to change and the greed in the entertainment industry needs to be quashed. They used to provide a good/ok service, but they've failed to innovate.

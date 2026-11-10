@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32936  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You always see articles of how financially distressed people are, but then other articles on how home prices are rising and people don't want to sell their homes for less (to meet the pent-up demand for starter homes).  A nice, long, prolonged drop in real estate prices would solve so much. With the decline in retail I hope it comes.

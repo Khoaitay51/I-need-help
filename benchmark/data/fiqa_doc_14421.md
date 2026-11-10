@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14421  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;implicitly through their fee structure.  Index ETF and stock trades cost the same at Robinhood (free).  Do you believe Robinhood (and other brokers) should charge a fee for single stock trades to discourage investors from purchasing them over index ETFs?  Honestly, I'm not saying this idea is right or wrong.  It's an interesting proposition.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1917  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Are you fucking stupid or just retarded?  There isn't another country in the world remotely with the size of economy we have or that are starting wars like we are.  Do you understand that wars are 10-15 year commitments with tens of trillions ~~wasted ~~ stolen ?  I'm not going to argue with the flat earth society.. go troll someone else with your fantasy arguments.

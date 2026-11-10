@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12106  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You have to file an application with PF Office. Normally your existing Organisation [which you just quit] helps you with the formalities. If not you would have to complete the same and submit it to the EPFO.

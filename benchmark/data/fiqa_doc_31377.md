@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31377  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"In the UK there is a School Rewards System used in many schools to teach kids and teens  about finance and economy. In the UK there is a framework for schools called ""Every Child Matters"" in which ‘achieving economic well-being’ is an important element. I think is important to offer to offer a real-life vehicle for financial learning beyond the theory."

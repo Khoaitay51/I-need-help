@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12414  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Basic business concept here.   Sales =/= money for you.  You need to take into account the cost to continually produce this stuff.   Don't forget the fact that prices will fall in the future as more firms enter the market.

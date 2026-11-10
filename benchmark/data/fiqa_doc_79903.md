@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 79903  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Unanticipated unemployment is usually the triggering factor for drawing on an emergency fund. Ask yourself: what happens if I lose my job tomorrow? Or my spouse becomes unemployed? What happens if I become disabled and can't work for x amount of time? Sure, you can discount your chances of needing such a fund if you have free health care. But having health insurance doesn't change the fact that an emergency fund is a good idea. There are many ways to go broke!

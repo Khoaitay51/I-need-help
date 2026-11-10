@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 388147  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"You can try writing on the back of the check, in the signature area, ""For deposit only to account xxxxxxxxx"", leaving room for the signature. This may or may not be legally binding, but it states your intnt and is in a form the bank will recognize."

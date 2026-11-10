@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 436493  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Stripping away the minutia, your question boils down to this: Should I take a loan for something that I may not be able to repay? The correct answer, is ""No""."

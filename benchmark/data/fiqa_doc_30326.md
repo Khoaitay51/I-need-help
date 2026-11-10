@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30326  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm talking about day trading here. Automated day trading never worked for me. But I will also admit I am terrible at automated day trading. I'm sorry if the premise of my post sounds off. I know it sounds like I'm being an idiot by not going the automated route, but it works for me and that's why I'm going to stick with my own techniques. Why change it if it's working?

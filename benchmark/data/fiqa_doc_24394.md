@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24394  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Sure they do, NY literally did just that..  https://www.google.com/amp/s/www.theverge.com/platform/amp/2016/10/21/13361536/airbnb-new-york-cuomo-bill-ban-short-term  I'm still right and everything you say STILL doesn't refute the fact that every city that has similar laws, yet, AirBnB still allows listings; is bustling with listings.  Nothing you're saying is remotely helping your case.

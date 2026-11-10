@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1392  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The bigger question in the US is perhaps why the cost per kWh is twice as high in New York as it is in Washington state.  It may have quite a bit to do with taxes and regulation compliance and a lot less with natural factors in the market (cost of producing and transmitting power).

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4063  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You only OWN a 217-foot yacht as an investment.  If you want to yacht, ~~lease~~ rent.  If you own one you're going to ~~lease~~ rent it out anyway unless you intend to use it as your home and I think you're likely to get tired of that pretty soon.  Otherwise you're just tying up capital stupidly.

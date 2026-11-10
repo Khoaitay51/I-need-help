@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22533  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't think the word 'irony' means what you think it means.  If I cared at all about magic internet points, I would dole out downvotes (and upvotes) much more often. The fact that I am not even going to downvote the abject nonsense that you wrote above should speak volumes.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29304  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"It's called a ""checkbook register"" -- learn what it is and how to use it properly (not only recording your transactions &amp; maintaining your own running balance, but also including ""reconciling"" it with your bank-issued statements or online transaction listings) and you will *not* overdraw.  It's [fairly basic stuff](http://www.practicalmoneyskills.com/spanish/pdf/teachers/specialneeds/lev_3/lesson_06/6_3activity.pdf) but it never ceases to amaze me how many (supposedly ""smart"") people fail to do it properly (if at all)."

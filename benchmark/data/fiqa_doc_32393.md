@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 32393  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Let's stop right there. Are you implying that the Ukrainian military shot down MH17 and made it look as if Russia was involved, as well as enlisting the U.S. intelligence community in their coverup of murdering of a couple hundred citizens of an allied nation and member of NATO?

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 441582  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It will not be a problem; people regularly move larger sums. It will be reported to law authorities as large enough to be potentially of interest, but since you can explain it that's fine.

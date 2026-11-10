@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 250028  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Generally speaking, you want to find goods and services that are inelastic and also require oil as a cost. Oil company stocks make record profits when oil is high, because direct demand for oil is relatively inelastic. Profit margins of oil competition should also go up, as this creates inflation in general, as people seek alternatives to the inelastic demand.

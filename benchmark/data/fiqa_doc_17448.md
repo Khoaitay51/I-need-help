@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17448  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Keep track of everything you buy.  Write it down and be accountable.  Try not to buy anything on credit cards, if the money is not in your account now then you can't afford it.  Ask yourself whether what you're buying is a ""need"" or a ""want"". If you find that you are buying things because you are bored and you like shopping then try taking up a (cheap) hobby that fills that void and is something you enjoy doing."

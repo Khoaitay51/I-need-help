@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15420  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The real utility of online groceries is coming around the bend, when you have the IoT capability to do automatic reorders of things you have just used up. Stores will still exist, but I believe that in the near future, shopping for your staples is going to be done automatically. [Suck it Jin-Yang.](https://i.imgur.com/I9ur6b6.gif)

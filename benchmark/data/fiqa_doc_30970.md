@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30970  
+**Domain**: Finance / Investment Advice  
+
+---
+
+trader. It's easy to learn how to develop, you can teach yourself how to develop, but gaining knowledge on how a traders day-to-day world is like is not as easy to come by. If you go dev first, it may be harder to get that business knowledge further down the track

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19845  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Its also going to allow for Russian businesses to grow in to fill certain spaces left vacant by the NATO commerce which could make up for the hit they will take from The US EU sanctions. Hes protecting the economy at the cost of a little comfort.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31330  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Have you owned the stock for longer than 2015?  The stock appears to have grown in value since December 2014 from 72.85 to 73.5 which is about 0.89% growth in the year to date (2015).

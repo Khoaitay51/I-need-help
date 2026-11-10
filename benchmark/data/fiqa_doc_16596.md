@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16596  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"&gt;I was refreshing when he did it, so I saw him downvote me in real time.  So you are watching his computer screen?  As that is the only way you can see such a thing.  For all you know it could been someone else who saw your comment and downvoted it.  More so it could been very well reddit's spam filtering, as it will sometimes auto downvote comments as a counter measure on the up and down votes.  &gt;Anyway, I suspect that FatStig is your alter account anyway, so you're essentially just a little contrarian who doesn't contribute to the discussion.  Do you like making up bullshit claims or something?  I only have this account and no I am not defending them.  I am more mocking you if you will over getting all upset over being downvoted.  &gt;this is way harsher than I wanted to be with you  If you think how you being with me is harsh then you got to be the nice ""harshest"" person ever."

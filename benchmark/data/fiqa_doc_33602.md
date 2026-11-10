@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33602  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"http://www.irs.gov/taxtopics/tc503.html says you can deduct ""Any prior year's state or local income tax you paid during the year."" So I would say as long as you have good records, you can deduct the excess refund you had to pay back in the year in which you paid it. Whether or not your return was amended shouldn't affect whether or not it is deductible."

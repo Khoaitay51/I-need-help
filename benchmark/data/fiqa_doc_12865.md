@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 12865  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Nestle owns more than 8000 brands worldwide. Remember that ""chinese"" Melanene in baby formula scandal? What you didn't hear is that was a Nestle company. If you want to avoid Nestle water you need to avoid Perrigrino, Nestea, Perrier, Poland Springs and Vittel. There are basically 10 companies that control the worlds packaged food supply."

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19190  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My two-cents, read your plan document or Summary Plan Description. The availability of in-service withdrawals will vary by document. Moreover, many plans, especially those compliant with 404(c) of ERISA will allow for individual brokerage accounts. This is common for smaller plans. If so, you can request to direct your own investments in your own account. You will likely have to pay any associated fees. Resources: work as actuary at a TPA firm

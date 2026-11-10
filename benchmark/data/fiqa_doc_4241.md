@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4241  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Inspectors, permits, poor planning, and a lack of incentives/consequences.   If inspectors are needed for so much bs, local government needs to hire more of them.   Permits need to be processed in a timely manner.   Engineers and committees need to make decisions quicker.   Liquidated damages for missing completion dates and early completion bonuses work!

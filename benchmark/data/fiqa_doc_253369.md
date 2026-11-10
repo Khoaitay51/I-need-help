@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 253369  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"The key phrase in your post is that the options are ""in a good position now"".  They may be worthless in three months or a year.   If I was you I would cash in the options and pay off the debt.  Cash in enough to also cover taxes.  You may want to cash them all in."

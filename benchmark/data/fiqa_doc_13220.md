@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13220  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I don't buy a Blackberry because it's archaic. Same reason I don't buy a Nokia.   Phones are 90% image and 10% functionality for some stupid reason. It's always been that way ever since the first car phones came out. Blackberry definitely fell out of touch with the market. It's all big touch screens, sharper pixels, and inane apps now. I don't think anybody really uses their phone for, you know, phoning.

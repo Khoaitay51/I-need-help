@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20190  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I think I mis-read your comment above.    I agree, didn't mean to come off so snarky.   I don't believe her role involves what I would consider making traditional ""business decisions"".  However, I know from a few sources she is at the HQ regularly working on marketing and product / packaging designs."

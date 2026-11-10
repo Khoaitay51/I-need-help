@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 26639  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It doesn't have to be. Public school is just fine. I did both growing up, and I don't know why people still think public school sucks. All the teachers were good in public school despite being a little less hard than my private school. Public schools are also very big on anti-bullying.

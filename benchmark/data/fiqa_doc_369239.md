@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 369239  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In my experience, the only penalty to breaking a CD is to lose a certain amount of accumulated interest. Your principal investment will be fine.  Close the CD. A few days of interest is nothing.

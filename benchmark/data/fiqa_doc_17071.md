@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17071  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I have recently started using Transferwise to transfer money between the U.K. and The Netherlands. Transferwise has lower fees than other companies.  They use a pseudo-peer-to-peer money transfer system.  When person A transfers £ to €, and person B transfers € to £, they effectively cancel these two agains teach other, which significantly lowers exchange fees for both A and B. I am not affiliated with Transferwise other than as a customer.

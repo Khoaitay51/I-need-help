@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30652  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As Americans we seem to have lost the ability to see the simple truth right in front of us. Its not just RT, its what the world is telling us, take your pick, yet we get our marching orders from Tel Aviv  I will fucking move to Timbuktu before Zuckerberg becomes the US president and all our children wear gender neutral uniforms to school

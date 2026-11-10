@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13217  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"In addition to the other answers it's also noteworthy that the stock exchanges themselves adjust the price quotes via their ex-div mechanism.  All limit orders present in the book when the stock goes ex-div will be adjusted by the dividend. Which means you can't even get ""accidentally"" filled in the very unlikely case that everyone forgot to adjust their quotes."

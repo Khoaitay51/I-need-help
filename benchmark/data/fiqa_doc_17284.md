@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17284  
+**Domain**: Finance / Investment Advice  
+
+---
+
+MoneyDashboard or XeroPersonal  are similar sites to Mint.com  MoneyDashboard is planning on releasing an Android App XeroPersonal is also in development of an Android App  For more details about the differences between the two apps, see this Web App question

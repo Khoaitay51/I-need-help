@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27067  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My company has a dashboard that basically does this. We select industries / companies we want to be notified of and we get an email in outlook when a new analyst note, research report, or SEC filing is posted on that industry or company.

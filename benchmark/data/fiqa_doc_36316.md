@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36316  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In and of itself it wasn't. But could the ill will it left with the general investing public make people more wary of future IPOs and thus, lower their potential starting points?  Thereby leading to a drought of IPOs as companies don't see themselves getting as much.

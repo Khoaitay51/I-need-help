@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28075  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"In general, I agree with Alex' ""don't do it."" If I dig deep for any reasons to transfer from a Roth into a Roth 401(k) there might be 2:"

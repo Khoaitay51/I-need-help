@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14875  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You should be able to convert this officially. As per RBI regulation an individual can hold upto USD 2000 eq for an unlimited period of time. See the point 14 on RBI FAQ's for Fx.

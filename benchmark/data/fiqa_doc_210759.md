@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 210759  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"FDIC is backed by the ""full faith and credit of the USA.""  Well, if the USA defaults, the full faith and credit of the USA would in my mind be worthless, thus, so would FDIC."

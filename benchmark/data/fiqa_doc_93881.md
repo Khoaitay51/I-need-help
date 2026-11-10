@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 93881  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It doesn't make any financial sense for you personally, because the impact on the debt would be so little it would have no significant benefit to you, and you'd be out the money you donated.

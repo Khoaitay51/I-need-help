@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33608  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As near as I can tell that is their business model. I mean the [seriously argued to a judge that they weren't liable for a drivers actions while he was waiting for dispatch using their app](http://www.sfgate.com/news/article/Family-of-SF-girl-killed-by-Uber-driver-backs-5579980.php) which is as blatant an attempt to get out of any liability as I've ever seen.

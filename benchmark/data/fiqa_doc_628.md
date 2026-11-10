@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 628  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I will be messaging you on [**2017-10-06 17:57:23 UTC**](http://www.wolframalpha.com/input/?i=2017-10-06 17:57:23 UTC To Local Time) to remind you of [**this link.**](https://www.reddit.com/r/finance/comments/7354iz/roku_ipo_stock_price_closes_up_67_on_first_day_of/dnolw5y)  [**3 OTHERS CLICKED THIS LINK**](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[https://www.reddit.com/r/finance/comments/7354iz/roku_ipo_stock_price_closes_up_67_on_first_day_of/dnolw5y]%0A%0ARemindMe!  1 week) to send a PM to also be reminded and to reduce spam.  ^(Parent commenter can ) [^(delete this message to hide from others.)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Delete Comment&amp;message=Delete! dnolwn7)  _____  |[^(FAQs)](http://np.reddit.com/r/RemindMeBot/comments/24duzp/remindmebot_info/)|[^(Custom)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=Reminder&amp;message=[LINK INSIDE SQUARE BRACKETS else default to FAQs]%0A%0ANOTE: Don't forget to add the time options after the command.%0A%0ARemindMe!)|[^(Your Reminders)](http://np.reddit.com/message/compose/?to=RemindMeBot&amp;subject=List Of Reminders&amp;message=MyReminders!)|[^(Feedback)](http://np.reddit.com/message/compose/?to=RemindMeBotWrangler&amp;subject=Feedback)|[^(Code)](https://github.com/SIlver--/remindmebot-reddit)|[^(Browser Extensions)](https://np.reddit.com/r/RemindMeBot/comments/4kldad/remindmebot_extensions/) |-|-|-|-|-|-|

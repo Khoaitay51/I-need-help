@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22360  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, it is.   The reason they are forced out, is because their homes become so valuable.   If you living in a home that has become worth millions, and can't afford the taxes, then sell up and enjoy your riches.       Should that necessary tax money instead come from the working class, to subsidize millionaires that want to stay in their homes?

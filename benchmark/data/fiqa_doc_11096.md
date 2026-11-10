@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11096  
+**Domain**: Finance / Investment Advice  
+
+---
+
+What I did when I interned was ask for more work. After a while, my supervisor got used to pouring shit on me to work on. They learn to trust you, and give you more important stuff to work on. In the end, I was handling bank statements and such (although they would always check that I was doing everything exactly right).

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 404605  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Your calculations are correct if you use the same mortgage rate for both the 15 and 30 year mortgages.  However, generally when you apply for a 15 year mortgage the interest rate is significantly less than the 30 year rate.  The rate is lower for a number of reasons but mainly there is less risk for the bank on a 15 year payoff plan.

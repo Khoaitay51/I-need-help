@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35640  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Hydro Extractor is designed for continuous operation, heavy-duty use and to remove water from load of clothing and other textiles, usually shortly after they come from washing machine. Hydro extractor usually works on the principle of centrifugal force creating high gravitational force enhancing water extraction from wet cloths.

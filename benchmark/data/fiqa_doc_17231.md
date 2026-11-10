@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17231  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is often the case where traders are closing out short positions they don't want to hold overnight, for a variety of reasons that matter to them.  Most frequently, this is from day traders or high-frequency traders settling their accounts before the markets close.

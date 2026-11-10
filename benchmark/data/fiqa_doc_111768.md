@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 111768  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Option prices can predict the range of movement of the underlying, but not if the underlying is going up or down. An option price gives an implied volatility for an underlying . That IV number helps predict a range for the underlying price over the next few days,months, upto a year.

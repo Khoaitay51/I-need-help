@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 34846  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Well, there's also the related matter that the rate of pay increase for average workers has increased at a small fraction of executive pay. There are many ways to remedy this, including raising top tax rates (though by no means exclusively).

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16670  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This is what is called ""weasel words"". They're trying to put some authority into their ad, but since they don't have any - they're putting meaningless words that sound important. Monetary policy is the state/central bank policy to control the supply of the available currency. Cannot think of a way to connect it to private investments."

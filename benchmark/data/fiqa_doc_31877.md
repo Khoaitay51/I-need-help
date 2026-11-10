@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31877  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Our standard of living is much higher than our grandparent's or great grandparent's. Do we really need to list all the consumer goods that are now considered essential to a modern middle class family that simply did not exist 50-100 years ago? A lot of people complain that they can't afford the things their parents had, but how much of what you do have or pay a monthly bill for do you really need?

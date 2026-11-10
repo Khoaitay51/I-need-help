@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9883  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I highly doubt Walmart will be killed off by Whole Foods-Amazon. Sure you can buy tons of organic food at Wal mart and prices there might get squeezed but is Whole Foods brick and mortar stores also going to start carrying motor oil, tires, and cheap ass Hanes white shirts? I know Amazon carries those but it's still online.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20283  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As an Indian resident you can open an Resident Foreign Currency Account, i.e. an USD account. This facility is provided by all major banks.  I am not sure if PayPal would transfer money to these accounts or would convert. The alternative is to give this account number along with other Bank details to the company in US and ask them to send money via remittance services.

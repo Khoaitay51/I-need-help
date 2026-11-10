@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11592  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think other US companies are starting to wonder where the cost savings are.   Moving to China is starting to look like a fad.  A couple of big companies went to save a buck and the rest jumped on the wagon to keep the stock holders happy.

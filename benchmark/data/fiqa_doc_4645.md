@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4645  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If glass steagall had minimal impact on bank behaviour, that means the great recession was unavoidable. What sort of legislation would it take to ensure shitfests like this *will* be avoidable in the future?  Outlaw predatory loans? Lynch all bankers and start over from scratch?

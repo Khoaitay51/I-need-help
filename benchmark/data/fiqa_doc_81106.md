@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 81106  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As AskAboutGadgets notes, there's no lower age limit.  You current age (24) is a pretty good one; you'll have four decades or so for your money to grow and compound, allowing it to become a veritable fortune when you're ready to retire if you invest it fairly aggressively.

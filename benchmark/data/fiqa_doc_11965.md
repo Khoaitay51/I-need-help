@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11965  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; Then the author suggests discriminating against people from elite schools and never hiring them.  No, he suggests hiring based on class rank. Avoiding hiring from elite schools is a predictable outcome based on what salaries those candidates tend to demand from the market, it's not that those students are bad it's that they're probably a less cost-effective option than students from less-elite schools.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8364  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Thank you.  I was going to post this.  It should be the top comment.  I think that Elizabeth Warren's ideas here are much more thoroughly researched, and present a much more comprehensive and compelling explanation than most of the uninformed opinions being spouted.

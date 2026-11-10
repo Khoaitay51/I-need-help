@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 11494  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Tons of files to read, deadlines to meet, meetings to attend… apart from doing your actual work of contributing to the business. In the middle of everything lie a few smart choices which have the potential of making things a lot easier for you. Adopting a CRM like Wakeupsales is one such choice

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14190  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think Microsoft is far from being the next IBM. Keep in mind mobile hardware isn't for everyone, even Amazon abandoned it.  Microsoft has done a great job with their cloud platforms, revamping the microsoft office suite to compete with google's, their entire surface line of laptops and tablets, purchasing linkedin, etc.  I would say they are making the right and relevant moves to not only stay relevant but shake up the status quo that they were living in for a long time.

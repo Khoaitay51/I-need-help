@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13118  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"You do realize this pipeline crosses almost every major river in the south east and east coast right?  I'm detecting a lot of hyperbole from you.  As far as DAPL and its ""actual value"" businesses don't go and build new pipelines for fun. It's expensive and time consuming. There has to be a return on investment."

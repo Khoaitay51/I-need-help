@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24188  
+**Domain**: Finance / Investment Advice  
+
+---
+
+How do ETF makers like Direxion make money? Since the contents of the ETF are known, why would anyone pay a premium to buy the basket of securities that it is composed of? Couldn't I just assemble the ETF myself for free?

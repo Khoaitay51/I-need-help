@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 402466  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Here's a few demo steps, first calculating the year to date return, then calculating the Q4 quarterly return based on the cumulative returns for Q3 and Q4.   It's fine to use closing price to closing price as return periods.

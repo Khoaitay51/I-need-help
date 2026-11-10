@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36005  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I gotta disagree. The kinds of people who care about this sort of thing (very very few) are also the kind of people who aren't willing to pay Facebook any money--and they're the most likely to not be on the site in the first place.  I mean, sure, SOME people would pay--but how many? Even if it's a million people the revenue would be a rounding error for Facebook, especially as the company grows. Plus, I'm sure they want to offer advertisers 100% of their user base--it's a good pitch.

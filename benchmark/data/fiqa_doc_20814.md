@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20814  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That stock appreciation came entirely from Alibaba's growth and had nothing to do with Mayer's moves.  Mayer spent billions on failed acquisitions of startups and never capitalized on any of them. Yahoo would have been better off shutting down the day she became CEO and becoming a holding company.

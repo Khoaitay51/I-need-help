@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29617  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No, any gifts you receive are not taxable to you. In fact, losing money in a scam (as this sure sounds like to me) can even be tax-deductible if you lose enough! I wouldn't recommend accepting anything. Usually people with millions are dollars are capable of setting up their own bank accounts.

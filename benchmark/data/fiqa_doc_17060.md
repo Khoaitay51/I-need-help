@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17060  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Whether you are planning an exhibition or commercial installation, BETH SCHIIFFER offers a variety of substrates ranging in size from 8×10 – 48×120. All work is customized and tailored to client specifications for the most beautiful and professional presentation befitting your art.

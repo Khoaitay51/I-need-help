@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13645  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Aside from the fact that there are massive problems with taxes, liability, fiduciary responsibility, and (assuming you're accepting any sort of compensation at all) licensing. The mere fact that you're asking this question indicates that you're probably not suitably qualified to handle this for others. Why not have someone qualified handle this?

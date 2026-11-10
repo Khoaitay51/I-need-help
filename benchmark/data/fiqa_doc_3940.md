@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 3940  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Nobody actually paid the ridiculous tax rates of the time.  People exploited loopholes like they do now.  Back then, there were more.  So the actual tax rate is irrelevant, and the actual tax rate paid is important.  I see this argument way too often.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 1181  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It does.  Your kids won't care that at one point you had to wind a ring past numbers to dial someone on the phone or that the internet didn't exist or that no one had air conditioning or that food had to be run down and killed.  People just see what is, what others have, and want more from there.

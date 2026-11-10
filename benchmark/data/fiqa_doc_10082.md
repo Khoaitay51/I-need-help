@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 10082  
+**Domain**: Finance / Investment Advice  
+
+---
+
+AUD is not a great choice as it has nowhere to go against USD but down. Take a look at the 5 year graph http://au.finance.yahoo.com/q/bc?s=AUDUSD=X&amp;t=5y&amp;l=on&amp;z=l&amp;q=l&amp;c=  Most in Australia predict that it will eventually hover around 0.8, at which point you would have lost almost 20% of your savings.  Another thing is that savings interest is taxed in Australia, so take that rate with a grain of salt. For a typical household that would be a 30% tax, at which point it is just in line with inflation, so real term growth is nil.

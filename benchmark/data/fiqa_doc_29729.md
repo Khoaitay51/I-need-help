@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 29729  
+**Domain**: Finance / Investment Advice  
+
+---
+
+So extenuating circumstances might make it OK for someone to lie to you.    In this specific case, BofA withheld material information from its shareholders and asked them to approve the merger on the basis of known false information.  This is, by definition, fraud.

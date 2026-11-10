@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6515  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; A CFA is getting common but it might help - it probably won't hurt at least.  MS and MBA's are dime a dozen compared to CFA's.  If you want to move into trading/research/port mgmt, a CFA is as desired (and allows better networking opportunities via CFA societies) than a MS.  Other than that, I will second the majority of what you said.

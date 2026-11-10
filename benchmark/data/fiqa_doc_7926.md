@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 7926  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This is interesting.  The application I'm putting together is more along the lines of automating the research process for a financial professional using a personal algorithm of his.  The end goal is to provide him an alert to email when a new report is filed and if his criteria are met based on that report and past reports.  Thanks anyway.

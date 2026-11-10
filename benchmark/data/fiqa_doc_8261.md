@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8261  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"I would make this a comment but I am not allowed apparently. Unless your continent blows up, you'll never lost all your money.  Google ""EUR USD"" if you want news stories or graphs on this topic.  If you're rooting for your 10k USD (but not your neighbors), you want that graph to trend downward."

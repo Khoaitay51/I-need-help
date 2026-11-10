@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6585  
+**Domain**: Finance / Investment Advice  
+
+---
+
+That’s exactly what many countries do, even going to far as to bake the data they want into their structure. Not doing well in middle school? Time to ship you off to trade school so you don’t take the standardized tests. I’m not saying that’s why they do it, I’m saying countries like Germany artificially look better than reality suggests.

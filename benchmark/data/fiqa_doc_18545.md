@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 18545  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Because more than a few utility companies have overcharged me in the past, and with online banking they can automatically deduct from my account. With a check I can control how much I pay them. It's much easier to fight a charge when they don't already have your money.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 24186  
+**Domain**: Finance / Investment Advice  
+
+---
+
+No. That's backward thinking. These people are being held below a  livable standard by otherwise failed business models. This country has the most profitable businesses in the world. Those jobs will be replaced, and those people will be better off. That is how markets work.  Individuals who would rather see people toil endlessly for terrible businesses kept on life support by poor economic policy are the ones who should be ashamed.

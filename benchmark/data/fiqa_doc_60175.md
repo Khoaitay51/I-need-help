@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 60175  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you've decided to ignore the sound advice re: oil company stocks, and you want something directly linked to the price of oil, do the following: Understand that oil producers would like avoid the risk of a price drop, and oil consumers (refiners, electric utilities, etc.) would like to avoid the risk of a price rise. Understand that you are about to assume their risk.

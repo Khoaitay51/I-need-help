@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22592  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The article made it seem like a lot of these were frivolous purchases, but I doubt there's any clear data on the percent that were someone's primary vehicle, etc. Usually if you default on a new-car loan you can still get a high-interest loan for a used car that will still be a lot less than your old payment.

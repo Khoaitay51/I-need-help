@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 540806  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The 'common sense' in it is that they want the maximum money from you while still suggesting to a quick read that you get away free. Their target is not to make you happy, but to make money of you.

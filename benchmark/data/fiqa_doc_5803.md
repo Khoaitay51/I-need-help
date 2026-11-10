@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5803  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I've seen self-service turnstiles on a Lufthansa flight in Frankfurt. There were employees around though, even if everybody was scanning their own boarding pass (I remember because the machine printed a seat reassignment note for me after scanning the boarding pass and I was surprised by that).

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25989  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You might investigate Paypal if it is available to both of you.  the International Transfers page on their site has a way to find out what sort of fee's they would charge you.   It might be a lot simpler and easier than doing wire transfers or dealing with banks etc.

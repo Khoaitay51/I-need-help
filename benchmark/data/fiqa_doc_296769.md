@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 296769  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I usually get a cashiers check to cover about 90% - 95% of the expected amount (whatever I think is just below my wet-dream-price), and bring the rest in cash. That doesn't require so much cash to be carried. Alternatively you can write a personal check for the exact reminder, or go to the bank for the reminder after the deal is made - with the majority already paid in a cashiers check nobody would disagree.

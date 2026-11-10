@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4416  
+**Domain**: Finance / Investment Advice  
+
+---
+
+There is no answer to Global warming, unless you would like to quadruple energy prices, abolish air travel and international shipping. Obama's EPA estimates 700 trillion dollars to lower earth's temp one degree. Good thing global warming is a tax hoax. The only thing to fear about global warming is it's remedies, which will do nothing but increase energy prices, demolish economies and jobs and kill third world poor by restricting access to food and medicine.

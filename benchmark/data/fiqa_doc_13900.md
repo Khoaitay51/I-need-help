@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 13900  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I agree with you that given a teacher and an environment there may be a way to rank teachers, however any proposal I've seen to judge performance fails to take into account environment and assumes the district as one uniform environment. Any time federal programs are proposed that try and address failing schools, they treat things as if the school is the only part of the environment that matters. I don't see how they can do better for teachers.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 142726  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Technical analysis is insufficient. You're halfway to figuring it out if you start to question why a 50 day moving average vs 200 vs 173. Invest in companies that are attractively valued vs. their sales/growth/divends/anythingelsereal

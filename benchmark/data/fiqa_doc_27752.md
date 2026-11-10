@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27752  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Which contractors? I'm only familiar with the yellow badges that office security and cleaning has. I'm not sure what we give to e.g. FC equipment vendors.  I suspect you're familiar with one of the many caveats I left out, though.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21219  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The Canadian bid is really good, I read parts of it.  It lays out why Canada is fundamentally better by having all the right things covered.  Basically the other areas are having to use tax breaks and incentives to make up for fundamentally bad business environments.  It opens with a letter from Justin Trudeau with “Dear Jeff”.

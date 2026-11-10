@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 73310  
+**Domain**: Finance / Investment Advice  
+
+---
+
+One of many things to consider is that in the United States student loan interest is tax deductible. That fact could change the math enough to make it worth putting A's money elsewhere depending on his interest rate and income bracket.

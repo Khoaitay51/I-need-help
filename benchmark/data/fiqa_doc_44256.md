@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 44256  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, Paypal has such a button you can use, but to be clear, the money you receive is taxable income. Your website is providing 'value' to the readers, and while they may feel they are making a gift to you, it's earned income as far as the IRS is concerned.  (This assumes you are in the US, you may wish to add a tag to indicate your country)

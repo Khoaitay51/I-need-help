@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 25431  
+**Domain**: Finance / Investment Advice  
+
+---
+
+* Absolutely agree with /u/IsAnAlpaca  * You /must/ not agree to this without seeing his balance sheet. * That means assets and liabilities, but also ask for the last 12 months' cash flow * Inability or unwillingness to provide any of those things is a HUGE no-go red flag.

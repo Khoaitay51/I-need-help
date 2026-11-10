@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 6703  
+**Domain**: Finance / Investment Advice  
+
+---
+
+What source said the Fed considers them retired? And you know $2 trillion of that is mortgage backed securities. No one seems to have told the homeowners their mortgages are forgiven as I haven't seen the block parties for that.

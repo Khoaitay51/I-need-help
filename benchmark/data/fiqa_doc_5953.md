@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5953  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The answer depends on how much you spend every month. The DTI is calculated using the minimum payment on the balance owed on your card.  Credit card minimum payments are ridiculous, often being only $50 for balances of a couple thousand dollars. In any case, when you get preapproved, the lender will tell you (based on your DTI) the maximum amount they will approve you for. If your minimum payment is $50, that's another $50 that could go towards your mortgage, which could mean an additional $10,000 financed. It's up to you to decide if $10,000 will make enough of a difference in the houses you look at.

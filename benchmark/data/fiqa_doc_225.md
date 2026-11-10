@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 225  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt; monopoly  &gt; names 3 giant companies who compete with each other in almost every industry possible  What happened to /economy :(. It used to be actual business minded people, now it's becoming another socialist echo chamber... Sad to see.

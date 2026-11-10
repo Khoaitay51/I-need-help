@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17998  
+**Domain**: Finance / Investment Advice  
+
+---
+
+It seems to me that the study fails to adjust for the fact that if the UK became a US state, UK taxes would be removed which would probably result in lower living costs, higher incomes, more investments..and shittier healthcare... etc etc.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 21343  
+**Domain**: Finance / Investment Advice  
+
+---
+
+&gt;This problem could be fixed by having fewer MBAs leading companies, and more engineers and scientists.  This is funny. There's only 1 MBA on that list, but he also attended the School of Engineering at Duke University

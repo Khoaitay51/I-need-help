@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 31477  
+**Domain**: Finance / Investment Advice  
+
+---
+
+The collectible value of coins will probably increase with the underlying metal value. I'd collect coins for that reason and because I enjoy collecting them. I wouldn't recommend buying bags of rolled nickels or anything though.

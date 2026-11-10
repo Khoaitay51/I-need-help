@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17008  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Why are doctors so overworked? Maybe their AMA cartel restricting new entry is to blame. They also lobby to restrict the number of procedures that nurses can legally perform and limit the number of medical schools. This is a huge factor in the cost of health care in the United States.

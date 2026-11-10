@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 30973  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Yes, the net effect is zero. If you own zero shares by Nov 30, for example, and don't buy any more shares by 12/31, the year is done, and nothing left to account for.

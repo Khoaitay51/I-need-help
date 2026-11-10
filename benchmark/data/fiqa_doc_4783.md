@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4783  
+**Domain**: Finance / Investment Advice  
+
+---
+
+How do I withdraw a large sum from my bank and give it to a money management firm? Either write a check to the Money Management firm or wire transfer the funds to the account mentioned.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 9579  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Good in theory, worse than our current system in practice. You can keep your drug from being created by anyone else on the planet by never filing a patent, all of which are public. Say goodbye to cheap genetics and day Hello to a larger monopoly.

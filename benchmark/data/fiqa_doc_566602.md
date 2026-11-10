@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 566602  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In my experience Sparkasse or VR Bank have them quite often. They stick out in my mind because when you make a withdrawal you have to reach in to get your money instead of it spitting it out. I'm always afraid its going to chop my hand off.

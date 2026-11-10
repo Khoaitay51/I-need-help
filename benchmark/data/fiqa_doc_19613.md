@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19613  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You should use the Gordon Growth model, but you are using the wrong rate.  required return = rf + market premium x Beta  rm = 0,12, premium = 0,08 --&gt; rf = 0,04 thus rr = 0.04 + 0.08 * 1.5 = 0.16  then you get $15/(0.16-0.05) = $136,36

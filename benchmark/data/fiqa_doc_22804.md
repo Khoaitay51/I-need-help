@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 22804  
+**Domain**: Finance / Investment Advice  
+
+---
+
+If you don't have other installment loans on your credit report, adding this one could help your credit. That could potentially help you get a better interest rate when you apply for a mortgage. There are positive and negative factors. Positive: Negative:

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 36328  
+**Domain**: Finance / Investment Advice  
+
+---
+
+My only opinion is that keeping Zuckerberg away from Washington is probably the best outcome.  A guy known to exploit and sell the privacy of his users probably shouldn't be having any voice on how the government should act in any fashion.  We already have enough surveillance and don't need that jagoff finding new ways to spy on us.

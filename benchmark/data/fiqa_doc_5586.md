@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 5586  
+**Domain**: Finance / Investment Advice  
+
+---
+
+the cost in general.   say it's the same 4mi drive (starting and finish)  Uber: $10  Lyft: $8 (before tip)  When you factor in tip, lyft is probably more   However, someone told me Uber just allowed tips recently so this is prob skewed now, but Uber still is a little more.   However, Uber has gotten more competitive lately (i feel) b/c Lyft is growing like crazy here (Dallas).

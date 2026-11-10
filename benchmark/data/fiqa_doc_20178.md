@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 20178  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"How can it be fake news when we're looking at government generated economic data?  Anyone can pull this data from the Internet to verify.  I think ""fake news,"" is just an excuse for people to dismiss ideas they don't like.  The press has always criticized presidents, this is nothing new.  It's a shame that some people have lost the interest of ability to analyze the veracity of news articles."

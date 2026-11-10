@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 19269  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Poke around in r/google and then tell me I'm wrong. ;)  Try to say something negative in even most lighthearted way in that sub, and watch yourself get showered with a brigade of downvotes, faster than you can say 'Eric Schmidit'.  EDIT: Lol, downvoted already. They must have 'heard' me.

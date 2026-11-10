@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 27288  
+**Domain**: Finance / Investment Advice  
+
+---
+
+This just goes to show you have no understanding of the subject. Rich people do not have 'trillions of dollars' sitting around in bank accounts. Most of their wealth is owning assets like means of production (factories) or real estate.

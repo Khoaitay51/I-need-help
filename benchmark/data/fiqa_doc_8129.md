@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 8129  
+**Domain**: Finance / Investment Advice  
+
+---
+
+When you want to hire personal assistants, you must be sure that you are hiring in a trusted company or the person you talk to have been proven by a lot of people. You must be wise in choosing one because these people will handle some of your personal things and data.

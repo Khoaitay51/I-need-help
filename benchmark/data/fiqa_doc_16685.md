@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 16685  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I think if there were evidence that the company was overvalued there would be a rather large correction.  The muted response is nothing more than a sigh of relief from the market.  The task that Tesla has to complete to maintain its valuation is staggering.

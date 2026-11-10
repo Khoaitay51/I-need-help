@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 17765  
+**Domain**: Finance / Investment Advice  
+
+---
+
+They don't need to accept deposits from normal persons, but that's how they make lots of money.  Banks make money off the fees they charge retailers when those folks swipe their debit cards at the retailer.  It's their bread and butter.  In order to facilitate you accruing swipe fees for them, they need to allow you to make deposits, on which they can charge the retailers swipe fees.

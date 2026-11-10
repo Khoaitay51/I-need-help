@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15324  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I'm starting my 3rd year of college in a few months and it will be my first year at Rutgers university after having been at community college. I'm transferring in as a finance major, and if there are any recommended materials I should read over the summer it would be greatly appreciated.

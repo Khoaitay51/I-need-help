@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15666  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I did you rude dude, one pullout is not a big deal, and it doesnt cost the state anything for the factory to not be built. They got tax breaks for a factory that never got built so they wouldnt have had to pay taxes anyway. There was nothing quantifying infrastructure costs incurred by the state.

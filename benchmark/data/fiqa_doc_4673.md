@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 4673  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I would consider it a personal decision based on your individual situation. When I was younger and short on cash tipping sucked. On a 6 figure income with no kids, I can leave 25% regularly without an issue. But everyone's got a different situation.   I think 15% should be minimum but life isn't that black and white. Do what you think is fair and good.

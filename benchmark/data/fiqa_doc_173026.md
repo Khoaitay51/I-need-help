@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 173026  
+**Domain**: Finance / Investment Advice  
+
+---
+
+PEG is Price/Earnings to Growth.  It is calculated as Price/Earnings/Annual EPS Growth.  It represents how good a stock is to buy, factoring in growth of earnings, which P/E does not.  Obviously when PEG is lower, a stock is more undervalued, which means that it is a better buy, and more likely to go up. Additional References:

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 15938  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"This is the best tl;dr I could make, [original](http://www.bradford-delong.com/2017/05/monday-smackdown-physics-professor-phil-price-the-nimbyist.html) reduced by 76%. (I'm a bot) ***** &gt; Must-Read I disagree with Noah Smith: reading Phil Price convinced me that Phil Price is an idiot, that for many, many people NIMBYism is not a &amp;quot;Flawed but serious package of ideas&amp;quot; but rather &amp;quot;Simple ignorance&amp;quot;-or, perhaps, rather, very hard work to remain ignorant, in a way that is supportive of the &amp;quot;Selfishness of incumbent homeowners trying to feather their own nests... [and] white people trying to exclude poor minorities from their communities while still appearing liberal...&amp;quot;.  &gt; Always remind people that the price of an apartment... doesn&amp;#039;t come built into its walls and floors.  &gt; Acknowledge that induced demand is a real thing, and think seriously about how new housing supply within a city changes the location decisions of people not currently living in that city.   ***** [**Extended Summary**](http://np.reddit.com/r/autotldr/comments/6ejttl/monday_smackdown_physics_professor_phil_price_the/) | [FAQ](http://np.reddit.com/r/autotldr/comments/31b9fm/faq_autotldr_bot/ ""Version 1.65, ~133580 tl;drs so far."") | [Theory](http://np.reddit.com/r/autotldr/comments/31bfht/theory_autotldr_concept/) | [Feedback](http://np.reddit.com/message/compose?to=%23autotldr ""PM's and comments are monitored, constructive feedback is welcome."") | *Top* *keywords*: **people**^#1 **apartment**^#2 **city**^#3 **think**^#4 **NIMBY**^#5"

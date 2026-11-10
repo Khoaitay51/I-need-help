@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 35434  
+**Domain**: Finance / Investment Advice  
+
+---
+
+Edmunds.com has a really cool guide that calculates some of these intangibles for a wide swath of cars under their True Cost to Own Ratings section. I highly recommend it.

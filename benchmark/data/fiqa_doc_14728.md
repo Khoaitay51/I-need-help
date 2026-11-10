@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 14728  
+**Domain**: Finance / Investment Advice  
+
+---
+
+"Yes, but it depends on WHICH other currencies the country's money is depreciating against, and to what extent.  This is why China ""pegging"" the renminbi/yuan to the dollar is an issue, it means Chinese goods do NOT become more expensive in the US."

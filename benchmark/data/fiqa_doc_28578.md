@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 28578  
+**Domain**: Finance / Investment Advice  
+
+---
+
+You can remotely close the account and transfer the money out to your account in home country. If you have netbanking you can also setup remittance service to your country

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 2456  
+**Domain**: Finance / Investment Advice  
+
+---
+
+In the US you can walk into some retail stores and use your paypal to pay directly. Some of them sell prepaid debit card. By one and use it to pay your bill. If you're not in the US - check if some local retailers allow that. I believe in the UK they have some that allow paypal as well.

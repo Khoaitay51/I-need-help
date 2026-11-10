@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 268992  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I use Banktivity.  It's very much not free, but it automatically downloads all my bank and credit card activity and has excellent reporting options.

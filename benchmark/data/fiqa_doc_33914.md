@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33914  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As you suspected, there is more than just car replacement taken care of by insurance (some of them are pointed out in Chad's story:

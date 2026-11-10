@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 535317  
+**Domain**: Finance / Investment Advice  
+
+---
+
+I am very happy with Charles Schwab.  I use both their investing tools and banking tool, but I don't do much investing besides buy more shares a random mutual fund I purchase 4 years ago I did once need to call in about an IRA rollover and I got a person on the phone immediately who answered my questions and followed up as he said he would. It is anecdotal, but I am happy with them.

@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 33750  
+**Domain**: Finance / Investment Advice  
+
+---
+
+As someone with 6 kids, I just found out that I lost $5,400,000 by doing so.  I'm pissed. Where's my millions?  Assuming you have all the kids in a row, Duggar-style, that's 28 years. Basically, it's $200k/yr with that scenario.

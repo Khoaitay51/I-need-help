@@ -1,0 +1,8 @@
+# Financial Advisory
+
+**Doc ID**: 23790  
+**Domain**: Finance / Investment Advice  
+
+---
+
+...and why is that?  Almost every job out there has competition.  It may take some time, but if you are really unhappy with your salary or work situation, you can find a job somewhere else.  I'm in the IT industry and that's pretty much the only way I've been able to get a raise higher than 1%.

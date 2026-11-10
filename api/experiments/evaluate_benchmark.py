@@ -85,7 +85,7 @@ def graph_cache_dir(root, dataset, files):
     for file in files:
         fingerprint.update(file.relative_to(BENCHMARK).as_posix().encode() + b"\0")
         fingerprint.update(hashlib.sha256(file.read_bytes()).digest())
-    cache = root / "api" / "experiments" / "rag_ga_runs_benchmark_v1"
+    cache = root / "api" / "experiments" / "rag_ga_runs_benchmark_v2"
     return cache / dataset / fingerprint.hexdigest()[:16]
 
 

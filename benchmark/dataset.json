@@ -1,0 +1,7 @@
+{
+  "dataset": "msmarco",
+  "retrieval_unit": "passage",
+  "source": "https://microsoft.github.io/msmarco/",
+  "input_queries": 1500,
+  "excluded_queries": 7
+}

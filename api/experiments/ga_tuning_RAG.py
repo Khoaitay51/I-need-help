@@ -805,7 +805,7 @@ def deduplicate_docs(docs):
     return unique_docs
 
 
-def get_shared_graph_retriever(cfg, documents):
+def get_shared_graph_retriever(cfg, documents, *, generate_summaries=True):
     graph_cache_dir = RUN_DIR / f"t{cfg['threshold']}_e{cfg['max_edges_per_node']}" / "document_graph"
     graph_cache_dir.mkdir(parents=True, exist_ok=True)
     graph_path = graph_cache_dir / "document_graph.pkl"
@@ -826,10 +826,10 @@ def get_shared_graph_retriever(cfg, documents):
         # Partition by community but skip LLM summary generation
         partitioner.partition_by_community_detection(generate_summaries=False)
     else:
-        graph_builder.build_graph(documents)
+        graph_builder.build_graph(documents, generate_summaries=generate_summaries)
         partitioner = SubgraphPartitioner(graph_builder.graph)
         # Build for first time: generate LLM summaries
-        partitioner.partition_by_community_detection(generate_summaries=True)
+        partitioner.partition_by_community_detection(generate_summaries=generate_summaries)
         # Save summaries and centroids to builder so they are serialized
         graph_builder.community_summaries = partitioner.community_summaries
         graph_builder.community_centroids = partitioner.community_centroids

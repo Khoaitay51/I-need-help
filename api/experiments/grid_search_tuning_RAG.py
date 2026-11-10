@@ -33,16 +33,14 @@ from ga_tuning_RAG import (  # noqa: E402
     Individual,
     decode,
     evaluate_with_cache,
-     init_population,
-    load_eval_dataset,
-    load_or_create_global_threshold,
+     load_eval_dataset,
+    add_benchmark_arguments,
     load_rag_documents,
     result_row_from_individual,
     save_ranked_csv,
     get_llm,
     OllamaEmbeddings,
     EMBEDDING_MODEL,
-    MAX_EVAL_QUESTIONS,
     RANDOM_SEED,
     RESULT_DIR,
     THRESHOLD_VALUES,
@@ -154,7 +152,8 @@ def main():
     parser.add_argument("--top-ks", type=str, default=None,
                         help="Optional comma-separated subset of top_k, e.g. '5,8,10,12,15,18'")
     parser.add_argument("--seed", type=int, default=RANDOM_SEED,
-                        help=f"Random seed for deterministic graph/calibration behavior (default: {RANDOM_SEED})")
+                        help=f"Random seed for deterministic graph behavior (default: {RANDOM_SEED})")
+    add_benchmark_arguments(parser)
     parser.set_defaults(fitness_mode="hybrid")
     args = parser.parse_args()
 
@@ -173,9 +172,7 @@ def main():
     ]
     total_configs = len(grid_chromosomes)
 
-    dataset = load_eval_dataset()
-    if MAX_EVAL_QUESTIONS:
-        dataset = dataset[:MAX_EVAL_QUESTIONS]
+    dataset = load_eval_dataset(args.limit, USE_LLM_EVAL or args.llm_eval)
     print(f"Loaded {len(dataset)} evaluation questions")
 
     documents = load_rag_documents()
@@ -186,11 +183,6 @@ def main():
     evaluation_cache = {}
     llm = get_llm() if (USE_LLM_EVAL or args.llm_eval) else None
 
-    calib_population = init_population()
-    global_threshold = load_or_create_global_threshold(
-        calib_population, dataset, documents, embeddings, embedding_cache
-    )
-    print(f"Global relevance threshold: {global_threshold:.4f}")
 
     logger.info(
         "[GRID_SEARCH_START] total_configs=%s thresholds=%s max_edges=%s top_ks=%s "
@@ -225,7 +217,6 @@ def main():
             embedding_cache,
             evaluation_cache,
             llm=llm,
-            global_threshold=global_threshold,
             fitness_mode=args.fitness_mode,
         )
 

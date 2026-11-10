@@ -1,0 +1,7 @@
+{
+  "dataset": "multihop",
+  "retrieval_unit": "article",
+  "source": "https://huggingface.co/datasets/yixuantt/MultiHopRAG",
+  "input_queries": 2556,
+  "excluded_queries": 0
+}

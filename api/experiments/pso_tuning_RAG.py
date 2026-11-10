@@ -38,14 +38,13 @@ from ga_tuning_RAG import (  # noqa: E402
     encode_config,
     evaluate_with_cache,
     load_eval_dataset,
-    load_or_create_global_threshold,
+    add_benchmark_arguments,
     load_rag_documents,
     result_row_from_individual,
     save_ranked_csv,
     get_llm,
     OllamaEmbeddings,
     EMBEDDING_MODEL,
-    MAX_EVAL_QUESTIONS,
     RANDOM_SEED,
     RESULT_DIR,
     SEED_BEST_CONFIG,
@@ -161,6 +160,7 @@ def main():
     parser.add_argument("--swarm-size", type=int, default=SWARM_SIZE)
     parser.add_argument("--iterations", type=int, default=ITERATIONS)
     parser.add_argument("--seed", type=int, default=RANDOM_SEED)
+    add_benchmark_arguments(parser)
     parser.set_defaults(fitness_mode="hybrid")
     args = parser.parse_args()
 
@@ -170,9 +170,7 @@ def main():
     np.random.seed(args.seed)
     rng = np.random.default_rng(args.seed)
 
-    dataset = load_eval_dataset()
-    if MAX_EVAL_QUESTIONS:
-        dataset = dataset[:MAX_EVAL_QUESTIONS]
+    dataset = load_eval_dataset(args.limit, USE_LLM_EVAL or args.llm_eval)
     print(f"Loaded {len(dataset)} evaluation questions")
 
     documents = load_rag_documents()
@@ -186,11 +184,6 @@ def main():
     positions, velocities = init_swarm(rng, args.swarm_size)
 
     # Reuse the same global relevance threshold as GA (loaded from JSON if present)
-    calib_population = [Individual(position_to_chromosome(p)) for p in positions]
-    global_threshold = load_or_create_global_threshold(
-        calib_population, dataset, documents, embeddings, embedding_cache
-    )
-    print(f"Global relevance threshold: {global_threshold:.4f}")
 
     logger.info(
         "[PSO_START] iterations=%s swarm=%s dataset_size=%s llm_eval=%s fitness_mode=%s "
@@ -203,7 +196,7 @@ def main():
         ind = Individual(position_to_chromosome(position))
         return evaluate_with_cache(
             ind, dataset, documents, embeddings, embedding_cache, evaluation_cache,
-            llm=llm, global_threshold=global_threshold, fitness_mode=args.fitness_mode,
+            llm=llm, fitness_mode=args.fitness_mode,
         )
 
     pbest_pos = positions.copy()

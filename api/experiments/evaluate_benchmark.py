@@ -11,7 +11,6 @@ from statistics import mean
 
 
 BENCHMARK = Path(__file__).resolve().parents[2] / "benchmark"
-TUNING_CUTOFF = 10
 
 
 def load_benchmark():
@@ -134,8 +133,7 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--validate", action="store_true", help="Check data and labels without a model")
     parser.add_argument("--limit", type=int, help="Run only the first N queries for a smoke check")
-    parser.add_argument("--k", type=int, default=10, help="Maximum returned sources")
-    parser.add_argument("--cutoff", type=int, help="Metric cutoff, defaults to --k")
+    parser.add_argument("--k", type=int, default=10, help="Maximum returned sources and evaluation depth")
     parser.add_argument("--split", choices=("all", "tune", "test"), default="all")
     parser.add_argument("--threshold", type=float, default=0.7)
     parser.add_argument("--max-edges", type=int, default=5)
@@ -144,9 +142,6 @@ def main():
     args = parser.parse_args()
     if args.k < 1 or args.max_edges < 1 or not 0 <= args.threshold <= 1 or (args.limit is not None and args.limit < 1):
         parser.error("Expected positive k, max-edges and limit, and a threshold in [0, 1]")
-    cutoff = args.k if args.cutoff is None else args.cutoff
-    if cutoff < 1:
-        parser.error("--cutoff must be positive")
     config, rows, files = load_benchmark()
     rows = select_queries(rows, args.split)
     if not rows:
@@ -163,9 +158,9 @@ def main():
     totals = defaultdict(list)
     details = []
     for row, ranking, answer in run_graph(dataset, rows[:args.limit], files, args):
-        scores = retrieval_scores(ranking, row["gold"], cutoff) if row["answerable"] else {}
+        scores = retrieval_scores(ranking, row["gold"], args.k) if row["answerable"] else {}
         if dataset in {"multihop", "financebench"} and row["answerable"]:
-            scores[f"all_evidence@{cutoff}"] = float(scores[f"recall@{cutoff}"] == 1.0)
+            scores[f"all_evidence@{args.k}"] = float(scores[f"recall@{args.k}"] == 1.0)
         if answer is not None:
             if row["answerable"]:
                 scores.update(answer_scores(answer, row["answer"], dataset))
@@ -174,7 +169,7 @@ def main():
         for metric, value in scores.items():
             totals[metric].append(value)
         details.append({"id": row["id"], "ranking": ranking, "answer": answer, "scores": scores})
-    summary.update(evaluated=len(details), k=args.k, cutoff=cutoff, threshold=args.threshold, max_edges=args.max_edges,
+    summary.update(evaluated=len(details), k=args.k, threshold=args.threshold, max_edges=args.max_edges,
                    metrics={name: mean(values) for name, values in totals.items()},
                    metric_counts={name: len(values) for name, values in totals.items()})
     print(json.dumps(summary, indent=2))

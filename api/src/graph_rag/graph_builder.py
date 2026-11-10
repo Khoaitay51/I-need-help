@@ -216,7 +216,7 @@ class DocumentGraph:
                 # For larger datasets, use IVF index
                 nlist = min(100, len(documents) // 10)
                 quantizer = faiss.IndexFlatIP(dim)
-                index = faiss.IndexIVFFlat(quantizer, dim, nlist)
+                index = faiss.IndexIVFFlat(quantizer, dim, nlist, faiss.METRIC_INNER_PRODUCT)
                 index.train(embeddings_matrix)
             
             index.add(embeddings_matrix)
@@ -229,7 +229,9 @@ class DocumentGraph:
             # Add edges based on ANN results
             for i in range(len(documents)):
                 for j_idx in range(1, k):  # Skip first (self)
-                    j = indices[i][j_idx]
+                    j = int(indices[i][j_idx])
+                    if not 0 <= j < len(documents):
+                        continue  # FAISS uses -1 when a neighbor slot is empty.
                     similarity = float(distances[i][j_idx])  # Already cosine similarity
                     
                     if similarity >= self.semantic_threshold and i != j:

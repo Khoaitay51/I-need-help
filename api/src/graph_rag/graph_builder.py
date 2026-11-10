@@ -52,7 +52,7 @@ class DocumentGraph:
         self.community_centroids = {}      # Dict[community_id, centroid_vector] 
         self.community_members = {}        # Dict[community_id, Set[node_ids]]
         
-    def build_graph(self, documents: List[Document]) -> nx.Graph:
+    def build_graph(self, documents: List[Document], *, generate_summaries: bool = True) -> nx.Graph:
         """
         Xây dựng graph từ documents với 3 loại edges:
         1. Structural edges (cùng file)
@@ -79,17 +79,17 @@ class DocumentGraph:
         
         # Build communities and generate metadata
         logger.info("Building communities and generating metadata...")
-        self._build_communities()
+        self._build_communities(generate_summaries)
         
         return self.graph
     
-    def _build_communities(self):
+    def _build_communities(self, generate_summaries: bool):
         """Build communities and generate LLM-based summaries"""
         from .subgraph_partitioner import SubgraphPartitioner
         
         # Create partitioner and run community detection
         partitioner = SubgraphPartitioner(self.graph)
-        partitioner.partition_by_community_detection(algorithm='louvain')
+        partitioner.partition_by_community_detection(algorithm='louvain', generate_summaries=generate_summaries)
         
         # Store community metadata for persistence
         self.community_summaries = partitioner.community_summaries.copy()

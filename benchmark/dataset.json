@@ -1,0 +1,7 @@
+{
+  "dataset": "financebench",
+  "retrieval_unit": "filing page",
+  "source": "https://github.com/patronus-ai/financebench",
+  "input_queries": 150,
+  "excluded_queries": 0
+}

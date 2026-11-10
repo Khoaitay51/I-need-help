@@ -1,5 +1,7 @@
 # LMA Agent
 
+Benchmark nhánh này: [financebench](benchmark/README.md).
+
 LMA Agent là hệ thống chatbot cho Học viện Kỹ thuật Mật mã, gồm web app, mobile app và backend AI. Hệ thống hỗ trợ hỏi đáp quy định/tài liệu bằng GraphRAG, hỏi điểm sinh viên bằng truy vấn CSDL, upload tài liệu cá nhân để hỏi đáp, quản trị người dùng, giới hạn lượt dùng, quản lý mô hình LLM và quản lý kho tài liệu RAG.
 
 ## Thành phần chính
